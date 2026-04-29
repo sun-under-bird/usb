@@ -1,0 +1,19 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':
+ - /home/yahboom/usb/build/usb_cam/test_pixel_formats --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from test_pixel_formats
+[ RUN      ] test_pixel_formats.pixel_format_base_class
+[       OK ] test_pixel_formats.pixel_format_base_class (0 ms)
+[----------] 1 test from test_pixel_formats (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'

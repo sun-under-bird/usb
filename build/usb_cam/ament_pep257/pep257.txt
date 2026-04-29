@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/usb_cam/lib/usb_cam/show_image.py
+checking ./install/usb_cam/share/usb_cam/launch/__init__.py
+checking ./install/usb_cam/share/usb_cam/launch/camera.launch.py
+checking ./install/usb_cam/share/usb_cam/launch/camera_config.py
+checking ./launch/__init__.py
+checking ./launch/camera.launch.py
+checking ./launch/camera_config.py
+checking ./scripts/show_image.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml'

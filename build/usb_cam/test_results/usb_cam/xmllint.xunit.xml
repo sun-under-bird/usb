@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="usb_cam.xmllint"
+  tests="12"
+  errors="0"
+  failures="2"
+  time="0.067"
+>
+  <testcase
+    name="package.xml"
+    classname="usb_cam.xmllint"
+  >
+      <failure message="Diff with 327 lines"><![CDATA[error : Operation not permitted
+warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.
+WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile
+]]></failure>
+  </testcase>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/copyright.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/cpplint.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/flake8.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/pep257.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="build/usb_cam/test_results/usb_cam/xmllint.xunit.xml"
+    classname="usb_cam.xmllint"/>
+  <testcase
+    name="install/usb_cam/share/usb_cam/package.xml"
+    classname="usb_cam.xmllint"
+  >
+      <failure message="Diff with 327 lines"><![CDATA[error : Operation not permitted
+warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"
+Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.
+WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml
+* build/usb_cam/test_results/usb_cam/copyright.xunit.xml
+* build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml
+* build/usb_cam/test_results/usb_cam/cpplint.xunit.xml
+* build/usb_cam/test_results/usb_cam/flake8.xunit.xml
+* build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml
+* build/usb_cam/test_results/usb_cam/pep257.xunit.xml
+* build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml
+* build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml
+* build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml
+* build/usb_cam/test_results/usb_cam/xmllint.xunit.xml
+* install/usb_cam/share/usb_cam/package.xml</system-out>
+</testsuite>

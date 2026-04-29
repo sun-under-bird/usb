@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" disabled="0" errors="0" time="0.002" timestamp="2026-04-29T12:11:15" name="AllTests">
+  <testsuite name="test_usb_cam_utils" tests="3" failures="0" disabled="0" errors="0" time="0.002" timestamp="2026-04-29T12:11:15">
+    <testcase name="test_io_method_from_string" status="run" result="completed" time="0" timestamp="2026-04-29T12:11:15" classname="usb_cam.test_usb_cam_utils" />
+    <testcase name="test_clip_value" status="run" result="completed" time="0.002" timestamp="2026-04-29T12:11:15" classname="usb_cam.test_usb_cam_utils" />
+    <testcase name="test_monotonic_to_real_time" status="run" result="completed" time="0" timestamp="2026-04-29T12:11:15" classname="usb_cam.test_usb_cam_utils" />
+  </testsuite>
+</testsuites>

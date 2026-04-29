@@ -1,0 +1,23 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':
+ - /home/yahboom/usb/build/usb_cam/test_usb_cam_utils --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from test_usb_cam_utils
+[ RUN      ] test_usb_cam_utils.test_io_method_from_string
+[       OK ] test_usb_cam_utils.test_io_method_from_string (0 ms)
+[ RUN      ] test_usb_cam_utils.test_clip_value
+[       OK ] test_usb_cam_utils.test_clip_value (2 ms)
+[ RUN      ] test_usb_cam_utils.test_monotonic_to_real_time
+[       OK ] test_usb_cam_utils.test_monotonic_to_real_time (0 ms)
+[----------] 3 tests from test_usb_cam_utils (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 3 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'

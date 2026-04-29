@@ -1,0 +1,1329 @@
+[30.055s] Invoking command in '/home/yahboom/usb/build/usb_cam': AMENT_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/usb/install/usb_cam/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[30.062s] UpdateCTestConfiguration  from :/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini
+[30.062s] Parse Config file:/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini
+[30.062s]    Site: yahboom-VM
+[30.062s]    Build name: (empty)
+[30.062s]  Add coverage exclude regular expressions.
+[30.063s] Create new tag: 20260429-0411 - Experimental
+[30.063s] UpdateCTestConfiguration  from :/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini
+[30.063s] Parse Config file:/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini
+[30.063s] Test project /home/yahboom/usb/build/usb_cam
+[30.063s] Constructing a list of tests
+[30.064s] Done constructing a list of tests
+[30.064s] Updating test list for fixtures
+[30.064s] Added 0 tests to meet fixture requirements
+[30.064s] Checking test dependency graph...
+[30.064s] Checking test dependency graph end
+[30.064s] test 1
+[30.064s]       Start  1: test_usb_cam_utils
+[30.064s] 
+[30.064s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cmake_gtest/test_usb_cam_utils.txt" "--command" "/home/yahboom/usb/build/usb_cam/test_usb_cam_utils" "--gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml"
+[30.064s] 1: Test timeout computed to be: 60
+[30.141s] 1: -- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':
+[30.141s] 1:  - /home/yahboom/usb/build/usb_cam/test_usb_cam_utils --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml
+[30.143s] 1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[30.143s] 1: [==========] Running 3 tests from 1 test suite.
+[30.143s] 1: [----------] Global test environment set-up.
+[30.143s] 1: [----------] 3 tests from test_usb_cam_utils
+[30.143s] 1: [ RUN      ] test_usb_cam_utils.test_io_method_from_string
+[30.143s] 1: [       OK ] test_usb_cam_utils.test_io_method_from_string (0 ms)
+[30.143s] 1: [ RUN      ] test_usb_cam_utils.test_clip_value
+[30.145s] 1: [       OK ] test_usb_cam_utils.test_clip_value (2 ms)
+[30.145s] 1: [ RUN      ] test_usb_cam_utils.test_monotonic_to_real_time
+[30.145s] 1: [       OK ] test_usb_cam_utils.test_monotonic_to_real_time (0 ms)
+[30.145s] 1: [----------] 3 tests from test_usb_cam_utils (2 ms total)
+[30.145s] 1: 
+[30.145s] 1: [----------] Global test environment tear-down
+[30.146s] 1: [==========] 3 tests from 1 test suite ran. (2 ms total)
+[30.147s] 1: [  PASSED  ] 3 tests.
+[30.147s] 1: -- run_test.py: return code 0
+[30.147s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'
+[30.147s] 1: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'
+[30.156s]  1/10 Test  #1: test_usb_cam_utils ...............   Passed    0.09 sec
+[30.157s] test 2
+[30.157s]       Start  2: test_pixel_formats
+[30.157s] 
+[30.157s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cmake_gtest/test_pixel_formats.txt" "--command" "/home/yahboom/usb/build/usb_cam/test_pixel_formats" "--gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml"
+[30.157s] 2: Test timeout computed to be: 60
+[30.204s] 2: -- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':
+[30.204s] 2:  - /home/yahboom/usb/build/usb_cam/test_pixel_formats --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml
+[30.208s] 2: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[30.208s] 2: [==========] Running 1 test from 1 test suite.
+[30.208s] 2: [----------] Global test environment set-up.
+[30.208s] 2: [----------] 1 test from test_pixel_formats
+[30.208s] 2: [ RUN      ] test_pixel_formats.pixel_format_base_class
+[30.208s] 2: [       OK ] test_pixel_formats.pixel_format_base_class (0 ms)
+[30.208s] 2: [----------] 1 test from test_pixel_formats (0 ms total)
+[30.208s] 2: 
+[30.209s] 2: [----------] Global test environment tear-down
+[30.209s] 2: [==========] 1 test from 1 test suite ran. (0 ms total)
+[30.209s] 2: [  PASSED  ] 1 test.
+[30.209s] 2: -- run_test.py: return code 0
+[30.209s] 2: -- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'
+[30.209s] 2: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'
+[30.217s]  2/10 Test  #2: test_pixel_formats ...............   Passed    0.06 sec
+[30.218s] test 3
+[30.218s]       Start  3: copyright
+[30.218s] 
+[30.218s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml"
+[30.218s] 3: Test timeout computed to be: 200
+[30.266s] 3: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[30.266s] 3:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml
+[31.511s] 3: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/3.22.1/CMakeSystem.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/Makefile.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/test_pixel_formats.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_node.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CTestCustom.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/CTestTestfile.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/ament_cmake_core/package.cmake: could not find copyright notice
+[31.511s] 3: build/usb_cam/ament_cmake_core/usb_camConfig-version.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_core/usb_camConfig.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/cmake_install.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/CTestTestfile.cmake: could not find copyright notice
+[31.512s] 3: build/usb_cam/gtest/cmake_install.cmake: could not find copyright notice
+[31.512s] 3: install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+[31.512s] 3: install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+[31.512s] 3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice
+[31.513s] 3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice
+[31.513s] 3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake: could not find copyright notice
+[31.513s] 3: install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake: could not find copyright notice
+[31.513s] 3: install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake: could not find copyright notice
+[31.513s] 3: 48 errors, checked 93 files
+[31.522s] 3: -- run_test.py: return code 1
+[31.522s] 3: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml'
+[31.532s]  3/10 Test  #3: copyright ........................***Failed    1.31 sec
+[31.532s] test 4
+[31.532s]       Start  4: cppcheck
+[31.532s] 
+[31.532s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml" "--include_dirs" "/home/yahboom/usb/include"
+[31.532s] 4: Test timeout computed to be: 300
+[31.582s] 4: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[31.583s] 4:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml --include_dirs /home/yahboom/usb/include
+[31.685s] 4: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[31.697s] 4: -- run_test.py: return code 0
+[31.697s] 4: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml'
+[31.706s]  4/10 Test  #4: cppcheck .........................   Passed    0.17 sec
+[31.706s] test 5
+[31.706s]       Start  5: cpplint
+[31.706s] 
+[31.706s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml"
+[31.707s] 5: Test timeout computed to be: 120
+[31.759s] 5: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[31.759s] 5:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml
+[31.837s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+[31.881s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:352:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.884s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:368:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.910s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:685:  Missing space after ,  [whitespace/comma] [3]
+[31.910s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:696:  Missing space after ,  [whitespace/comma] [3]
+[31.911s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:703:  Missing space after ,  [whitespace/comma] [3]
+[31.911s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:704:  Missing space after ,  [whitespace/comma] [3]
+[31.911s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:705:  Missing space after ,  [whitespace/comma] [3]
+[31.911s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:707:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.912s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:714:  Missing space after ,  [whitespace/comma] [3]
+[31.913s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:725:  Missing space after ,  [whitespace/comma] [3]
+[31.923s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+[31.962s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:350:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.965s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:366:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.985s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:670:  Missing space after ,  [whitespace/comma] [3]
+[31.986s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:681:  Missing space after ,  [whitespace/comma] [3]
+[31.987s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:688:  Missing space after ,  [whitespace/comma] [3]
+[31.987s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:689:  Missing space after ,  [whitespace/comma] [3]
+[31.987s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:690:  Missing space after ,  [whitespace/comma] [3]
+[31.987s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:692:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[31.988s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:699:  Missing space after ,  [whitespace/comma] [3]
+[31.989s] 5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:710:  Missing space after ,  [whitespace/comma] [3]
+[32.247s] 5: /home/yahboom/usb/include/usb_cam/formats/mjpeg.hpp:44:  Found C system header after C++ system header. Should be: mjpeg.h, c system, c++ system, other.  [build/include_order] [4]
+[32.821s] 5: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp:44:  Found C system header after C++ system header. Should be: mjpeg.h, c system, c++ system, other.  [build/include_order] [4]
+[33.256s] 5: /home/yahboom/usb/src/usb_cam_node.cpp:232:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[33.258s] 5: /home/yahboom/usb/src/usb_cam_node.cpp:245:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[33.283s] 5: /home/yahboom/usb/src/usb_cam_node.cpp:477:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+[33.321s] 5: Category 'build/include_order' errors found: 2
+[33.322s] 5: Category 'legal/copyright' errors found: 2
+[33.322s] 5: Category 'whitespace/comma' errors found: 14
+[33.322s] 5: Category 'whitespace/line_length' errors found: 9
+[33.322s] 5: Total errors found: 27
+[33.322s] 5: Not using '--root'
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp
+[33.322s] 5: 
+[33.322s] 5: Using '--root=/home/yahboom/usb/include' argument
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/include/usb_cam/constants.hpp
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/include/usb_cam/conversions.hpp
+[33.322s] 5: 
+[33.322s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/av_pixel_format_helper.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/m420.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/mjpeg.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/mono.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/pixel_format_base.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/rgb.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/utils.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/uyvy.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/formats/yuyv.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/usb_cam.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/usb_cam_node.hpp
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/include/usb_cam/utils.hpp
+[33.323s] 5: 
+[33.323s] 5: Using '--root=/home/yahboom/usb/install/usb_cam/include' argument
+[33.323s] 5: 
+[33.323s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/constants.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/conversions.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/m420.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mono.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/utils.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[33.324s] 5: 
+[33.324s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam.hpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/utils.hpp
+[33.325s] 5: 
+[33.325s] 5: Using '--root=/home/yahboom/usb/src' argument
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/src/usb_cam.cpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/src/usb_cam_node.cpp
+[33.325s] 5: 
+[33.325s] 5: Using '--root=/home/yahboom/usb/test' argument
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/test/gtest_main.cpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/test/test_pixel_formats.cpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/test/test_usb_cam_lib.cpp
+[33.325s] 5: 
+[33.325s] 5: Done processing /home/yahboom/usb/test/test_usb_cam_utils.cpp
+[33.325s] 5: 
+[33.333s] 5: -- run_test.py: return code 1
+[33.333s] 5: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml'
+[33.341s]  5/10 Test  #5: cpplint ..........................***Failed    1.64 sec
+[33.341s] test 6
+[33.341s]       Start  6: flake8
+[33.341s] 
+[33.341s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml"
+[33.341s] 6: Test timeout computed to be: 60
+[33.394s] 6: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[33.394s] 6:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml
+[33.671s] 6: FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"'
+[33.671s] 6:                                                                                                    ^
+[33.671s] 6: FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi'
+[33.671s] 6:                                                                                                    ^
+[33.671s] 6: FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi'
+[33.671s] 6:                                                                                                    ^
+[33.671s] 6: 3     E501 line too long (109 > 99 characters)
+[33.671s] 6: 
+[33.671s] 6: ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)
+[33.671s] 6: 
+[33.671s] 6: ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)
+[33.671s] 6: 
+[33.671s] 6: ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)
+[33.671s] 6: 
+[33.671s] 6: 
+[33.671s] 6: 10 files checked
+[33.671s] 6: 3 errors
+[33.671s] 6: 
+[33.671s] 6: 'E'-type errors: 3
+[33.671s] 6: 
+[33.671s] 6: Checked files:
+[33.671s] 6: 
+[33.671s] 6: * ./install/_local_setup_util_sh.py
+[33.671s] 6: * ./install/_local_setup_util_ps1.py
+[33.671s] 6: * ./install/usb_cam/share/usb_cam/launch/__init__.py
+[33.672s] 6: * ./install/usb_cam/share/usb_cam/launch/camera.launch.py
+[33.672s] 6: * ./install/usb_cam/share/usb_cam/launch/camera_config.py
+[33.672s] 6: * ./install/usb_cam/lib/usb_cam/show_image.py
+[33.672s] 6: * ./scripts/show_image.py
+[33.672s] 6: * ./launch/__init__.py
+[33.672s] 6: * ./launch/camera.launch.py
+[33.672s] 6: * ./launch/camera_config.py
+[33.695s] 6: -- run_test.py: return code 1
+[33.695s] 6: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml'
+[33.704s]  6/10 Test  #6: flake8 ...........................***Failed    0.36 sec
+[33.704s] test 7
+[33.704s]       Start  7: lint_cmake
+[33.704s] 
+[33.704s] 7: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml"
+[33.704s] 7: Test timeout computed to be: 60
+[33.755s] 7: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[33.755s] 7:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:23: Lines should be <= 140 characters long [linelength]
+[33.839s] 7: build/usb_cam/CTestTestfile.cmake:24: Lines should be <= 140 characters long [linelength]
+[33.840s] 7: build/usb_cam/CTestTestfile.cmake:25: Lines should be <= 140 characters long [linelength]
+[33.840s] 7: build/usb_cam/CTestTestfile.cmake:26: Lines should be <= 140 characters long [linelength]
+[33.840s] 7: 
+[33.840s] 7: build/usb_cam/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:50: Lines should be <= 140 characters long [linelength]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:55: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:57: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:62: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:64: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:65: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:66: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:79: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:81: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:82: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:86: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:98: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:100: Weird indentation; use 2 spaces [whitespace/indent]
+[33.840s] 7: build/usb_cam/cmake_install.cmake:101: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:105: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:107: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:108: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:109: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:125: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:127: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:128: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:132: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:134: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:135: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:136: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:155: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:159: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:163: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:167: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:171: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:175: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:179: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:183: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:187: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:191: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:195: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:199: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:203: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:207: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:211: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:215: Lines should be <= 140 characters long [linelength]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:219: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:242: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: build/usb_cam/cmake_install.cmake:244: Weird indentation; use 2 spaces [whitespace/indent]
+[33.841s] 7: 
+[33.841s] 7: build/usb_cam/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: build/usb_cam/CMakeFiles/Makefile.cmake:929: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: build/usb_cam/CMakeFiles/Makefile.cmake:935: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: build/usb_cam/CMakeFiles/Makefile.cmake:973: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: 
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: 
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+[33.842s] 7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+[33.842s] 7: 
+[33.842s] 7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.842s] 7: 
+[33.842s] 7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.852s] 7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.852s] 7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.852s] 7: 
+[33.852s] 7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.852s] 7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: 
+[33.853s] 7: build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: 
+[33.853s] 7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.853s] 7: 
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: 
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: 
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.855s] 7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.856s] 7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.856s] 7: 
+[33.856s] 7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.856s] 7: 
+[33.856s] 7: build/usb_cam/ament_cmake_core/package.cmake:4: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_core/package.cmake:6: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.856s] 7: build/usb_cam/ament_cmake_core/package.cmake:8: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.856s] 7: 
+[33.856s] 7: build/usb_cam/ament_cmake_core/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: 
+[33.856s] 7: build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: 
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: build/usb_cam/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+[33.856s] 7: 
+[33.857s] 7: build/usb_cam/gtest/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+[33.857s] 7: build/usb_cam/gtest/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+[33.857s] 7: build/usb_cam/gtest/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+[33.857s] 7: 
+[33.857s] 7: build/usb_cam/gtest/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+[33.857s] 7: 
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: 
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+[33.857s] 7: 
+[33.857s] 7: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]
+[33.857s] 7: 
+[33.857s] 7: install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]
+[33.857s] 7: 
+[33.857s] 7: 
+[33.857s] 7: 136 errors
+[33.861s] 7: -- run_test.py: return code 1
+[33.861s] 7: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml'
+[33.870s]  7/10 Test  #7: lint_cmake .......................***Failed    0.17 sec
+[33.870s] test 8
+[33.870s]       Start  8: pep257
+[33.870s] 
+[33.870s] 8: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml"
+[33.870s] 8: Test timeout computed to be: 60
+[33.921s] 8: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[33.922s] 8:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml
+[34.148s] 8: checking ./install/_local_setup_util_ps1.py
+[34.148s] 8: checking ./install/_local_setup_util_sh.py
+[34.148s] 8: checking ./install/usb_cam/lib/usb_cam/show_image.py
+[34.149s] 8: checking ./install/usb_cam/share/usb_cam/launch/__init__.py
+[34.149s] 8: checking ./install/usb_cam/share/usb_cam/launch/camera.launch.py
+[34.149s] 8: checking ./install/usb_cam/share/usb_cam/launch/camera_config.py
+[34.149s] 8: checking ./launch/__init__.py
+[34.149s] 8: checking ./launch/camera.launch.py
+[34.149s] 8: checking ./launch/camera_config.py
+[34.149s] 8: checking ./scripts/show_image.py
+[34.149s] 8: No problems found
+[34.167s] 8: -- run_test.py: return code 0
+[34.167s] 8: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml'
+[34.177s]  8/10 Test  #8: pep257 ...........................   Passed    0.31 sec
+[34.177s] test 9
+[34.177s]       Start  9: uncrustify
+[34.177s] 
+[34.178s] 9: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml"
+[34.178s] 9: Test timeout computed to be: 60
+[34.227s] 9: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[34.227s] 9:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml
+[34.597s] 9: Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':
+[34.597s] 9: 
+[34.597s] 9: --- build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[34.598s] 9: +++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify
+[34.598s] 9: @@ -32 +32 @@
+[34.598s] 9: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[34.598s] 9: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[34.598s] 9: @@ -35,2 +35,2 @@
+[34.598s] 9: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+[34.598s] 9: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
+[34.598s] 9: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
+[34.598s] 9: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+[34.598s] 9: @@ -40 +40 @@
+[34.598s] 9: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
+[34.598s] 9: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+[34.598s] 9: @@ -45 +45 @@
+[34.598s] 9: -   /* The third version component from --version is an update index,
+[34.598s] 9: +/* The third version component from --version is an update index,
+[34.598s] 9: @@ -50 +50 @@
+[34.598s] 9: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[34.598s] 9: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[34.598s] 9: @@ -54 +54 @@
+[34.598s] 9: -   /* _MSC_VER = VVRR */
+[34.599s] 9: +/* _MSC_VER = VVRR */
+[34.599s] 9: @@ -83,3 +83,3 @@
+[34.599s] 9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+[34.599s] 9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+[34.599s] 9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
+[34.599s] 9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
+[34.599s] 9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
+[34.599s] 9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+[34.599s] 9: @@ -87,3 +87,3 @@
+[34.599s] 9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+[34.599s] 9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+[34.599s] 9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
+[34.599s] 9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
+[34.599s] 9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
+[34.599s] 9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+[34.599s] 9: @@ -92 +92 @@
+[34.599s] 9: -  /* _MSC_VER = VVRR */
+[34.599s] 9: +/* _MSC_VER = VVRR */
+[34.599s] 9: @@ -118,3 +118,3 @@
+[34.599s] 9: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+[34.599s] 9: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+[34.599s] 9: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
+[34.599s] 9: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
+[34.599s] 9: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
+[34.599s] 9: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+[34.600s] 9: @@ -124,2 +124,2 @@
+[34.600s] 9: -  /* __BORLANDC__ = 0xVRR */
+[34.600s] 9: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
+[34.600s] 9: +/* __BORLANDC__ = 0xVRR */
+[34.600s] 9: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+[34.600s] 9: @@ -130 +130 @@
+[34.600s] 9: -   /* __WATCOMC__ = VVRR */
+[34.600s] 9: +/* __WATCOMC__ = VVRR */
+[34.600s] 9: @@ -139 +139 @@
+[34.600s] 9: -   /* __WATCOMC__ = VVRP + 1100 */
+[34.600s] 9: +/* __WATCOMC__ = VVRP + 1100 */
+[34.600s] 9: @@ -149,4 +149,4 @@
+[34.600s] 9: -   /* __SUNPRO_C = 0xVRRP */
+[34.600s] 9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)
+[34.600s] 9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)
+[34.600s] 9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
+[34.600s] 9: +/* __SUNPRO_C = 0xVRRP */
+[34.603s] 9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)
+[34.603s] 9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)
+[34.603s] 9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+[34.603s] 9: @@ -154,4 +154,4 @@
+[34.604s] 9: -   /* __SUNPRO_CC = 0xVRP */
+[34.604s] 9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)
+[34.604s] 9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)
+[34.604s] 9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
+[34.604s] 9: +/* __SUNPRO_CC = 0xVRP */
+[34.604s] 9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)
+[34.604s] 9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)
+[34.604s] 9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+[34.604s] 9: @@ -162,4 +162,4 @@
+[34.604s] 9: -  /* __HP_cc = VVRRPP */
+[34.604s] 9: -# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)
+[34.605s] 9: -# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)
+[34.605s] 9: -# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)
+[34.605s] 9: +/* __HP_cc = VVRRPP */
+[34.605s] 9: +# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)
+[34.605s] 9: +# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)
+[34.605s] 9: +# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)
+[34.605s] 9: @@ -169,4 +169,4 @@
+[34.605s] 9: -  /* __DECC_VER = VVRRTPPPP */
+[34.605s] 9: -# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)
+[34.605s] 9: -# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)
+[34.605s] 9: -# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)
+[34.605s] 9: +/* __DECC_VER = VVRRTPPPP */
+[34.605s] 9: +# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)
+[34.605s] 9: +# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)
+[34.605s] 9: +# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)
+[34.605s] 9: @@ -176,4 +176,4 @@
+[34.605s] 9: -  /* __IBMC__ = VRP */
+[34.605s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[34.605s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[34.605s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[34.605s] 9: +/* __IBMC__ = VRP */
+[34.605s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[34.605s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[34.605s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[34.605s] 9: @@ -191,4 +191,4 @@
+[34.605s] 9: -  /* __IBMC__ = VRP */
+[34.605s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[34.605s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[34.605s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[34.606s] 9: +/* __IBMC__ = VRP */
+[34.606s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[34.606s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[34.606s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[34.606s] 9: @@ -198,4 +198,4 @@
+[34.606s] 9: -  /* __IBMC__ = VRP */
+[34.606s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+[34.606s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+[34.606s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
+[34.606s] 9: +/* __IBMC__ = VRP */
+[34.606s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
+[34.606s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
+[34.606s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+[34.606s] 9: @@ -226,4 +226,4 @@
+[34.606s] 9: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[34.606s] 9: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+[34.606s] 9: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+[34.606s] 9: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
+[34.606s] 9: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[34.606s] 9: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
+[34.606s] 9: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
+[34.606s] 9: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+[34.606s] 9: @@ -261 +261 @@
+[34.606s] 9: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
+[34.606s] 9: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+[34.606s] 9: @@ -276,4 +276,4 @@
+[34.606s] 9: -  /* __ARMCC_VERSION = VRRPPPP */
+[34.606s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+[34.607s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+[34.607s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
+[34.607s] 9: +/* __ARMCC_VERSION = VRRPPPP */
+[34.607s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
+[34.607s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
+[34.607s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[34.607s] 9: @@ -281,4 +281,4 @@
+[34.607s] 9: -  /* __ARMCC_VERSION = VRPPPP */
+[34.607s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+[34.607s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+[34.607s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
+[34.607s] 9: +/* __ARMCC_VERSION = VRPPPP */
+[34.607s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
+[34.607s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
+[34.607s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[34.607s] 9: @@ -297 +297 @@
+[34.607s] 9: -   /* _MSC_VER = VVRR */
+[34.607s] 9: +/* _MSC_VER = VVRR */
+[34.607s] 9: @@ -305,3 +305,3 @@
+[34.607s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+[34.607s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+[34.607s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
+[34.607s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
+[34.607s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
+[34.607s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+[34.607s] 9: @@ -319 +319 @@
+[34.607s] 9: -   /* _MSC_VER = VVRR */
+[34.607s] 9: +/* _MSC_VER = VVRR */
+[34.607s] 9: @@ -336 +336 @@
+[34.607s] 9: -  /* _MSC_VER = VVRR */
+[34.608s] 9: +/* _MSC_VER = VVRR */
+[34.608s] 9: @@ -341 +341 @@
+[34.608s] 9: -    /* _MSC_FULL_VER = VVRRPPPPP */
+[34.608s] 9: +/* _MSC_FULL_VER = VVRRPPPPP */
+[34.608s] 9: @@ -344 +344 @@
+[34.608s] 9: -    /* _MSC_FULL_VER = VVRRPPPP */
+[34.608s] 9: +/* _MSC_FULL_VER = VVRRPPPP */
+[34.608s] 9: @@ -352 +352,2 @@
+[34.608s] 9: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
+[34.608s] 9: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
+[34.608s] 9: +  defined(__ADSP21000__)
+[34.608s] 9: @@ -355,4 +356,4 @@
+[34.608s] 9: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[34.608s] 9: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+[34.609s] 9: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+[34.609s] 9: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
+[34.609s] 9: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[34.609s] 9: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
+[34.609s] 9: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
+[34.609s] 9: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+[34.609s] 9: @@ -368 +369,3 @@
+[34.609s] 9: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+[34.609s] 9: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
+[34.609s] 9: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
+[34.609s] 9: +  defined(__ICC8051__) || defined(__ICCSTM8__))
+[34.609s] 9: @@ -370 +373 @@
+[34.609s] 9: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
+[34.609s] 9: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+[34.609s] 9: @@ -382,4 +385,4 @@
+[34.610s] 9: -  /* SDCC = VRP */
+[34.610s] 9: -#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)
+[34.610s] 9: -#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)
+[34.610s] 9: -#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)
+[34.610s] 9: +/* SDCC = VRP */
+[34.610s] 9: +#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)
+[34.610s] 9: +#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)
+[34.610s] 9: +#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)
+[34.610s] 9: @@ -403 +406 @@
+[34.610s] 9: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[34.610s] 9: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[34.610s] 9: @@ -405 +408 @@
+[34.610s] 9: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[34.610s] 9: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[34.610s] 9: @@ -409 +412 @@
+[34.610s] 9: -char const* qnxnto = "INFO" ":" "qnxnto[]";
+[34.610s] 9: +char const * qnxnto = "INFO" ":" "qnxnto[]";
+[34.610s] 9: @@ -413 +416 @@
+[34.610s] 9: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[34.610s] 9: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[34.610s] 9: @@ -656,9 +659,9 @@
+[34.610s] 9: -#define DEC(n)                   \
+[34.610s] 9: -  ('0' + (((n) / 10000000)%10)), \
+[34.610s] 9: -  ('0' + (((n) / 1000000)%10)),  \
+[34.610s] 9: -  ('0' + (((n) / 100000)%10)),   \
+[34.610s] 9: -  ('0' + (((n) / 10000)%10)),    \
+[34.610s] 9: -  ('0' + (((n) / 1000)%10)),     \
+[34.610s] 9: -  ('0' + (((n) / 100)%10)),      \
+[34.610s] 9: -  ('0' + (((n) / 10)%10)),       \
+[34.611s] 9: -  ('0' +  ((n) % 10))
+[34.611s] 9: +#define DEC(n) \
+[34.611s] 9: +  ('0' + (((n) / 10000000) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 1000000) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 100000) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 10000) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 1000) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 100) % 10)), \
+[34.611s] 9: +  ('0' + (((n) / 10) % 10)), \
+[34.611s] 9: +  ('0' + ((n) % 10))
+[34.611s] 9: @@ -667,9 +670,9 @@
+[34.611s] 9: -#define HEX(n)             \
+[34.611s] 9: -  ('0' + ((n)>>28 & 0xF)), \
+[34.611s] 9: -  ('0' + ((n)>>24 & 0xF)), \
+[34.611s] 9: -  ('0' + ((n)>>20 & 0xF)), \
+[34.611s] 9: -  ('0' + ((n)>>16 & 0xF)), \
+[34.611s] 9: -  ('0' + ((n)>>12 & 0xF)), \
+[34.611s] 9: -  ('0' + ((n)>>8  & 0xF)), \
+[34.612s] 9: -  ('0' + ((n)>>4  & 0xF)), \
+[34.612s] 9: -  ('0' + ((n)     & 0xF))
+[34.612s] 9: +#define HEX(n) \
+[34.612s] 9: +  ('0' + ((n) >> 28 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 24 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 20 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 16 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 12 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 8 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) >> 4 & 0xF)), \
+[34.612s] 9: +  ('0' + ((n) & 0xF))
+[34.612s] 9: @@ -679 +682 @@
+[34.612s] 9: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[34.612s] 9: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[34.612s] 9: @@ -685 +688 @@
+[34.613s] 9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+[34.613s] 9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[34.613s] 9: @@ -690 +693 @@
+[34.613s] 9: -   '.', COMPILER_VERSION_PATCH,
+[34.613s] 9: +  '.', COMPILER_VERSION_PATCH,
+[34.613s] 9: @@ -692 +695 @@
+[34.613s] 9: -    '.', COMPILER_VERSION_TWEAK,
+[34.613s] 9: +  '.', COMPILER_VERSION_TWEAK,
+[34.613s] 9: @@ -696 +699,2 @@
+[34.613s] 9: -  ']','\0'};
+[34.613s] 9: +  ']', '\0'
+[34.613s] 9: +};
+[34.613s] 9: @@ -703,3 +707,4 @@
+[34.613s] 9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+[34.613s] 9: -  'i','n','t','e','r','n','a','l','[',
+[34.613s] 9: -  COMPILER_VERSION_INTERNAL,']','\0'};
+[34.613s] 9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
+[34.613s] 9: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
+[34.614s] 9: +  COMPILER_VERSION_INTERNAL, ']', '\0'
+[34.614s] 9: +};
+[34.614s] 9: @@ -707 +712,2 @@
+[34.614s] 9: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[34.614s] 9: +char const * info_version_internal =
+[34.614s] 9: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[34.614s] 9: @@ -714 +720 @@
+[34.614s] 9: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+[34.614s] 9: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[34.614s] 9: @@ -719 +725 @@
+[34.614s] 9: -   '.', SIMULATE_VERSION_PATCH,
+[34.614s] 9: +  '.', SIMULATE_VERSION_PATCH,
+[34.614s] 9: @@ -721 +727 @@
+[34.614s] 9: -    '.', SIMULATE_VERSION_TWEAK,
+[34.614s] 9: +  '.', SIMULATE_VERSION_TWEAK,
+[34.614s] 9: @@ -725 +731,2 @@
+[34.614s] 9: -  ']','\0'};
+[34.615s] 9: +  ']', '\0'
+[34.615s] 9: +};
+[34.615s] 9: @@ -732,3 +739,2 @@
+[34.615s] 9: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[34.615s] 9: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[34.615s] 9: -
+[34.615s] 9: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[34.615s] 9: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[34.615s] 9: @@ -754 +760 @@
+[34.615s] 9: -const char* info_language_standard_default =
+[34.615s] 9: +const char * info_language_standard_default =
+[34.615s] 9: @@ -757 +763 @@
+[34.615s] 9: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+[34.615s] 9: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+[34.615s] 9: @@ -759,2 +765,2 @@
+[34.615s] 9: -#if (defined(__clang__) || defined(__GNUC__) ||                               \
+[34.615s] 9: -     defined(__TI_COMPILER_VERSION__)) &&                                     \
+[34.615s] 9: +#if (defined(__clang__) || defined(__GNUC__) || \
+[34.616s] 9: +  defined(__TI_COMPILER_VERSION__)) && \
+[34.616s] 9: @@ -766 +772 @@
+[34.616s] 9: -"]";
+[34.616s] 9: +  "]";
+[34.616s] 9: @@ -774 +780 @@
+[34.616s] 9: -int main(argc, argv) int argc; char *argv[];
+[34.616s] 9: +int main(argc, argv) int argc; char * argv[];
+[34.616s] 9: @@ -776 +782 @@
+[34.616s] 9: -int main(int argc, char* argv[])
+[34.616s] 9: +int main(int argc, char * argv[])
+[34.616s] 9: 
+[34.616s] 9: Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+[34.616s] 9: 
+[34.616s] 9: --- build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[34.616s] 9: +++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+[34.616s] 9: @@ -20 +20 @@
+[34.616s] 9: -  /* __COMO_VERSION__ = VRR */
+[34.616s] 9: +/* __COMO_VERSION__ = VRR */
+[34.616s] 9: @@ -32 +32 @@
+[34.616s] 9: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[34.616s] 9: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+[34.616s] 9: @@ -35,2 +35,2 @@
+[34.616s] 9: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+[34.616s] 9: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
+[34.616s] 9: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
+[34.617s] 9: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+[34.617s] 9: @@ -40 +40 @@
+[34.617s] 9: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
+[34.617s] 9: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+[34.617s] 9: @@ -45 +45 @@
+[34.617s] 9: -   /* The third version component from --version is an update index,
+[34.617s] 9: +/* The third version component from --version is an update index,
+[34.617s] 9: @@ -50 +50 @@
+[34.617s] 9: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[34.617s] 9: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+[34.617s] 9: @@ -54 +54 @@
+[34.617s] 9: -   /* _MSC_VER = VVRR */
+[34.617s] 9: +/* _MSC_VER = VVRR */
+[34.617s] 9: @@ -83,3 +83,3 @@
+[34.617s] 9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+[34.617s] 9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+[34.617s] 9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
+[34.617s] 9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
+[34.617s] 9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
+[34.617s] 9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+[34.617s] 9: @@ -87,3 +87,3 @@
+[34.617s] 9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+[34.617s] 9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+[34.617s] 9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
+[34.617s] 9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
+[34.617s] 9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
+[34.617s] 9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+[34.618s] 9: @@ -92 +92 @@
+[34.618s] 9: -  /* _MSC_VER = VVRR */
+[34.618s] 9: +/* _MSC_VER = VVRR */
+[34.618s] 9: @@ -118,3 +118,3 @@
+[34.618s] 9: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+[34.618s] 9: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+[34.618s] 9: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
+[34.618s] 9: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
+[34.618s] 9: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
+[34.618s] 9: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+[34.618s] 9: @@ -124,2 +124,2 @@
+[34.618s] 9: -  /* __BORLANDC__ = 0xVRR */
+[34.619s] 9: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
+[34.619s] 9: +/* __BORLANDC__ = 0xVRR */
+[34.619s] 9: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+[34.619s] 9: @@ -130 +130 @@
+[34.619s] 9: -   /* __WATCOMC__ = VVRR */
+[34.619s] 9: +/* __WATCOMC__ = VVRR */
+[34.619s] 9: @@ -139 +139 @@
+[34.619s] 9: -   /* __WATCOMC__ = VVRP + 1100 */
+[34.619s] 9: +/* __WATCOMC__ = VVRP + 1100 */
+[34.619s] 9: @@ -149,4 +149,4 @@
+[34.619s] 9: -   /* __SUNPRO_CC = 0xVRRP */
+[34.619s] 9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)
+[34.619s] 9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)
+[34.619s] 9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
+[34.619s] 9: +/* __SUNPRO_CC = 0xVRRP */
+[34.619s] 9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)
+[34.619s] 9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)
+[34.619s] 9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+[34.619s] 9: @@ -154,4 +154,4 @@
+[34.619s] 9: -   /* __SUNPRO_CC = 0xVRP */
+[34.619s] 9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)
+[34.619s] 9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)
+[34.619s] 9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
+[34.619s] 9: +/* __SUNPRO_CC = 0xVRP */
+[34.619s] 9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)
+[34.619s] 9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)
+[34.619s] 9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+[34.619s] 9: @@ -162,4 +162,4 @@
+[34.619s] 9: -  /* __HP_aCC = VVRRPP */
+[34.620s] 9: -# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)
+[34.620s] 9: -# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)
+[34.620s] 9: -# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)
+[34.620s] 9: +/* __HP_aCC = VVRRPP */
+[34.620s] 9: +# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)
+[34.620s] 9: +# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)
+[34.620s] 9: +# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)
+[34.620s] 9: @@ -169,4 +169,4 @@
+[34.620s] 9: -  /* __DECCXX_VER = VVRRTPPPP */
+[34.620s] 9: -# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)
+[34.620s] 9: -# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)
+[34.620s] 9: -# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)
+[34.620s] 9: +/* __DECCXX_VER = VVRRTPPPP */
+[34.620s] 9: +# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)
+[34.620s] 9: +# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)
+[34.620s] 9: +# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)
+[34.620s] 9: @@ -176,4 +176,4 @@
+[34.620s] 9: -  /* __IBMCPP__ = VRP */
+[34.620s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[34.620s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[34.620s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[34.620s] 9: +/* __IBMCPP__ = VRP */
+[34.621s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[34.621s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[34.621s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[34.621s] 9: @@ -191,4 +191,4 @@
+[34.621s] 9: -  /* __IBMCPP__ = VRP */
+[34.621s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[34.621s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[34.621s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[34.621s] 9: +/* __IBMCPP__ = VRP */
+[34.621s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[34.621s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[34.621s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[34.621s] 9: @@ -198,4 +198,4 @@
+[34.621s] 9: -  /* __IBMCPP__ = VRP */
+[34.621s] 9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+[34.621s] 9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+[34.621s] 9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+[34.621s] 9: +/* __IBMCPP__ = VRP */
+[34.621s] 9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
+[34.621s] 9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
+[34.621s] 9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+[34.621s] 9: @@ -226,4 +226,4 @@
+[34.621s] 9: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[34.621s] 9: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+[34.621s] 9: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+[34.621s] 9: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
+[34.621s] 9: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+[34.621s] 9: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
+[34.622s] 9: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
+[34.622s] 9: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+[34.622s] 9: @@ -261 +261 @@
+[34.622s] 9: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
+[34.622s] 9: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+[34.622s] 9: @@ -270,4 +270,4 @@
+[34.622s] 9: -  /* __ARMCC_VERSION = VRRPPPP */
+[34.622s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+[34.622s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+[34.622s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
+[34.622s] 9: +/* __ARMCC_VERSION = VRRPPPP */
+[34.622s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
+[34.622s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
+[34.622s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[34.622s] 9: @@ -275,4 +275,4 @@
+[34.622s] 9: -  /* __ARMCC_VERSION = VRPPPP */
+[34.622s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+[34.622s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+[34.622s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
+[34.622s] 9: +/* __ARMCC_VERSION = VRPPPP */
+[34.622s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
+[34.622s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
+[34.622s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+[34.622s] 9: @@ -291 +291 @@
+[34.622s] 9: -   /* _MSC_VER = VVRR */
+[34.622s] 9: +/* _MSC_VER = VVRR */
+[34.622s] 9: @@ -299,3 +299,3 @@
+[34.623s] 9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+[34.623s] 9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+[34.623s] 9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
+[34.623s] 9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
+[34.623s] 9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
+[34.623s] 9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+[34.623s] 9: @@ -313 +313 @@
+[34.623s] 9: -   /* _MSC_VER = VVRR */
+[34.623s] 9: +/* _MSC_VER = VVRR */
+[34.623s] 9: @@ -334 +334 @@
+[34.623s] 9: -  /* _MSC_VER = VVRR */
+[34.623s] 9: +/* _MSC_VER = VVRR */
+[34.623s] 9: @@ -339 +339 @@
+[34.623s] 9: -    /* _MSC_FULL_VER = VVRRPPPPP */
+[34.623s] 9: +/* _MSC_FULL_VER = VVRRPPPPP */
+[34.623s] 9: @@ -342 +342 @@
+[34.623s] 9: -    /* _MSC_FULL_VER = VVRRPPPP */
+[34.623s] 9: +/* _MSC_FULL_VER = VVRRPPPP */
+[34.623s] 9: @@ -350 +350,2 @@
+[34.623s] 9: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
+[34.623s] 9: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
+[34.623s] 9: +  defined(__ADSP21000__)
+[34.623s] 9: @@ -353,4 +354,4 @@
+[34.623s] 9: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[34.623s] 9: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+[34.623s] 9: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+[34.623s] 9: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
+[34.623s] 9: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+[34.623s] 9: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
+[34.624s] 9: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
+[34.624s] 9: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+[34.624s] 9: @@ -366 +367,3 @@
+[34.624s] 9: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
+[34.624s] 9: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
+[34.624s] 9: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
+[34.624s] 9: +  defined(__ICC8051__) || defined(__ICCSTM8__))
+[34.624s] 9: @@ -368 +371 @@
+[34.624s] 9: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
+[34.624s] 9: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+[34.624s] 9: @@ -388 +391 @@
+[34.624s] 9: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[34.624s] 9: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+[34.624s] 9: @@ -390 +393 @@
+[34.624s] 9: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[34.624s] 9: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+[34.624s] 9: @@ -394 +397 @@
+[34.624s] 9: -char const* qnxnto = "INFO" ":" "qnxnto[]";
+[34.624s] 9: +char const * qnxnto = "INFO" ":" "qnxnto[]";
+[34.624s] 9: @@ -398 +401 @@
+[34.624s] 9: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[34.624s] 9: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+[34.624s] 9: @@ -641,9 +644,9 @@
+[34.624s] 9: -#define DEC(n)                   \
+[34.624s] 9: -  ('0' + (((n) / 10000000)%10)), \
+[34.624s] 9: -  ('0' + (((n) / 1000000)%10)),  \
+[34.624s] 9: -  ('0' + (((n) / 100000)%10)),   \
+[34.624s] 9: -  ('0' + (((n) / 10000)%10)),    \
+[34.624s] 9: -  ('0' + (((n) / 1000)%10)),     \
+[34.624s] 9: -  ('0' + (((n) / 100)%10)),      \
+[34.625s] 9: -  ('0' + (((n) / 10)%10)),       \
+[34.625s] 9: -  ('0' +  ((n) % 10))
+[34.625s] 9: +#define DEC(n) \
+[34.625s] 9: +  ('0' + (((n) / 10000000) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 1000000) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 100000) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 10000) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 1000) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 100) % 10)), \
+[34.625s] 9: +  ('0' + (((n) / 10) % 10)), \
+[34.625s] 9: +  ('0' + ((n) % 10))
+[34.625s] 9: @@ -652,9 +655,9 @@
+[34.625s] 9: -#define HEX(n)             \
+[34.625s] 9: -  ('0' + ((n)>>28 & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>24 & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>20 & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>16 & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>12 & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>8  & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)>>4  & 0xF)), \
+[34.625s] 9: -  ('0' + ((n)     & 0xF))
+[34.625s] 9: +#define HEX(n) \
+[34.625s] 9: +  ('0' + ((n) >> 28 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 24 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 20 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 16 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 12 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 8 & 0xF)), \
+[34.625s] 9: +  ('0' + ((n) >> 4 & 0xF)), \
+[34.626s] 9: +  ('0' + ((n) & 0xF))
+[34.626s] 9: @@ -664 +667 @@
+[34.626s] 9: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[34.626s] 9: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+[34.626s] 9: @@ -670 +673 @@
+[34.626s] 9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
+[34.626s] 9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[34.626s] 9: @@ -675 +678 @@
+[34.626s] 9: -   '.', COMPILER_VERSION_PATCH,
+[34.626s] 9: +  '.', COMPILER_VERSION_PATCH,
+[34.626s] 9: @@ -677 +680 @@
+[34.626s] 9: -    '.', COMPILER_VERSION_TWEAK,
+[34.626s] 9: +  '.', COMPILER_VERSION_TWEAK,
+[34.626s] 9: @@ -681 +684 @@
+[34.626s] 9: -  ']','\0'};
+[34.626s] 9: +  ']', '\0'};
+[34.626s] 9: @@ -688,3 +691,3 @@
+[34.626s] 9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+[34.627s] 9: -  'i','n','t','e','r','n','a','l','[',
+[34.627s] 9: -  COMPILER_VERSION_INTERNAL,']','\0'};
+[34.627s] 9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
+[34.627s] 9: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
+[34.627s] 9: +  COMPILER_VERSION_INTERNAL, ']', '\0'};
+[34.627s] 9: @@ -692 +695,2 @@
+[34.627s] 9: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[34.627s] 9: +char const * info_version_internal =
+[34.627s] 9: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+[34.627s] 9: @@ -699 +703 @@
+[34.627s] 9: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
+[34.627s] 9: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+[34.627s] 9: @@ -704 +708 @@
+[34.627s] 9: -   '.', SIMULATE_VERSION_PATCH,
+[34.627s] 9: +  '.', SIMULATE_VERSION_PATCH,
+[34.627s] 9: @@ -706 +710 @@
+[34.627s] 9: -    '.', SIMULATE_VERSION_TWEAK,
+[34.627s] 9: +  '.', SIMULATE_VERSION_TWEAK,
+[34.627s] 9: @@ -710 +714 @@
+[34.627s] 9: -  ']','\0'};
+[34.627s] 9: +  ']', '\0'};
+[34.627s] 9: @@ -717,3 +721,2 @@
+[34.627s] 9: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[34.627s] 9: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[34.628s] 9: -
+[34.628s] 9: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+[34.628s] 9: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+[34.628s] 9: @@ -738 +741 @@
+[34.628s] 9: -const char* info_language_standard_default = "INFO" ":" "standard_default["
+[34.628s] 9: +const char * info_language_standard_default = "INFO" ":" "standard_default["
+[34.628s] 9: @@ -752,3 +755,3 @@
+[34.628s] 9: -"]";
+[34.628s] 9: -
+[34.628s] 9: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+[34.628s] 9: +  "]";
+[34.628s] 9: +
+[34.628s] 9: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+[34.628s] 9: @@ -756,2 +759,2 @@
+[34.628s] 9: -#if (defined(__clang__) || defined(__GNUC__) ||                               \
+[34.628s] 9: -     defined(__TI_COMPILER_VERSION__)) &&                                     \
+[34.628s] 9: +#if (defined(__clang__) || defined(__GNUC__) || \
+[34.628s] 9: +  defined(__TI_COMPILER_VERSION__)) && \
+[34.628s] 9: @@ -763 +766 @@
+[34.628s] 9: -"]";
+[34.628s] 9: +  "]";
+[34.628s] 9: @@ -767 +770 @@
+[34.628s] 9: -int main(int argc, char* argv[])
+[34.628s] 9: +int main(int argc, char * argv[])
+[34.628s] 9: 
+[34.628s] 9: Code style divergence in file 'build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp':
+[34.628s] 9: 
+[34.629s] 9: --- build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp
+[34.629s] 9: +++ build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp.uncrustify
+[34.629s] 9: @@ -33 +33 @@
+[34.629s] 9: -  std::vector<class_loader::ClassLoader * > loaders;
+[34.629s] 9: +  std::vector<class_loader::ClassLoader *> loaders;
+[34.629s] 9: 
+[34.629s] 9: Code style divergence in file 'include/usb_cam/usb_cam.hpp':
+[34.629s] 9: 
+[34.629s] 9: --- include/usb_cam/usb_cam.hpp
+[34.629s] 9: +++ include/usb_cam/usb_cam.hpp.uncrustify
+[34.629s] 9: @@ -425 +425,2 @@
+[34.629s] 9: -        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {
+[34.629s] 9: +        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())
+[34.629s] 9: +      {
+[34.629s] 9: @@ -431,3 +432,3 @@
+[34.629s] 9: -      "Specified resolution `" + std::to_string(parameters.image_width) +
+[34.630s] 9: -      "x" + std::to_string(parameters.image_height) +
+[34.630s] 9: -      "` is unsupported by `" + parameters.device_name + "`"
+[34.630s] 9: +            "Specified resolution `" + std::to_string(parameters.image_width) +
+[34.630s] 9: +            "x" + std::to_string(parameters.image_height) +
+[34.630s] 9: +            "` is unsupported by `" + parameters.device_name + "`"
+[34.630s] 9: 
+[34.630s] 9: Code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam.hpp':
+[34.630s] 9: 
+[34.630s] 9: --- install/usb_cam/include/usb_cam/usb_cam.hpp
+[34.630s] 9: +++ install/usb_cam/include/usb_cam/usb_cam.hpp.uncrustify
+[34.630s] 9: @@ -425 +425,2 @@
+[34.630s] 9: -        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {
+[34.630s] 9: +        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())
+[34.630s] 9: +      {
+[34.630s] 9: @@ -431,3 +432,3 @@
+[34.630s] 9: -      "Specified resolution `" + std::to_string(parameters.image_width) +
+[34.630s] 9: -      "x" + std::to_string(parameters.image_height) +
+[34.630s] 9: -      "` is unsupported by `" + parameters.device_name + "`"
+[34.630s] 9: +            "Specified resolution `" + std::to_string(parameters.image_width) +
+[34.630s] 9: +            "x" + std::to_string(parameters.image_height) +
+[34.630s] 9: +            "` is unsupported by `" + parameters.device_name + "`"
+[34.630s] 9: 
+[34.631s] 9: Code style divergence in file 'src/usb_cam_node.cpp':
+[34.631s] 9: 
+[34.631s] 9: --- src/usb_cam_node.cpp
+[34.631s] 9: +++ src/usb_cam_node.cpp.uncrustify
+[34.631s] 9: @@ -245 +245,3 @@
+[34.631s] 9: -    RCLCPP_INFO(this->get_logger(), "Low latency mode enabled: publishing immediately after capture");
+[34.631s] 9: +    RCLCPP_INFO(
+[34.631s] 9: +      this->get_logger(),
+[34.631s] 9: +      "Low latency mode enabled: publishing immediately after capture");
+[34.631s] 9: @@ -477 +479,2 @@
+[34.631s] 9: -      (m_parameters.pixel_format_name == "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();
+[34.631s] 9: +      (m_parameters.pixel_format_name ==
+[34.631s] 9: +      "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();
+[34.631s] 9: 
+[34.631s] 9: 6 files with code style divergence
+[34.631s] 9: No code style divergence in file 'include/usb_cam/constants.hpp'
+[34.631s] 9: 
+[34.631s] 9: No code style divergence in file 'include/usb_cam/conversions.hpp'
+[34.631s] 9: 
+[34.631s] 9: No code style divergence in file 'include/usb_cam/formats/av_pixel_format_helper.hpp'
+[34.631s] 9: 
+[34.631s] 9: No code style divergence in file 'include/usb_cam/formats/m420.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/mjpeg.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/mono.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/pixel_format_base.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/rgb.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/utils.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/uyvy.hpp'
+[34.632s] 9: 
+[34.632s] 9: No code style divergence in file 'include/usb_cam/formats/yuyv.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'include/usb_cam/usb_cam_node.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'include/usb_cam/utils.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/constants.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/conversions.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/m420.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mjpeg.hpp'
+[34.633s] 9: 
+[34.633s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mono.hpp'
+[34.633s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/rgb.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/utils.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/uyvy.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/yuyv.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam_node.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'install/usb_cam/include/usb_cam/utils.hpp'
+[34.634s] 9: 
+[34.634s] 9: No code style divergence in file 'src/usb_cam.cpp'
+[34.635s] 9: 
+[34.635s] 9: No code style divergence in file 'test/gtest_main.cpp'
+[34.635s] 9: 
+[34.635s] 9: No code style divergence in file 'test/test_pixel_formats.cpp'
+[34.635s] 9: 
+[34.635s] 9: No code style divergence in file 'test/test_usb_cam_lib.cpp'
+[34.635s] 9: 
+[34.635s] 9: No code style divergence in file 'test/test_usb_cam_utils.cpp'
+[34.635s] 9: 
+[34.635s] 9: -- run_test.py: return code 1
+[34.635s] 9: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml'
+[34.635s]  9/10 Test  #9: uncrustify .......................***Failed    0.44 sec
+[34.635s] test 10
+[34.635s]       Start 10: xmllint
+[34.635s] 
+[34.635s] 10: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml"
+[34.635s] 10: Test timeout computed to be: 60
+[34.669s] 10: -- run_test.py: invoking following command in '/home/yahboom/usb':
+[34.669s] 10:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml
+[34.805s] 10: File 'package.xml' is invalid:
+[34.805s] 10: error : Operation not permitted
+[34.805s] 10: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"
+[34.806s] 10: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.
+[34.806s] 10: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile
+[34.806s] 10: 
+[34.806s] 10: File 'install/usb_cam/share/usb_cam/package.xml' is invalid:
+[34.806s] 10: error : Operation not permitted
+[34.806s] 10: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"
+[34.806s] 10: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.
+[34.806s] 10: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile
+[34.806s] 10: 
+[34.806s] 10: 2 files are invalid
+[34.806s] 10: File 'build/usb_cam/test_results/usb_cam/copyright.xunit.xml' is valid
+[34.806s] 10: 
+[34.806s] 10: File 'build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml' is valid
+[34.806s] 10: 
+[34.806s] 10: File 'build/usb_cam/test_results/usb_cam/cpplint.xunit.xml' is valid
+[34.806s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/flake8.xunit.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/pep257.xunit.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml' is valid
+[34.807s] 10: 
+[34.807s] 10: File 'build/usb_cam/test_results/usb_cam/xmllint.xunit.xml' is valid
+[34.807s] 10: 
+[34.817s] 10: -- run_test.py: return code 1
+[34.817s] 10: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml'
+[34.825s] 10/10 Test #10: xmllint ..........................***Failed    0.21 sec
+[34.825s] 
+[34.825s] 40% tests passed, 6 tests failed out of 10
+[34.825s] 
+[34.825s] Label Time Summary:
+[34.825s] copyright     =   1.31 sec*proc (1 test)
+[34.825s] cppcheck      =   0.17 sec*proc (1 test)
+[34.825s] cpplint       =   1.64 sec*proc (1 test)
+[34.825s] flake8        =   0.36 sec*proc (1 test)
+[34.826s] gtest         =   0.15 sec*proc (2 tests)
+[34.826s] lint_cmake    =   0.17 sec*proc (1 test)
+[34.826s] linter        =   4.60 sec*proc (8 tests)
+[34.826s] pep257        =   0.31 sec*proc (1 test)
+[34.826s] uncrustify    =   0.44 sec*proc (1 test)
+[34.826s] xmllint       =   0.21 sec*proc (1 test)
+[34.826s] 
+[34.826s] Total Test time (real) =   4.76 sec
+[34.826s] 
+[34.826s] The following tests FAILED:
+[34.826s] 	  3 - copyright (Failed)
+[34.826s] 	  5 - cpplint (Failed)
+[34.826s] 	  6 - flake8 (Failed)
+[34.826s] 	  7 - lint_cmake (Failed)
+[34.826s] 	  9 - uncrustify (Failed)
+[34.826s] 	 10 - xmllint (Failed)
+[34.827s] Errors while running CTest
+[34.827s] Output from these tests are in: /home/yahboom/usb/build/usb_cam/Testing/Temporary/LastTest.log
+[34.827s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[34.829s] Invoked command in '/home/yahboom/usb/build/usb_cam' returned '8': AMENT_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/usb/install/usb_cam/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

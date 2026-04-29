@@ -1,0 +1,56 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml
+
+build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/3.22.1/CMakeSystem.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+build/usb_cam/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/Makefile.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/test_pixel_formats.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_node.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/CTestCustom.cmake: could not find copyright notice
+build/usb_cam/CTestTestfile.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_core/package.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_core/usb_camConfig-version.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_core/usb_camConfig.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+build/usb_cam/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+build/usb_cam/cmake_install.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake: could not find copyright notice
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake: could not find copyright notice
+build/usb_cam/gtest/CTestTestfile.cmake: could not find copyright notice
+build/usb_cam/gtest/cmake_install.cmake: could not find copyright notice
+install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>
+install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice
+install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice
+install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake: could not find copyright notice
+install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake: could not find copyright notice
+install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake: could not find copyright notice
+48 errors, checked 93 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml'

@@ -1,0 +1,50 @@
+[1.054s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'usb_cam']
+[1.054s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['usb_cam'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x721bf7394190>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x721bf735c2e0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x721bf735c2e0>>)
+[1.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.115s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/usb'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.141s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'usb_cam'
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'ctest_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'python_testing' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'pytest_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'pytest_with_coverage' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'unittest_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'retest_until_pass' from command line to '0'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' test argument 'retest_until_fail' from command line to '0'
+[1.194s] DEBUG:colcon.colcon_core.verb.test:Testing package 'usb_cam' with the following arguments: {'build_base': '/home/yahboom/usb/build/usb_cam', 'ctest_args': None, 'install_base': '/home/yahboom/usb/install/usb_cam', 'path': '/home/yahboom/usb', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.208s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.222s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.223s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/yahboom/usb' with build type 'ament_cmake'
+[1.223s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/yahboom/usb'
+[1.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/usb/build/usb_cam': AMENT_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/usb/install/usb_cam/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[36.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/usb/build/usb_cam' returned '8': AMENT_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yahboom/usb/install/usb_cam:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/yahboom/usb/install/usb_cam/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[36.074s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.075s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.075s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.AccessDenied: Failed to connect to socket /run/user/1000/bus: Operation not permitted
+[36.075s] DEBUG:colcon.colcon_core.event_reactor:joined thread

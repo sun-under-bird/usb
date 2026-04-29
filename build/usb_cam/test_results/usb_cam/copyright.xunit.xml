@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="usb_cam.copyright"
+  tests="93"
+  errors="0"
+  failures="48"
+  time="1.137"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="LICENSE"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/Makefile.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/test_pixel_formats.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_node.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CTestCustom.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/CTestTestfile.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_core/package.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_core/usb_camConfig-version.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_core/usb_camConfig.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_package_templates/templates.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/cmake_install.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/CTestTestfile.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/gtest/cmake_install.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/constants.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/conversions.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/av_pixel_format_helper.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/m420.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/mjpeg.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/mono.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/pixel_format_base.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/rgb.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/utils.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/uyvy.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/formats/yuyv.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/usb_cam.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/usb_cam_node.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="include/usb_cam/utils.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/_local_setup_util_ps1.py"
+    classname="usb_cam.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/_local_setup_util_sh.py"
+    classname="usb_cam.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/include/usb_cam/constants.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/conversions.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/m420.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/mjpeg.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/mono.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/rgb.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/utils.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/uyvy.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/formats/yuyv.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/usb_cam.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/usb_cam_node.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/include/usb_cam/utils.hpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/lib/usb_cam/show_image.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake"
+    classname="usb_cam.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/usb_cam/share/usb_cam/launch/__init__.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/share/usb_cam/launch/camera.launch.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="install/usb_cam/share/usb_cam/launch/camera_config.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="launch/__init__.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="launch/camera.launch.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="launch/camera_config.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="scripts/show_image.py"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="src/usb_cam.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="src/usb_cam_node.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="test/gtest_main.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="test/test_pixel_formats.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="test/test_usb_cam_lib.cpp"
+    classname="usb_cam.copyright"/>
+  <testcase
+    name="test/test_usb_cam_utils.cpp"
+    classname="usb_cam.copyright"/>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE
+* build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/usb_cam/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+* build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* build/usb_cam/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/usb_cam/CMakeFiles/Makefile.cmake
+* build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/test_pixel_formats.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/usb_cam.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/usb_cam_node.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/cmake_clean.cmake
+* build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake
+* build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake
+* build/usb_cam/CTestCustom.cmake
+* build/usb_cam/CTestTestfile.cmake
+* build/usb_cam/ament_cmake_core/package.cmake
+* build/usb_cam/ament_cmake_core/usb_camConfig-version.cmake
+* build/usb_cam/ament_cmake_core/usb_camConfig.cmake
+* build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+* build/usb_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+* build/usb_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+* build/usb_cam/ament_cmake_package_templates/templates.cmake
+* build/usb_cam/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/usb_cam/cmake_install.cmake
+* build/usb_cam/gtest/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake
+* build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+* build/usb_cam/gtest/CTestTestfile.cmake
+* build/usb_cam/gtest/cmake_install.cmake
+* build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp
+* include/usb_cam/constants.hpp
+* include/usb_cam/conversions.hpp
+* include/usb_cam/formats/av_pixel_format_helper.hpp
+* include/usb_cam/formats/m420.hpp
+* include/usb_cam/formats/mjpeg.hpp
+* include/usb_cam/formats/mono.hpp
+* include/usb_cam/formats/pixel_format_base.hpp
+* include/usb_cam/formats/rgb.hpp
+* include/usb_cam/formats/utils.hpp
+* include/usb_cam/formats/uyvy.hpp
+* include/usb_cam/formats/yuyv.hpp
+* include/usb_cam/usb_cam.hpp
+* include/usb_cam/usb_cam_node.hpp
+* include/usb_cam/utils.hpp
+* install/_local_setup_util_ps1.py
+* install/_local_setup_util_sh.py
+* install/usb_cam/include/usb_cam/constants.hpp
+* install/usb_cam/include/usb_cam/conversions.hpp
+* install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+* install/usb_cam/include/usb_cam/formats/m420.hpp
+* install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+* install/usb_cam/include/usb_cam/formats/mono.hpp
+* install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+* install/usb_cam/include/usb_cam/formats/rgb.hpp
+* install/usb_cam/include/usb_cam/formats/utils.hpp
+* install/usb_cam/include/usb_cam/formats/uyvy.hpp
+* install/usb_cam/include/usb_cam/formats/yuyv.hpp
+* install/usb_cam/include/usb_cam/usb_cam.hpp
+* install/usb_cam/include/usb_cam/usb_cam_node.hpp
+* install/usb_cam/include/usb_cam/utils.hpp
+* install/usb_cam/lib/usb_cam/show_image.py
+* install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+* install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+* install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+* install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+* install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+* install/usb_cam/share/usb_cam/launch/__init__.py
+* install/usb_cam/share/usb_cam/launch/camera.launch.py
+* install/usb_cam/share/usb_cam/launch/camera_config.py
+* launch/__init__.py
+* launch/camera.launch.py
+* launch/camera_config.py
+* scripts/show_image.py
+* src/usb_cam.cpp
+* src/usb_cam_node.cpp
+* test/gtest_main.cpp
+* test/test_pixel_formats.cpp
+* test/test_usb_cam_lib.cpp
+* test/test_usb_cam_utils.cpp</system-out>
+</testsuite>

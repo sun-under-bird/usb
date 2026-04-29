@@ -1,0 +1,1681 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict([('usb_cam', '/home/yahboom/usb/install/usb_cam')])}
+[0.000144] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.098910] (-) TimerEvent: {}
+[0.199502] (-) TimerEvent: {}
+[0.299997] (-) TimerEvent: {}
+[0.400582] (-) TimerEvent: {}
+[0.501212] (-) TimerEvent: {}
+[0.602390] (-) TimerEvent: {}
+[0.703282] (-) TimerEvent: {}
+[0.804218] (-) TimerEvent: {}
+[0.904869] (-) TimerEvent: {}
+[1.005502] (-) TimerEvent: {}
+[1.106673] (-) TimerEvent: {}
+[1.207110] (-) TimerEvent: {}
+[1.307427] (-) TimerEvent: {}
+[1.408292] (-) TimerEvent: {}
+[1.509058] (-) TimerEvent: {}
+[1.609462] (-) TimerEvent: {}
+[1.710185] (-) TimerEvent: {}
+[1.810902] (-) TimerEvent: {}
+[1.911620] (-) TimerEvent: {}
+[2.012325] (-) TimerEvent: {}
+[2.113053] (-) TimerEvent: {}
+[2.213549] (-) TimerEvent: {}
+[2.313962] (-) TimerEvent: {}
+[2.414443] (-) TimerEvent: {}
+[2.515295] (-) TimerEvent: {}
+[2.616056] (-) TimerEvent: {}
+[2.716460] (-) TimerEvent: {}
+[2.817061] (-) TimerEvent: {}
+[2.917880] (-) TimerEvent: {}
+[3.018459] (-) TimerEvent: {}
+[3.118909] (-) TimerEvent: {}
+[3.219675] (-) TimerEvent: {}
+[3.321014] (-) TimerEvent: {}
+[3.421615] (-) TimerEvent: {}
+[3.522287] (-) TimerEvent: {}
+[3.622966] (-) TimerEvent: {}
+[3.723538] (-) TimerEvent: {}
+[3.824105] (-) TimerEvent: {}
+[3.924846] (-) TimerEvent: {}
+[4.025331] (-) TimerEvent: {}
+[4.125732] (-) TimerEvent: {}
+[4.226640] (-) TimerEvent: {}
+[4.327360] (-) TimerEvent: {}
+[4.427768] (-) TimerEvent: {}
+[4.528630] (-) TimerEvent: {}
+[4.629184] (-) TimerEvent: {}
+[4.729937] (-) TimerEvent: {}
+[4.830810] (-) TimerEvent: {}
+[4.931457] (-) TimerEvent: {}
+[5.032515] (-) TimerEvent: {}
+[5.133028] (-) TimerEvent: {}
+[5.233687] (-) TimerEvent: {}
+[5.334136] (-) TimerEvent: {}
+[5.435744] (-) TimerEvent: {}
+[5.536510] (-) TimerEvent: {}
+[5.637106] (-) TimerEvent: {}
+[5.737709] (-) TimerEvent: {}
+[5.838390] (-) TimerEvent: {}
+[5.939015] (-) TimerEvent: {}
+[6.039807] (-) TimerEvent: {}
+[6.140514] (-) TimerEvent: {}
+[6.241259] (-) TimerEvent: {}
+[6.341904] (-) TimerEvent: {}
+[6.442549] (-) TimerEvent: {}
+[6.543271] (-) TimerEvent: {}
+[6.643797] (-) TimerEvent: {}
+[6.744617] (-) TimerEvent: {}
+[6.845214] (-) TimerEvent: {}
+[6.945612] (-) TimerEvent: {}
+[7.046121] (-) TimerEvent: {}
+[7.146614] (-) TimerEvent: {}
+[7.247000] (-) TimerEvent: {}
+[7.347580] (-) TimerEvent: {}
+[7.448346] (-) TimerEvent: {}
+[7.549013] (-) TimerEvent: {}
+[7.649710] (-) TimerEvent: {}
+[7.750162] (-) TimerEvent: {}
+[7.850811] (-) TimerEvent: {}
+[7.951210] (-) TimerEvent: {}
+[8.052077] (-) TimerEvent: {}
+[8.152750] (-) TimerEvent: {}
+[8.253358] (-) TimerEvent: {}
+[8.354052] (-) TimerEvent: {}
+[8.454772] (-) TimerEvent: {}
+[8.555471] (-) TimerEvent: {}
+[8.656217] (-) TimerEvent: {}
+[8.756697] (-) TimerEvent: {}
+[8.857464] (-) TimerEvent: {}
+[8.957977] (-) TimerEvent: {}
+[9.058718] (-) TimerEvent: {}
+[9.159819] (-) TimerEvent: {}
+[9.260369] (-) TimerEvent: {}
+[9.361133] (-) TimerEvent: {}
+[9.461728] (-) TimerEvent: {}
+[9.562483] (-) TimerEvent: {}
+[9.663268] (-) TimerEvent: {}
+[9.763985] (-) TimerEvent: {}
+[9.865075] (-) TimerEvent: {}
+[9.965789] (-) TimerEvent: {}
+[10.066840] (-) TimerEvent: {}
+[10.167266] (-) TimerEvent: {}
+[10.268121] (-) TimerEvent: {}
+[10.368472] (-) TimerEvent: {}
+[10.468808] (-) TimerEvent: {}
+[10.569233] (-) TimerEvent: {}
+[10.669782] (-) TimerEvent: {}
+[10.770395] (-) TimerEvent: {}
+[10.871093] (-) TimerEvent: {}
+[10.971496] (-) TimerEvent: {}
+[11.072208] (-) TimerEvent: {}
+[11.172570] (-) TimerEvent: {}
+[11.273343] (-) TimerEvent: {}
+[11.373800] (-) TimerEvent: {}
+[11.474683] (-) TimerEvent: {}
+[11.575302] (-) TimerEvent: {}
+[11.676273] (-) TimerEvent: {}
+[11.776991] (-) TimerEvent: {}
+[11.877343] (-) TimerEvent: {}
+[11.977735] (-) TimerEvent: {}
+[12.078255] (-) TimerEvent: {}
+[12.179053] (-) TimerEvent: {}
+[12.279711] (-) TimerEvent: {}
+[12.380464] (-) TimerEvent: {}
+[12.481061] (-) TimerEvent: {}
+[12.581729] (-) TimerEvent: {}
+[12.682143] (-) TimerEvent: {}
+[12.782588] (-) TimerEvent: {}
+[12.883269] (-) TimerEvent: {}
+[12.983851] (-) TimerEvent: {}
+[13.084599] (-) TimerEvent: {}
+[13.185151] (-) TimerEvent: {}
+[13.285940] (-) TimerEvent: {}
+[13.386482] (-) TimerEvent: {}
+[13.487080] (-) TimerEvent: {}
+[13.587767] (-) TimerEvent: {}
+[13.688529] (-) TimerEvent: {}
+[13.789101] (-) TimerEvent: {}
+[13.889724] (-) TimerEvent: {}
+[13.991247] (-) TimerEvent: {}
+[14.091707] (-) TimerEvent: {}
+[14.192453] (-) TimerEvent: {}
+[14.292823] (-) TimerEvent: {}
+[14.393213] (-) TimerEvent: {}
+[14.493696] (-) TimerEvent: {}
+[14.594258] (-) TimerEvent: {}
+[14.694968] (-) TimerEvent: {}
+[14.795694] (-) TimerEvent: {}
+[14.896311] (-) TimerEvent: {}
+[14.996874] (-) TimerEvent: {}
+[15.097380] (-) TimerEvent: {}
+[15.197712] (-) TimerEvent: {}
+[15.298145] (-) TimerEvent: {}
+[15.398851] (-) TimerEvent: {}
+[15.499670] (-) TimerEvent: {}
+[15.600115] (-) TimerEvent: {}
+[15.700934] (-) TimerEvent: {}
+[15.801694] (-) TimerEvent: {}
+[15.902320] (-) TimerEvent: {}
+[16.002726] (-) TimerEvent: {}
+[16.103575] (-) TimerEvent: {}
+[16.204401] (-) TimerEvent: {}
+[16.304902] (-) TimerEvent: {}
+[16.405657] (-) TimerEvent: {}
+[16.506439] (-) TimerEvent: {}
+[16.607341] (-) TimerEvent: {}
+[16.708073] (-) TimerEvent: {}
+[16.808708] (-) TimerEvent: {}
+[16.909260] (-) TimerEvent: {}
+[17.009879] (-) TimerEvent: {}
+[17.110313] (-) TimerEvent: {}
+[17.211256] (-) TimerEvent: {}
+[17.311882] (-) TimerEvent: {}
+[17.412285] (-) TimerEvent: {}
+[17.512651] (-) TimerEvent: {}
+[17.613060] (-) TimerEvent: {}
+[17.713867] (-) TimerEvent: {}
+[17.814316] (-) TimerEvent: {}
+[17.914907] (-) TimerEvent: {}
+[18.015355] (-) TimerEvent: {}
+[18.115850] (-) TimerEvent: {}
+[18.216406] (-) TimerEvent: {}
+[18.317120] (-) TimerEvent: {}
+[18.418958] (-) TimerEvent: {}
+[18.519549] (-) TimerEvent: {}
+[18.620204] (-) TimerEvent: {}
+[18.721162] (-) TimerEvent: {}
+[18.821807] (-) TimerEvent: {}
+[18.922279] (-) TimerEvent: {}
+[19.022744] (-) TimerEvent: {}
+[19.123475] (-) TimerEvent: {}
+[19.224151] (-) TimerEvent: {}
+[19.324627] (-) TimerEvent: {}
+[19.425083] (-) TimerEvent: {}
+[19.525808] (-) TimerEvent: {}
+[19.626571] (-) TimerEvent: {}
+[19.727129] (-) TimerEvent: {}
+[19.827548] (-) TimerEvent: {}
+[19.928393] (-) TimerEvent: {}
+[20.029124] (-) TimerEvent: {}
+[20.129582] (-) TimerEvent: {}
+[20.230022] (-) TimerEvent: {}
+[20.330758] (-) TimerEvent: {}
+[20.431352] (-) TimerEvent: {}
+[20.532158] (-) TimerEvent: {}
+[20.632787] (-) TimerEvent: {}
+[20.733524] (-) TimerEvent: {}
+[20.833970] (-) TimerEvent: {}
+[20.934752] (-) TimerEvent: {}
+[21.035207] (-) TimerEvent: {}
+[21.136012] (-) TimerEvent: {}
+[21.236778] (-) TimerEvent: {}
+[21.337319] (-) TimerEvent: {}
+[21.437820] (-) TimerEvent: {}
+[21.538299] (-) TimerEvent: {}
+[21.639007] (-) TimerEvent: {}
+[21.739511] (-) TimerEvent: {}
+[21.840057] (-) TimerEvent: {}
+[21.940517] (-) TimerEvent: {}
+[22.041405] (-) TimerEvent: {}
+[22.142086] (-) TimerEvent: {}
+[22.242977] (-) TimerEvent: {}
+[22.343648] (-) TimerEvent: {}
+[22.444400] (-) TimerEvent: {}
+[22.545198] (-) TimerEvent: {}
+[22.645640] (-) TimerEvent: {}
+[22.746536] (-) TimerEvent: {}
+[22.847255] (-) TimerEvent: {}
+[22.947659] (-) TimerEvent: {}
+[23.048329] (-) TimerEvent: {}
+[23.148925] (-) TimerEvent: {}
+[23.249707] (-) TimerEvent: {}
+[23.350558] (-) TimerEvent: {}
+[23.451093] (-) TimerEvent: {}
+[23.551956] (-) TimerEvent: {}
+[23.652487] (-) TimerEvent: {}
+[23.752806] (-) TimerEvent: {}
+[23.853151] (-) TimerEvent: {}
+[23.953971] (-) TimerEvent: {}
+[24.054563] (-) TimerEvent: {}
+[24.155263] (-) TimerEvent: {}
+[24.256035] (-) TimerEvent: {}
+[24.356431] (-) TimerEvent: {}
+[24.457264] (-) TimerEvent: {}
+[24.558024] (-) TimerEvent: {}
+[24.658395] (-) TimerEvent: {}
+[24.759107] (-) TimerEvent: {}
+[24.859649] (-) TimerEvent: {}
+[24.960048] (-) TimerEvent: {}
+[25.060898] (-) TimerEvent: {}
+[25.161555] (-) TimerEvent: {}
+[25.262455] (-) TimerEvent: {}
+[25.363241] (-) TimerEvent: {}
+[25.463815] (-) TimerEvent: {}
+[25.564506] (-) TimerEvent: {}
+[25.665021] (-) TimerEvent: {}
+[25.765398] (-) TimerEvent: {}
+[25.866011] (-) TimerEvent: {}
+[25.966686] (-) TimerEvent: {}
+[26.067417] (-) TimerEvent: {}
+[26.168467] (-) TimerEvent: {}
+[26.269262] (-) TimerEvent: {}
+[26.369704] (-) TimerEvent: {}
+[26.470146] (-) TimerEvent: {}
+[26.570932] (-) TimerEvent: {}
+[26.671489] (-) TimerEvent: {}
+[26.772189] (-) TimerEvent: {}
+[26.872568] (-) TimerEvent: {}
+[26.973354] (-) TimerEvent: {}
+[27.073957] (-) TimerEvent: {}
+[27.174370] (-) TimerEvent: {}
+[27.274922] (-) TimerEvent: {}
+[27.375505] (-) TimerEvent: {}
+[27.476058] (-) TimerEvent: {}
+[27.576473] (-) TimerEvent: {}
+[27.677284] (-) TimerEvent: {}
+[27.777992] (-) TimerEvent: {}
+[27.878406] (-) TimerEvent: {}
+[27.979197] (-) TimerEvent: {}
+[28.079766] (-) TimerEvent: {}
+[28.180363] (-) TimerEvent: {}
+[28.280709] (-) TimerEvent: {}
+[28.381268] (-) TimerEvent: {}
+[28.482089] (-) TimerEvent: {}
+[28.582502] (-) TimerEvent: {}
+[28.683168] (-) TimerEvent: {}
+[28.783889] (-) TimerEvent: {}
+[28.884639] (-) TimerEvent: {}
+[28.985869] (-) TimerEvent: {}
+[29.086480] (-) TimerEvent: {}
+[29.187213] (-) TimerEvent: {}
+[29.287688] (-) TimerEvent: {}
+[29.388295] (-) TimerEvent: {}
+[29.489021] (-) TimerEvent: {}
+[29.589525] (-) TimerEvent: {}
+[29.690182] (-) TimerEvent: {}
+[29.790797] (-) TimerEvent: {}
+[29.891672] (-) TimerEvent: {}
+[29.992606] (-) TimerEvent: {}
+[30.051133] (usb_cam) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/yahboom/usb/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yahboom/usb'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://192.168.6.64:7890'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a/nls.messages.json","corruptMarkerFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a","_corruptedFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'http://192.168.6.64:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yahboom/usb/install/usb_cam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-604e220d-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1299'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.6.64:7890'), ('COLCON_PREFIX_PATH', '/home/yahboom/camera_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('ALL_PROXY', 'http://192.168.6.64:7890'), ('http_proxy', 'http://192.168.6.64:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yahboom/.local/bin:/home/yahboom/.codex/tmp/arg0/codex-arg0FsdjK3:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/opt/ros/humble/bin:/home/yahboom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yahboom/.vscode/extensions/openai.chatgpt-26.422.71525-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yahboom-VM:@/tmp/.ICE-unix/1299,unix/yahboom-VM:/tmp/.ICE-unix/1299'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('USE_SIM_TIME', 'true'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d55e7f7_9537_4919_bede_c6b0dfb0d9ae'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z7OO3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yahboom/usb/install/usb_cam:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/home/yahboom/camera_ws/install/stereo_camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dd752-cc45-7650-b7c6-ea673655ca00'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/usb/build/usb_cam'), ('VSCODE_CLI', '1'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yahboom/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.6.64:7890'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/yahboom/usb/install/usb_cam:/home/yahboom/camera_ws/install/stereo_camera_pkg'), ('VSCODE_PID', '17451')]), 'shell': False}
+[30.061862] (usb_cam) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini\n'}
+[30.062120] (usb_cam) StdoutLine: {'line': b'Parse Config file:/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini\n'}
+[30.062233] (usb_cam) StdoutLine: {'line': b'   Site: yahboom-VM\n'}
+[30.062553] (usb_cam) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[30.062608] (usb_cam) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[30.062651] (usb_cam) StdoutLine: {'line': b'Create new tag: 20260429-0411 - Experimental\n'}
+[30.062685] (usb_cam) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini\n'}
+[30.062715] (usb_cam) StdoutLine: {'line': b'Parse Config file:/home/yahboom/usb/build/usb_cam/CTestConfiguration.ini\n'}
+[30.062744] (usb_cam) StdoutLine: {'line': b'Test project /home/yahboom/usb/build/usb_cam\n'}
+[30.063250] (usb_cam) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[30.063880] (usb_cam) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[30.064054] (usb_cam) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[30.064091] (usb_cam) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[30.064123] (usb_cam) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[30.064152] (usb_cam) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[30.064180] (usb_cam) StdoutLine: {'line': b'test 1\n'}
+[30.064209] (usb_cam) StdoutLine: {'line': b'      Start  1: test_usb_cam_utils\n'}
+[30.064236] (usb_cam) StdoutLine: {'line': b'\n'}
+[30.064263] (usb_cam) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cmake_gtest/test_usb_cam_utils.txt" "--command" "/home/yahboom/usb/build/usb_cam/test_usb_cam_utils" "--gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml"\n'}
+[30.064295] (usb_cam) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[30.093296] (-) TimerEvent: {}
+[30.141067] (usb_cam) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':\n"}
+[30.141244] (usb_cam) StdoutLine: {'line': b'1:  - /home/yahboom/usb/build/usb_cam/test_usb_cam_utils --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml\n'}
+[30.143159] (usb_cam) StdoutLine: {'line': b'1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[30.143322] (usb_cam) StdoutLine: {'line': b'1: [==========] Running 3 tests from 1 test suite.\n'}
+[30.143375] (usb_cam) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[30.143416] (usb_cam) StdoutLine: {'line': b'1: [----------] 3 tests from test_usb_cam_utils\n'}
+[30.143457] (usb_cam) StdoutLine: {'line': b'1: [ RUN      ] test_usb_cam_utils.test_io_method_from_string\n'}
+[30.143494] (usb_cam) StdoutLine: {'line': b'1: [       OK ] test_usb_cam_utils.test_io_method_from_string (0 ms)\n'}
+[30.143533] (usb_cam) StdoutLine: {'line': b'1: [ RUN      ] test_usb_cam_utils.test_clip_value\n'}
+[30.144847] (usb_cam) StdoutLine: {'line': b'1: [       OK ] test_usb_cam_utils.test_clip_value (2 ms)\n'}
+[30.144952] (usb_cam) StdoutLine: {'line': b'1: [ RUN      ] test_usb_cam_utils.test_monotonic_to_real_time\n'}
+[30.144991] (usb_cam) StdoutLine: {'line': b'1: [       OK ] test_usb_cam_utils.test_monotonic_to_real_time (0 ms)\n'}
+[30.145025] (usb_cam) StdoutLine: {'line': b'1: [----------] 3 tests from test_usb_cam_utils (2 ms total)\n'}
+[30.145058] (usb_cam) StdoutLine: {'line': b'1: \n'}
+[30.145087] (usb_cam) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[30.146257] (usb_cam) StdoutLine: {'line': b'1: [==========] 3 tests from 1 test suite ran. (2 ms total)\n'}
+[30.146580] (usb_cam) StdoutLine: {'line': b'1: [  PASSED  ] 3 tests.\n'}
+[30.146959] (usb_cam) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[30.147217] (usb_cam) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'\n"}
+[30.147312] (usb_cam) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml'\n"}
+[30.156496] (usb_cam) StdoutLine: {'line': b' 1/10 Test  #1: test_usb_cam_utils ...............   Passed    0.09 sec\n'}
+[30.156683] (usb_cam) StdoutLine: {'line': b'test 2\n'}
+[30.156724] (usb_cam) StdoutLine: {'line': b'      Start  2: test_pixel_formats\n'}
+[30.156757] (usb_cam) StdoutLine: {'line': b'\n'}
+[30.156787] (usb_cam) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cmake_gtest/test_pixel_formats.txt" "--command" "/home/yahboom/usb/build/usb_cam/test_pixel_formats" "--gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml"\n'}
+[30.156820] (usb_cam) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[30.193665] (-) TimerEvent: {}
+[30.204191] (usb_cam) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/yahboom/usb/build/usb_cam':\n"}
+[30.204401] (usb_cam) StdoutLine: {'line': b'2:  - /home/yahboom/usb/build/usb_cam/test_pixel_formats --gtest_output=xml:/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml\n'}
+[30.207689] (usb_cam) StdoutLine: {'line': b'2: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[30.208162] (usb_cam) StdoutLine: {'line': b'2: [==========] Running 1 test from 1 test suite.\n'}
+[30.208216] (usb_cam) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[30.208252] (usb_cam) StdoutLine: {'line': b'2: [----------] 1 test from test_pixel_formats\n'}
+[30.208287] (usb_cam) StdoutLine: {'line': b'2: [ RUN      ] test_pixel_formats.pixel_format_base_class\n'}
+[30.208324] (usb_cam) StdoutLine: {'line': b'2: [       OK ] test_pixel_formats.pixel_format_base_class (0 ms)\n'}
+[30.208490] (usb_cam) StdoutLine: {'line': b'2: [----------] 1 test from test_pixel_formats (0 ms total)\n'}
+[30.208537] (usb_cam) StdoutLine: {'line': b'2: \n'}
+[30.208614] (usb_cam) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[30.208918] (usb_cam) StdoutLine: {'line': b'2: [==========] 1 test from 1 test suite ran. (0 ms total)\n'}
+[30.208974] (usb_cam) StdoutLine: {'line': b'2: [  PASSED  ] 1 test.\n'}
+[30.209067] (usb_cam) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[30.209143] (usb_cam) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'\n"}
+[30.209443] (usb_cam) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml'\n"}
+[30.217443] (usb_cam) StdoutLine: {'line': b' 2/10 Test  #2: test_pixel_formats ...............   Passed    0.06 sec\n'}
+[30.217636] (usb_cam) StdoutLine: {'line': b'test 3\n'}
+[30.217677] (usb_cam) StdoutLine: {'line': b'      Start  3: copyright\n'}
+[30.217709] (usb_cam) StdoutLine: {'line': b'\n'}
+[30.217742] (usb_cam) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml"\n'}
+[30.217778] (usb_cam) StdoutLine: {'line': b'3: Test timeout computed to be: 200\n'}
+[30.265633] (usb_cam) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[30.265839] (usb_cam) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml\n'}
+[30.294289] (-) TimerEvent: {}
+[30.394816] (-) TimerEvent: {}
+[30.495275] (-) TimerEvent: {}
+[30.595652] (-) TimerEvent: {}
+[30.696052] (-) TimerEvent: {}
+[30.796548] (-) TimerEvent: {}
+[30.897257] (-) TimerEvent: {}
+[30.997613] (-) TimerEvent: {}
+[31.098274] (-) TimerEvent: {}
+[31.198678] (-) TimerEvent: {}
+[31.299513] (-) TimerEvent: {}
+[31.400285] (-) TimerEvent: {}
+[31.500762] (-) TimerEvent: {}
+[31.510607] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake: could not find copyright notice\n'}
+[31.510810] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake: could not find copyright notice\n'}
+[31.510864] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/3.22.1/CMakeSystem.cmake: could not find copyright notice\n'}
+[31.510910] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice\n'}
+[31.510951] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice\n'}
+[31.510991] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice\n'}
+[31.511029] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/Makefile.cmake: could not find copyright notice\n'}
+[31.511065] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511101] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/test_pixel_formats.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511138] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511172] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511201] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511230] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511258] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511287] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511317] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511346] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_node.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511375] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511404] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511441] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.511472] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.511502] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CTestCustom.cmake: could not find copyright notice\n'}
+[31.511533] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/CTestTestfile.cmake: could not find copyright notice\n'}
+[31.511562] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_core/package.cmake: could not find copyright notice\n'}
+[31.511594] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_core/usb_camConfig-version.cmake: could not find copyright notice\n'}
+[31.511769] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_core/usb_camConfig.cmake: could not find copyright notice\n'}
+[31.511838] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice\n'}
+[31.511877] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice\n'}
+[31.511915] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake: could not find copyright notice\n'}
+[31.511947] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_package_templates/templates.cmake: could not find copyright notice\n'}
+[31.511977] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice\n'}
+[31.512006] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/cmake_install.cmake: could not find copyright notice\n'}
+[31.512035] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice\n'}
+[31.512078] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.512111] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.512139] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake: could not find copyright notice\n'}
+[31.512167] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake: could not find copyright notice\n'}
+[31.512194] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[31.512321] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake: could not find copyright notice\n'}
+[31.512382] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/CTestTestfile.cmake: could not find copyright notice\n'}
+[31.512426] (usb_cam) StdoutLine: {'line': b'3: build/usb_cam/gtest/cmake_install.cmake: could not find copyright notice\n'}
+[31.512466] (usb_cam) StdoutLine: {'line': b'3: install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[31.512505] (usb_cam) StdoutLine: {'line': b'3: install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[31.512541] (usb_cam) StdoutLine: {'line': b'3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake: could not find copyright notice\n'}
+[31.512577] (usb_cam) StdoutLine: {'line': b'3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake: could not find copyright notice\n'}
+[31.512751] (usb_cam) StdoutLine: {'line': b'3: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake: could not find copyright notice\n'}
+[31.512825] (usb_cam) StdoutLine: {'line': b'3: install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake: could not find copyright notice\n'}
+[31.512868] (usb_cam) StdoutLine: {'line': b'3: install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake: could not find copyright notice\n'}
+[31.512906] (usb_cam) StdoutLine: {'line': b'3: 48 errors, checked 93 files\n'}
+[31.521558] (usb_cam) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[31.521884] (usb_cam) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/copyright.xunit.xml'\n"}
+[31.531527] (usb_cam) StdoutLine: {'line': b' 3/10 Test  #3: copyright ........................***Failed    1.31 sec\n'}
+[31.531719] (usb_cam) StdoutLine: {'line': b'test 4\n'}
+[31.531761] (usb_cam) StdoutLine: {'line': b'      Start  4: cppcheck\n'}
+[31.531794] (usb_cam) StdoutLine: {'line': b'\n'}
+[31.531824] (usb_cam) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml" "--include_dirs" "/home/yahboom/usb/include"\n'}
+[31.531860] (usb_cam) StdoutLine: {'line': b'4: Test timeout computed to be: 300\n'}
+[31.582475] (usb_cam) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[31.582668] (usb_cam) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml --include_dirs /home/yahboom/usb/include\n'}
+[31.601005] (-) TimerEvent: {}
+[31.685421] (usb_cam) StdoutLine: {'line': b'4: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[31.697094] (usb_cam) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[31.697305] (usb_cam) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml'\n"}
+[31.701593] (-) TimerEvent: {}
+[31.706298] (usb_cam) StdoutLine: {'line': b' 4/10 Test  #4: cppcheck .........................   Passed    0.17 sec\n'}
+[31.706499] (usb_cam) StdoutLine: {'line': b'test 5\n'}
+[31.706542] (usb_cam) StdoutLine: {'line': b'      Start  5: cpplint\n'}
+[31.706575] (usb_cam) StdoutLine: {'line': b'\n'}
+[31.706606] (usb_cam) StdoutLine: {'line': b'5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml"\n'}
+[31.706640] (usb_cam) StdoutLine: {'line': b'5: Test timeout computed to be: 120\n'}
+[31.759017] (usb_cam) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[31.759197] (usb_cam) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml\n'}
+[31.802075] (-) TimerEvent: {}
+[31.836938] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[31.881011] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:352:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.883741] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:368:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.902822] (-) TimerEvent: {}
+[31.909620] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:685:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.910407] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:696:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.910951] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:703:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.911101] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:704:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.911177] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:705:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.911459] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:707:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.912127] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:714:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.913029] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:725:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.922842] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[31.962076] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:350:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.964551] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:366:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.985122] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:670:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.986066] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:681:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.986592] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:688:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.986839] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:689:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.986938] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:690:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.987228] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:692:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[31.987973] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:699:  Missing space after ,  [whitespace/comma] [3]\n'}
+[31.989013] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:710:  Missing space after ,  [whitespace/comma] [3]\n'}
+[32.004293] (-) TimerEvent: {}
+[32.104664] (-) TimerEvent: {}
+[32.205122] (-) TimerEvent: {}
+[32.246765] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/include/usb_cam/formats/mjpeg.hpp:44:  Found C system header after C++ system header. Should be: mjpeg.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[32.305442] (-) TimerEvent: {}
+[32.405852] (-) TimerEvent: {}
+[32.506420] (-) TimerEvent: {}
+[32.607032] (-) TimerEvent: {}
+[32.707863] (-) TimerEvent: {}
+[32.808457] (-) TimerEvent: {}
+[32.820609] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp:44:  Found C system header after C++ system header. Should be: mjpeg.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[32.908809] (-) TimerEvent: {}
+[33.009229] (-) TimerEvent: {}
+[33.109781] (-) TimerEvent: {}
+[33.210385] (-) TimerEvent: {}
+[33.256459] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/src/usb_cam_node.cpp:232:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[33.257789] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/src/usb_cam_node.cpp:245:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[33.283411] (usb_cam) StdoutLine: {'line': b'5: /home/yahboom/usb/src/usb_cam_node.cpp:477:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[33.311010] (-) TimerEvent: {}
+[33.320727] (usb_cam) StdoutLine: {'line': b"5: Category 'build/include_order' errors found: 2\n"}
+[33.321007] (usb_cam) StdoutLine: {'line': b"5: Category 'legal/copyright' errors found: 2\n"}
+[33.321801] (usb_cam) StdoutLine: {'line': b"5: Category 'whitespace/comma' errors found: 14\n"}
+[33.321873] (usb_cam) StdoutLine: {'line': b"5: Category 'whitespace/line_length' errors found: 9\n"}
+[33.321914] (usb_cam) StdoutLine: {'line': b'5: Total errors found: 27\n'}
+[33.321990] (usb_cam) StdoutLine: {'line': b"5: Not using '--root'\n"}
+[33.322038] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322076] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c\n'}
+[33.322114] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322147] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp\n'}
+[33.322179] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322209] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp\n'}
+[33.322257] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322294] (usb_cam) StdoutLine: {'line': b"5: Using '--root=/home/yahboom/usb/include' argument\n"}
+[33.322335] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322368] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/constants.hpp\n'}
+[33.322400] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322432] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/conversions.hpp\n'}
+[33.322463] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322494] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[33.322665] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322710] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/m420.hpp\n'}
+[33.322745] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322775] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/mjpeg.hpp\n'}
+[33.322805] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322834] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/mono.hpp\n'}
+[33.322862] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322891] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[33.322920] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.322948] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/rgb.hpp\n'}
+[33.322976] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323006] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/utils.hpp\n'}
+[33.323034] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323072] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/uyvy.hpp\n'}
+[33.323153] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323184] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/formats/yuyv.hpp\n'}
+[33.323215] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323250] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/usb_cam.hpp\n'}
+[33.323280] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323307] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/usb_cam_node.hpp\n'}
+[33.323336] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323366] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/include/usb_cam/utils.hpp\n'}
+[33.323396] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323424] (usb_cam) StdoutLine: {'line': b"5: Using '--root=/home/yahboom/usb/install/usb_cam/include' argument\n"}
+[33.323453] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323481] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[33.323618] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323665] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[33.323699] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323729] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[33.323760] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323788] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[33.323826] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323859] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[33.323888] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.323917] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[33.323979] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324026] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[33.324066] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324101] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[33.324133] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324167] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[33.324199] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324233] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[33.324265] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324425] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[33.324489] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324528] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[33.324638] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324716] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[33.324763] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324799] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[33.324833] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324868] (usb_cam) StdoutLine: {'line': b"5: Using '--root=/home/yahboom/usb/src' argument\n"}
+[33.324911] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.324947] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/src/usb_cam.cpp\n'}
+[33.324978] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325010] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/src/usb_cam_node.cpp\n'}
+[33.325055] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325084] (usb_cam) StdoutLine: {'line': b"5: Using '--root=/home/yahboom/usb/test' argument\n"}
+[33.325116] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325148] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/test/gtest_main.cpp\n'}
+[33.325181] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325211] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/test/test_pixel_formats.cpp\n'}
+[33.325250] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325286] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/test/test_usb_cam_lib.cpp\n'}
+[33.325318] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.325348] (usb_cam) StdoutLine: {'line': b'5: Done processing /home/yahboom/usb/test/test_usb_cam_utils.cpp\n'}
+[33.325380] (usb_cam) StdoutLine: {'line': b'5: \n'}
+[33.333049] (usb_cam) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[33.333253] (usb_cam) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/cpplint.xunit.xml'\n"}
+[33.340955] (usb_cam) StdoutLine: {'line': b' 5/10 Test  #5: cpplint ..........................***Failed    1.64 sec\n'}
+[33.341142] (usb_cam) StdoutLine: {'line': b'test 6\n'}
+[33.341185] (usb_cam) StdoutLine: {'line': b'      Start  6: flake8\n'}
+[33.341219] (usb_cam) StdoutLine: {'line': b'\n'}
+[33.341252] (usb_cam) StdoutLine: {'line': b'6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml"\n'}
+[33.341291] (usb_cam) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[33.393598] (usb_cam) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[33.393820] (usb_cam) StdoutLine: {'line': b'6:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml\n'}
+[33.411579] (-) TimerEvent: {}
+[33.512062] (-) TimerEvent: {}
+[33.615400] (-) TimerEvent: {}
+[33.670367] (usb_cam) StdoutLine: {'line': b'6: FORMAT_STR_INVOKE_SCRIPT = \'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{script_path}"\'\n'}
+[33.670787] (usb_cam) StdoutLine: {'line': b'6:                                                                                                    ^\n'}
+[33.670852] (usb_cam) StdoutLine: {'line': b'6: FORMAT_STR_REMOVE_LEADING_SEPARATOR = \'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then export {name}=${{{name}#?}} ; fi\'\n'}
+[33.670910] (usb_cam) StdoutLine: {'line': b'6:                                                                                                    ^\n'}
+[33.670952] (usb_cam) StdoutLine: {'line': b'6: FORMAT_STR_REMOVE_TRAILING_SEPARATOR = \'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then export {name}=${{{name}%?}} ; fi\'\n'}
+[33.670992] (usb_cam) StdoutLine: {'line': b'6:                                                                                                    ^\n'}
+[33.671031] (usb_cam) StdoutLine: {'line': b'6: 3     E501 line too long (109 > 99 characters)\n'}
+[33.671068] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671105] (usb_cam) StdoutLine: {'line': b'6: ./install/_local_setup_util_sh.py:14:100: E501 line too long (109 > 99 characters)\n'}
+[33.671141] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671176] (usb_cam) StdoutLine: {'line': b'6: ./install/_local_setup_util_sh.py:15:100: E501 line too long (124 > 99 characters)\n'}
+[33.671210] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671245] (usb_cam) StdoutLine: {'line': b'6: ./install/_local_setup_util_sh.py:16:100: E501 line too long (125 > 99 characters)\n'}
+[33.671279] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671314] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671350] (usb_cam) StdoutLine: {'line': b'6: 10 files checked\n'}
+[33.671378] (usb_cam) StdoutLine: {'line': b'6: 3 errors\n'}
+[33.671405] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671433] (usb_cam) StdoutLine: {'line': b"6: 'E'-type errors: 3\n"}
+[33.671460] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671487] (usb_cam) StdoutLine: {'line': b'6: Checked files:\n'}
+[33.671518] (usb_cam) StdoutLine: {'line': b'6: \n'}
+[33.671545] (usb_cam) StdoutLine: {'line': b'6: * ./install/_local_setup_util_sh.py\n'}
+[33.671573] (usb_cam) StdoutLine: {'line': b'6: * ./install/_local_setup_util_ps1.py\n'}
+[33.671600] (usb_cam) StdoutLine: {'line': b'6: * ./install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[33.671628] (usb_cam) StdoutLine: {'line': b'6: * ./install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[33.671768] (usb_cam) StdoutLine: {'line': b'6: * ./install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[33.671811] (usb_cam) StdoutLine: {'line': b'6: * ./install/usb_cam/lib/usb_cam/show_image.py\n'}
+[33.671845] (usb_cam) StdoutLine: {'line': b'6: * ./scripts/show_image.py\n'}
+[33.671875] (usb_cam) StdoutLine: {'line': b'6: * ./launch/__init__.py\n'}
+[33.671904] (usb_cam) StdoutLine: {'line': b'6: * ./launch/camera.launch.py\n'}
+[33.671934] (usb_cam) StdoutLine: {'line': b'6: * ./launch/camera_config.py\n'}
+[33.694600] (usb_cam) StdoutLine: {'line': b'6: -- run_test.py: return code 1\n'}
+[33.694810] (usb_cam) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/flake8.xunit.xml'\n"}
+[33.703534] (usb_cam) StdoutLine: {'line': b' 6/10 Test  #6: flake8 ...........................***Failed    0.36 sec\n'}
+[33.703739] (usb_cam) StdoutLine: {'line': b'test 7\n'}
+[33.703784] (usb_cam) StdoutLine: {'line': b'      Start  7: lint_cmake\n'}
+[33.703819] (usb_cam) StdoutLine: {'line': b'\n'}
+[33.703849] (usb_cam) StdoutLine: {'line': b'7: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml"\n'}
+[33.703884] (usb_cam) StdoutLine: {'line': b'7: Test timeout computed to be: 60\n'}
+[33.715669] (-) TimerEvent: {}
+[33.754966] (usb_cam) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[33.755140] (usb_cam) StdoutLine: {'line': b'7:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml\n'}
+[33.816211] (-) TimerEvent: {}
+[33.838658] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[33.838865] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[33.838921] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[33.838964] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]\n'}
+[33.839002] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[33.839038] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[33.839073] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[33.839110] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[33.839145] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[33.839180] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[33.839221] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[33.839255] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]\n'}
+[33.839290] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]\n'}
+[33.839324] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]\n'}
+[33.839357] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]\n'}
+[33.839384] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]\n'}
+[33.839411] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]\n'}
+[33.839438] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]\n'}
+[33.839465] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]\n'}
+[33.839493] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:23: Lines should be <= 140 characters long [linelength]\n'}
+[33.839520] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:24: Lines should be <= 140 characters long [linelength]\n'}
+[33.839640] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:25: Lines should be <= 140 characters long [linelength]\n'}
+[33.839703] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CTestTestfile.cmake:26: Lines should be <= 140 characters long [linelength]\n'}
+[33.839740] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.839772] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.839803] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]\n'}
+[33.839838] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:50: Lines should be <= 140 characters long [linelength]\n'}
+[33.839907] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:55: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.839948] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:57: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.839981] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840013] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:62: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840045] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:64: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840075] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:65: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840104] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:66: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840329] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:79: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840381] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:81: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840412] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:82: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840441] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:86: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840469] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:98: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840503] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:100: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840531] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:101: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840658] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:105: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840704] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:107: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840737] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:108: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840766] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:109: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840796] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:125: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840824] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:127: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840852] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:128: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840879] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:132: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840906] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:134: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840933] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:135: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840960] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:136: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.840987] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:155: Lines should be <= 140 characters long [linelength]\n'}
+[33.841014] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:159: Lines should be <= 140 characters long [linelength]\n'}
+[33.841041] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:163: Lines should be <= 140 characters long [linelength]\n'}
+[33.841068] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:167: Lines should be <= 140 characters long [linelength]\n'}
+[33.841095] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:171: Lines should be <= 140 characters long [linelength]\n'}
+[33.841123] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:175: Lines should be <= 140 characters long [linelength]\n'}
+[33.841151] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:179: Lines should be <= 140 characters long [linelength]\n'}
+[33.841179] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:183: Lines should be <= 140 characters long [linelength]\n'}
+[33.841206] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:187: Lines should be <= 140 characters long [linelength]\n'}
+[33.841234] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:191: Lines should be <= 140 characters long [linelength]\n'}
+[33.841262] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:195: Lines should be <= 140 characters long [linelength]\n'}
+[33.841290] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:199: Lines should be <= 140 characters long [linelength]\n'}
+[33.841319] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:203: Lines should be <= 140 characters long [linelength]\n'}
+[33.841346] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:207: Lines should be <= 140 characters long [linelength]\n'}
+[33.841389] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:211: Lines should be <= 140 characters long [linelength]\n'}
+[33.841417] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:215: Lines should be <= 140 characters long [linelength]\n'}
+[33.841448] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:219: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.841476] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:242: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.841503] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/cmake_install.cmake:244: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.841531] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.841559] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.841592] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/Makefile.cmake:929: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.841712] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/Makefile.cmake:935: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.841760] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/Makefile.cmake:973: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.841795] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.841826] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[33.841855] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]\n'}
+[33.841922] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.841959] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[33.841990] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[33.842019] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[33.842048] (usb_cam) StdoutLine: {'line': b"7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]\n"}
+[33.842077] (usb_cam) StdoutLine: {'line': b"7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[33.842106] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]\n'}
+[33.842135] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.842164] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.842194] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.842225] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.842252] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.842280] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.851938] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.852173] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.852269] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.852362] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.852455] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.852678] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.852795] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.852901] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.853001] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.853097] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.853192] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.853287] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.853468] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.854888] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855042] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855092] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855134] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.855184] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855428] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855514] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855553] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.855588] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855623] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855656] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855688] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.855718] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855750] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.855779] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/package.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[33.855811] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/package.cmake:6: Lines should be <= 140 characters long [linelength]\n'}
+[33.855841] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855875] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/package.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[33.855904] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.855937] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.855970] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_core/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]\n'}
+[33.856022] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856055] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]\n'}
+[33.856087] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856117] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]\n'}
+[33.856146] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]\n'}
+[33.856177] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]\n'}
+[33.856207] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]\n'}
+[33.856236] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]\n'}
+[33.856266] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]\n'}
+[33.856296] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]\n'}
+[33.856326] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]\n'}
+[33.856358] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]\n'}
+[33.856387] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]\n'}
+[33.856417] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]\n'}
+[33.856447] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]\n'}
+[33.856569] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856629] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[33.856668] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[33.856708] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[33.856739] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856768] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[33.856803] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856835] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.856868] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.856898] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.856928] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.856957] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.856988] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.857028] (usb_cam) StdoutLine: {'line': b'7: build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[33.857056] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.857085] (usb_cam) StdoutLine: {'line': b'7: install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]\n'}
+[33.857114] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.857144] (usb_cam) StdoutLine: {'line': b'7: install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]\n'}
+[33.857175] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.857205] (usb_cam) StdoutLine: {'line': b'7: \n'}
+[33.857238] (usb_cam) StdoutLine: {'line': b'7: 136 errors\n'}
+[33.861405] (usb_cam) StdoutLine: {'line': b'7: -- run_test.py: return code 1\n'}
+[33.861531] (usb_cam) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml'\n"}
+[33.870213] (usb_cam) StdoutLine: {'line': b' 7/10 Test  #7: lint_cmake .......................***Failed    0.17 sec\n'}
+[33.870415] (usb_cam) StdoutLine: {'line': b'test 8\n'}
+[33.870459] (usb_cam) StdoutLine: {'line': b'      Start  8: pep257\n'}
+[33.870494] (usb_cam) StdoutLine: {'line': b'\n'}
+[33.870525] (usb_cam) StdoutLine: {'line': b'8: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml"\n'}
+[33.870562] (usb_cam) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[33.916891] (-) TimerEvent: {}
+[33.921392] (usb_cam) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[33.921614] (usb_cam) StdoutLine: {'line': b'8:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml\n'}
+[34.017521] (-) TimerEvent: {}
+[34.117926] (-) TimerEvent: {}
+[34.148149] (usb_cam) StdoutLine: {'line': b'8: checking ./install/_local_setup_util_ps1.py\n'}
+[34.148519] (usb_cam) StdoutLine: {'line': b'8: checking ./install/_local_setup_util_sh.py\n'}
+[34.148599] (usb_cam) StdoutLine: {'line': b'8: checking ./install/usb_cam/lib/usb_cam/show_image.py\n'}
+[34.148649] (usb_cam) StdoutLine: {'line': b'8: checking ./install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[34.148692] (usb_cam) StdoutLine: {'line': b'8: checking ./install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[34.148765] (usb_cam) StdoutLine: {'line': b'8: checking ./install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[34.148845] (usb_cam) StdoutLine: {'line': b'8: checking ./launch/__init__.py\n'}
+[34.148884] (usb_cam) StdoutLine: {'line': b'8: checking ./launch/camera.launch.py\n'}
+[34.148916] (usb_cam) StdoutLine: {'line': b'8: checking ./launch/camera_config.py\n'}
+[34.148945] (usb_cam) StdoutLine: {'line': b'8: checking ./scripts/show_image.py\n'}
+[34.148974] (usb_cam) StdoutLine: {'line': b'8: No problems found\n'}
+[34.166792] (usb_cam) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[34.166987] (usb_cam) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/pep257.xunit.xml'\n"}
+[34.177036] (usb_cam) StdoutLine: {'line': b' 8/10 Test  #8: pep257 ...........................   Passed    0.31 sec\n'}
+[34.177278] (usb_cam) StdoutLine: {'line': b'test 9\n'}
+[34.177377] (usb_cam) StdoutLine: {'line': b'      Start  9: uncrustify\n'}
+[34.177456] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.177500] (usb_cam) StdoutLine: {'line': b'9: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml"\n'}
+[34.177835] (usb_cam) StdoutLine: {'line': b'9: Test timeout computed to be: 60\n'}
+[34.218528] (-) TimerEvent: {}
+[34.227268] (usb_cam) StdoutLine: {'line': b"9: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[34.227463] (usb_cam) StdoutLine: {'line': b'9:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml\n'}
+[34.318963] (-) TimerEvent: {}
+[34.419698] (-) TimerEvent: {}
+[34.520370] (-) TimerEvent: {}
+[34.597316] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':\n"}
+[34.597548] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.597604] (usb_cam) StdoutLine: {'line': b'9: --- build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c\n'}
+[34.597642] (usb_cam) StdoutLine: {'line': b'9: +++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify\n'}
+[34.597677] (usb_cam) StdoutLine: {'line': b'9: @@ -32 +32 @@\n'}
+[34.597709] (usb_cam) StdoutLine: {'line': b'9: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,\n'}
+[34.597739] (usb_cam) StdoutLine: {'line': b'9: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,\n'}
+[34.597770] (usb_cam) StdoutLine: {'line': b'9: @@ -35,2 +35,2 @@\n'}
+[34.597802] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)\n'}
+[34.597954] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)\n'}
+[34.597994] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)\n'}
+[34.598031] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)\n'}
+[34.598070] (usb_cam) StdoutLine: {'line': b'9: @@ -40 +40 @@\n'}
+[34.598106] (usb_cam) StdoutLine: {'line': b'9: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)\n'}
+[34.598144] (usb_cam) StdoutLine: {'line': b'9: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)\n'}
+[34.598180] (usb_cam) StdoutLine: {'line': b'9: @@ -45 +45 @@\n'}
+[34.598215] (usb_cam) StdoutLine: {'line': b'9: -   /* The third version component from --version is an update index,\n'}
+[34.598252] (usb_cam) StdoutLine: {'line': b'9: +/* The third version component from --version is an update index,\n'}
+[34.598286] (usb_cam) StdoutLine: {'line': b'9: @@ -50 +50 @@\n'}
+[34.598464] (usb_cam) StdoutLine: {'line': b'9: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[34.598540] (usb_cam) StdoutLine: {'line': b'9: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[34.598579] (usb_cam) StdoutLine: {'line': b'9: @@ -54 +54 @@\n'}
+[34.598612] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.598646] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.598677] (usb_cam) StdoutLine: {'line': b'9: @@ -83,3 +83,3 @@\n'}
+[34.598710] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)\n'}
+[34.598741] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)\n'}
+[34.598788] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)\n'}
+[34.598826] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)\n'}
+[34.598858] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)\n'}
+[34.598889] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)\n'}
+[34.598919] (usb_cam) StdoutLine: {'line': b'9: @@ -87,3 +87,3 @@\n'}
+[34.598951] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)\n'}
+[34.598987] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)\n'}
+[34.599020] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)\n'}
+[34.599053] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)\n'}
+[34.599086] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)\n'}
+[34.599118] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)\n'}
+[34.599150] (usb_cam) StdoutLine: {'line': b'9: @@ -92 +92 @@\n'}
+[34.599183] (usb_cam) StdoutLine: {'line': b'9: -  /* _MSC_VER = VVRR */\n'}
+[34.599217] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.599248] (usb_cam) StdoutLine: {'line': b'9: @@ -118,3 +118,3 @@\n'}
+[34.599282] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)\n'}
+[34.599313] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)\n'}
+[34.599472] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)\n'}
+[34.599534] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)\n'}
+[34.599580] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)\n'}
+[34.599617] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)\n'}
+[34.599654] (usb_cam) StdoutLine: {'line': b'9: @@ -124,2 +124,2 @@\n'}
+[34.599697] (usb_cam) StdoutLine: {'line': b'9: -  /* __BORLANDC__ = 0xVRR */\n'}
+[34.599734] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)\n'}
+[34.599771] (usb_cam) StdoutLine: {'line': b'9: +/* __BORLANDC__ = 0xVRR */\n'}
+[34.599805] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)\n'}
+[34.599907] (usb_cam) StdoutLine: {'line': b'9: @@ -130 +130 @@\n'}
+[34.599955] (usb_cam) StdoutLine: {'line': b'9: -   /* __WATCOMC__ = VVRR */\n'}
+[34.599994] (usb_cam) StdoutLine: {'line': b'9: +/* __WATCOMC__ = VVRR */\n'}
+[34.600030] (usb_cam) StdoutLine: {'line': b'9: @@ -139 +139 @@\n'}
+[34.600062] (usb_cam) StdoutLine: {'line': b'9: -   /* __WATCOMC__ = VVRP + 1100 */\n'}
+[34.600093] (usb_cam) StdoutLine: {'line': b'9: +/* __WATCOMC__ = VVRP + 1100 */\n'}
+[34.600129] (usb_cam) StdoutLine: {'line': b'9: @@ -149,4 +149,4 @@\n'}
+[34.600162] (usb_cam) StdoutLine: {'line': b'9: -   /* __SUNPRO_C = 0xVRRP */\n'}
+[34.600194] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)\n'}
+[34.600224] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)\n'}
+[34.600254] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)\n'}
+[34.600283] (usb_cam) StdoutLine: {'line': b'9: +/* __SUNPRO_C = 0xVRRP */\n'}
+[34.600314] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)\n'}
+[34.602896] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)\n'}
+[34.603027] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)\n'}
+[34.603088] (usb_cam) StdoutLine: {'line': b'9: @@ -154,4 +154,4 @@\n'}
+[34.604231] (usb_cam) StdoutLine: {'line': b'9: -   /* __SUNPRO_CC = 0xVRP */\n'}
+[34.604340] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)\n'}
+[34.604379] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)\n'}
+[34.604411] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)\n'}
+[34.604441] (usb_cam) StdoutLine: {'line': b'9: +/* __SUNPRO_CC = 0xVRP */\n'}
+[34.604471] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)\n'}
+[34.604509] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)\n'}
+[34.604539] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)\n'}
+[34.604568] (usb_cam) StdoutLine: {'line': b'9: @@ -162,4 +162,4 @@\n'}
+[34.604596] (usb_cam) StdoutLine: {'line': b'9: -  /* __HP_cc = VVRRPP */\n'}
+[34.604625] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)\n'}
+[34.604655] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)\n'}
+[34.604683] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)\n'}
+[34.604711] (usb_cam) StdoutLine: {'line': b'9: +/* __HP_cc = VVRRPP */\n'}
+[34.604739] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)\n'}
+[34.604768] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)\n'}
+[34.604796] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)\n'}
+[34.604823] (usb_cam) StdoutLine: {'line': b'9: @@ -169,4 +169,4 @@\n'}
+[34.604852] (usb_cam) StdoutLine: {'line': b'9: -  /* __DECC_VER = VVRRTPPPP */\n'}
+[34.604881] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)\n'}
+[34.604911] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)\n'}
+[34.604940] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)\n'}
+[34.604969] (usb_cam) StdoutLine: {'line': b'9: +/* __DECC_VER = VVRRTPPPP */\n'}
+[34.604998] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)\n'}
+[34.605032] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)\n'}
+[34.605062] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)\n'}
+[34.605096] (usb_cam) StdoutLine: {'line': b'9: @@ -176,4 +176,4 @@\n'}
+[34.605127] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMC__ = VRP */\n'}
+[34.605156] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[34.605185] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[34.605213] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[34.605242] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMC__ = VRP */\n'}
+[34.605346] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[34.605417] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[34.605455] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[34.605488] (usb_cam) StdoutLine: {'line': b'9: @@ -191,4 +191,4 @@\n'}
+[34.605518] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMC__ = VRP */\n'}
+[34.605547] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[34.605576] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[34.605614] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[34.605643] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMC__ = VRP */\n'}
+[34.605671] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[34.605701] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[34.605729] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[34.605758] (usb_cam) StdoutLine: {'line': b'9: @@ -198,4 +198,4 @@\n'}
+[34.605785] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMC__ = VRP */\n'}
+[34.605813] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[34.605840] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[34.605895] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[34.605946] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMC__ = VRP */\n'}
+[34.605981] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[34.606013] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[34.606043] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[34.606073] (usb_cam) StdoutLine: {'line': b'9: @@ -226,4 +226,4 @@\n'}
+[34.606102] (usb_cam) StdoutLine: {'line': b'9: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[34.606130] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)\n'}
+[34.606158] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)\n'}
+[34.606187] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)\n'}
+[34.606215] (usb_cam) StdoutLine: {'line': b'9: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[34.606243] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)\n'}
+[34.606369] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)\n'}
+[34.606425] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)\n'}
+[34.606461] (usb_cam) StdoutLine: {'line': b'9: @@ -261 +261 @@\n'}
+[34.606493] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)\n'}
+[34.606525] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)\n'}
+[34.606554] (usb_cam) StdoutLine: {'line': b'9: @@ -276,4 +276,4 @@\n'}
+[34.606586] (usb_cam) StdoutLine: {'line': b'9: -  /* __ARMCC_VERSION = VRRPPPP */\n'}
+[34.606622] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)\n'}
+[34.606651] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)\n'}
+[34.606680] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)\n'}
+[34.606708] (usb_cam) StdoutLine: {'line': b'9: +/* __ARMCC_VERSION = VRRPPPP */\n'}
+[34.606737] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)\n'}
+[34.606765] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)\n'}
+[34.606793] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[34.606820] (usb_cam) StdoutLine: {'line': b'9: @@ -281,4 +281,4 @@\n'}
+[34.606848] (usb_cam) StdoutLine: {'line': b'9: -  /* __ARMCC_VERSION = VRPPPP */\n'}
+[34.606875] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)\n'}
+[34.606907] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)\n'}
+[34.606935] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)\n'}
+[34.606962] (usb_cam) StdoutLine: {'line': b'9: +/* __ARMCC_VERSION = VRPPPP */\n'}
+[34.606990] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)\n'}
+[34.607017] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)\n'}
+[34.607046] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[34.607073] (usb_cam) StdoutLine: {'line': b'9: @@ -297 +297 @@\n'}
+[34.607102] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.607131] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.607160] (usb_cam) StdoutLine: {'line': b'9: @@ -305,3 +305,3 @@\n'}
+[34.607188] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)\n'}
+[34.607220] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)\n'}
+[34.607250] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)\n'}
+[34.607279] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)\n'}
+[34.607409] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)\n'}
+[34.607453] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)\n'}
+[34.607490] (usb_cam) StdoutLine: {'line': b'9: @@ -319 +319 @@\n'}
+[34.607521] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.607551] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.607581] (usb_cam) StdoutLine: {'line': b'9: @@ -336 +336 @@\n'}
+[34.607610] (usb_cam) StdoutLine: {'line': b'9: -  /* _MSC_VER = VVRR */\n'}
+[34.607638] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.607666] (usb_cam) StdoutLine: {'line': b'9: @@ -341 +341 @@\n'}
+[34.607693] (usb_cam) StdoutLine: {'line': b'9: -    /* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[34.607721] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[34.607749] (usb_cam) StdoutLine: {'line': b'9: @@ -344 +344 @@\n'}
+[34.607778] (usb_cam) StdoutLine: {'line': b'9: -    /* _MSC_FULL_VER = VVRRPPPP */\n'}
+[34.607807] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_FULL_VER = VVRRPPPP */\n'}
+[34.607837] (usb_cam) StdoutLine: {'line': b'9: @@ -352 +352,2 @@\n'}
+[34.607918] (usb_cam) StdoutLine: {'line': b'9: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)\n'}
+[34.608025] (usb_cam) StdoutLine: {'line': b'9: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \\\n'}
+[34.608086] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ADSP21000__)\n'}
+[34.608204] (usb_cam) StdoutLine: {'line': b'9: @@ -355,4 +356,4 @@\n'}
+[34.608285] (usb_cam) StdoutLine: {'line': b'9: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[34.608513] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)\n'}
+[34.608595] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)\n'}
+[34.608676] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)\n'}
+[34.608990] (usb_cam) StdoutLine: {'line': b'9: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[34.609052] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)\n'}
+[34.609088] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)\n'}
+[34.609119] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)\n'}
+[34.609161] (usb_cam) StdoutLine: {'line': b'9: @@ -368 +369,3 @@\n'}
+[34.609190] (usb_cam) StdoutLine: {'line': b'9: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))\n'}
+[34.609223] (usb_cam) StdoutLine: {'line': b'9: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \\\n'}
+[34.609254] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \\\n'}
+[34.609284] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ICC8051__) || defined(__ICCSTM8__))\n'}
+[34.609350] (usb_cam) StdoutLine: {'line': b'9: @@ -370 +373 @@\n'}
+[34.609519] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))\n'}
+[34.609561] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))\n'}
+[34.609604] (usb_cam) StdoutLine: {'line': b'9: @@ -382,4 +385,4 @@\n'}
+[34.609638] (usb_cam) StdoutLine: {'line': b'9: -  /* SDCC = VRP */\n'}
+[34.609668] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)\n'}
+[34.609702] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)\n'}
+[34.609732] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)\n'}
+[34.609761] (usb_cam) StdoutLine: {'line': b'9: +/* SDCC = VRP */\n'}
+[34.609792] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)\n'}
+[34.609822] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)\n'}
+[34.609851] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)\n'}
+[34.609884] (usb_cam) StdoutLine: {'line': b'9: @@ -403 +406 @@\n'}
+[34.609914] (usb_cam) StdoutLine: {'line': b'9: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[34.609944] (usb_cam) StdoutLine: {'line': b'9: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[34.609973] (usb_cam) StdoutLine: {'line': b'9: @@ -405 +408 @@\n'}
+[34.610000] (usb_cam) StdoutLine: {'line': b'9: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[34.610028] (usb_cam) StdoutLine: {'line': b'9: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[34.610056] (usb_cam) StdoutLine: {'line': b'9: @@ -409 +412 @@\n'}
+[34.610084] (usb_cam) StdoutLine: {'line': b'9: -char const* qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[34.610112] (usb_cam) StdoutLine: {'line': b'9: +char const * qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[34.610140] (usb_cam) StdoutLine: {'line': b'9: @@ -413 +416 @@\n'}
+[34.610168] (usb_cam) StdoutLine: {'line': b'9: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[34.610198] (usb_cam) StdoutLine: {'line': b'9: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[34.610226] (usb_cam) StdoutLine: {'line': b'9: @@ -656,9 +659,9 @@\n'}
+[34.610254] (usb_cam) StdoutLine: {'line': b'9: -#define DEC(n)                   \\\n'}
+[34.610284] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10000000)%10)), \\\n"}
+[34.610316] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 1000000)%10)),  \\\n"}
+[34.610475] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 100000)%10)),   \\\n"}
+[34.610519] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10000)%10)),    \\\n"}
+[34.610551] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 1000)%10)),     \\\n"}
+[34.610581] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 100)%10)),      \\\n"}
+[34.610609] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10)%10)),       \\\n"}
+[34.610638] (usb_cam) StdoutLine: {'line': b"9: -  ('0' +  ((n) % 10))\n"}
+[34.610665] (usb_cam) StdoutLine: {'line': b'9: +#define DEC(n) \\\n'}
+[34.610692] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10000000) % 10)), \\\n"}
+[34.610721] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 1000000) % 10)), \\\n"}
+[34.610749] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 100000) % 10)), \\\n"}
+[34.610779] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10000) % 10)), \\\n"}
+[34.610808] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 1000) % 10)), \\\n"}
+[34.610960] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 100) % 10)), \\\n"}
+[34.611015] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10) % 10)), \\\n"}
+[34.611054] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) % 10))\n"}
+[34.611111] (usb_cam) StdoutLine: {'line': b'9: @@ -667,9 +670,9 @@\n'}
+[34.611142] (usb_cam) StdoutLine: {'line': b'9: -#define HEX(n)             \\\n'}
+[34.611177] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>28 & 0xF)), \\\n"}
+[34.611210] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>24 & 0xF)), \\\n"}
+[34.611244] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>20 & 0xF)), \\\n"}
+[34.611292] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>16 & 0xF)), \\\n"}
+[34.611327] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>12 & 0xF)), \\\n"}
+[34.611359] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>8  & 0xF)), \\\n"}
+[34.611677] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>4  & 0xF)), \\\n"}
+[34.611769] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)     & 0xF))\n"}
+[34.611812] (usb_cam) StdoutLine: {'line': b'9: +#define HEX(n) \\\n'}
+[34.611854] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 28 & 0xF)), \\\n"}
+[34.611905] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 24 & 0xF)), \\\n"}
+[34.611941] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 20 & 0xF)), \\\n"}
+[34.611982] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 16 & 0xF)), \\\n"}
+[34.612055] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 12 & 0xF)), \\\n"}
+[34.612116] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 8 & 0xF)), \\\n"}
+[34.612163] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 4 & 0xF)), \\\n"}
+[34.612206] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) & 0xF))\n"}
+[34.612250] (usb_cam) StdoutLine: {'line': b'9: @@ -679 +682 @@\n'}
+[34.612298] (usb_cam) StdoutLine: {'line': b'9: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";\n'}
+[34.612335] (usb_cam) StdoutLine: {'line': b'9: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";\n'}
+[34.612369] (usb_cam) StdoutLine: {'line': b'9: @@ -685 +688 @@\n'}
+[34.612605] (usb_cam) StdoutLine: {'line': b"9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n"}
+[34.612723] (usb_cam) StdoutLine: {'line': b"9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[34.612772] (usb_cam) StdoutLine: {'line': b'9: @@ -690 +693 @@\n'}
+[34.612814] (usb_cam) StdoutLine: {'line': b"9: -   '.', COMPILER_VERSION_PATCH,\n"}
+[34.612915] (usb_cam) StdoutLine: {'line': b"9: +  '.', COMPILER_VERSION_PATCH,\n"}
+[34.613005] (usb_cam) StdoutLine: {'line': b'9: @@ -692 +695 @@\n'}
+[34.613082] (usb_cam) StdoutLine: {'line': b"9: -    '.', COMPILER_VERSION_TWEAK,\n"}
+[34.613148] (usb_cam) StdoutLine: {'line': b"9: +  '.', COMPILER_VERSION_TWEAK,\n"}
+[34.613192] (usb_cam) StdoutLine: {'line': b'9: @@ -696 +699,2 @@\n'}
+[34.613242] (usb_cam) StdoutLine: {'line': b"9: -  ']','\\0'};\n"}
+[34.613281] (usb_cam) StdoutLine: {'line': b"9: +  ']', '\\0'\n"}
+[34.613341] (usb_cam) StdoutLine: {'line': b'9: +};\n'}
+[34.613381] (usb_cam) StdoutLine: {'line': b'9: @@ -703,3 +707,4 @@\n'}
+[34.613456] (usb_cam) StdoutLine: {'line': b"9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',\n"}
+[34.613499] (usb_cam) StdoutLine: {'line': b"9: -  'i','n','t','e','r','n','a','l','[',\n"}
+[34.613533] (usb_cam) StdoutLine: {'line': b"9: -  COMPILER_VERSION_INTERNAL,']','\\0'};\n"}
+[34.613563] (usb_cam) StdoutLine: {'line': b"9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',\n"}
+[34.613593] (usb_cam) StdoutLine: {'line': b"9: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',\n"}
+[34.613623] (usb_cam) StdoutLine: {'line': b"9: +  COMPILER_VERSION_INTERNAL, ']', '\\0'\n"}
+[34.613901] (usb_cam) StdoutLine: {'line': b'9: +};\n'}
+[34.613990] (usb_cam) StdoutLine: {'line': b'9: @@ -707 +712,2 @@\n'}
+[34.614037] (usb_cam) StdoutLine: {'line': b'9: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";\n'}
+[34.614108] (usb_cam) StdoutLine: {'line': b'9: +char const * info_version_internal =\n'}
+[34.614150] (usb_cam) StdoutLine: {'line': b'9: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";\n'}
+[34.614189] (usb_cam) StdoutLine: {'line': b'9: @@ -714 +720 @@\n'}
+[34.614232] (usb_cam) StdoutLine: {'line': b"9: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n"}
+[34.614271] (usb_cam) StdoutLine: {'line': b"9: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[34.614319] (usb_cam) StdoutLine: {'line': b'9: @@ -719 +725 @@\n'}
+[34.614359] (usb_cam) StdoutLine: {'line': b"9: -   '.', SIMULATE_VERSION_PATCH,\n"}
+[34.614401] (usb_cam) StdoutLine: {'line': b"9: +  '.', SIMULATE_VERSION_PATCH,\n"}
+[34.614458] (usb_cam) StdoutLine: {'line': b'9: @@ -721 +727 @@\n'}
+[34.614502] (usb_cam) StdoutLine: {'line': b"9: -    '.', SIMULATE_VERSION_TWEAK,\n"}
+[34.614539] (usb_cam) StdoutLine: {'line': b"9: +  '.', SIMULATE_VERSION_TWEAK,\n"}
+[34.614577] (usb_cam) StdoutLine: {'line': b'9: @@ -725 +731,2 @@\n'}
+[34.614616] (usb_cam) StdoutLine: {'line': b"9: -  ']','\\0'};\n"}
+[34.614658] (usb_cam) StdoutLine: {'line': b"9: +  ']', '\\0'\n"}
+[34.614699] (usb_cam) StdoutLine: {'line': b'9: +};\n'}
+[34.614746] (usb_cam) StdoutLine: {'line': b'9: @@ -732,3 +739,2 @@\n'}
+[34.614791] (usb_cam) StdoutLine: {'line': b'9: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[34.614836] (usb_cam) StdoutLine: {'line': b'9: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[34.614881] (usb_cam) StdoutLine: {'line': b'9: -\n'}
+[34.614915] (usb_cam) StdoutLine: {'line': b'9: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[34.615081] (usb_cam) StdoutLine: {'line': b'9: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[34.615140] (usb_cam) StdoutLine: {'line': b'9: @@ -754 +760 @@\n'}
+[34.615179] (usb_cam) StdoutLine: {'line': b'9: -const char* info_language_standard_default =\n'}
+[34.615222] (usb_cam) StdoutLine: {'line': b'9: +const char * info_language_standard_default =\n'}
+[34.615267] (usb_cam) StdoutLine: {'line': b'9: @@ -757 +763 @@\n'}
+[34.615298] (usb_cam) StdoutLine: {'line': b'9: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["\n'}
+[34.615330] (usb_cam) StdoutLine: {'line': b'9: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["\n'}
+[34.615362] (usb_cam) StdoutLine: {'line': b'9: @@ -759,2 +765,2 @@\n'}
+[34.615392] (usb_cam) StdoutLine: {'line': b'9: -#if (defined(__clang__) || defined(__GNUC__) ||                               \\\n'}
+[34.615423] (usb_cam) StdoutLine: {'line': b'9: -     defined(__TI_COMPILER_VERSION__)) &&                                     \\\n'}
+[34.615455] (usb_cam) StdoutLine: {'line': b'9: +#if (defined(__clang__) || defined(__GNUC__) || \\\n'}
+[34.615648] (usb_cam) StdoutLine: {'line': b'9: +  defined(__TI_COMPILER_VERSION__)) && \\\n'}
+[34.615696] (usb_cam) StdoutLine: {'line': b'9: @@ -766 +772 @@\n'}
+[34.615735] (usb_cam) StdoutLine: {'line': b'9: -"]";\n'}
+[34.615768] (usb_cam) StdoutLine: {'line': b'9: +  "]";\n'}
+[34.615803] (usb_cam) StdoutLine: {'line': b'9: @@ -774 +780 @@\n'}
+[34.615837] (usb_cam) StdoutLine: {'line': b'9: -int main(argc, argv) int argc; char *argv[];\n'}
+[34.615873] (usb_cam) StdoutLine: {'line': b'9: +int main(argc, argv) int argc; char * argv[];\n'}
+[34.615921] (usb_cam) StdoutLine: {'line': b'9: @@ -776 +782 @@\n'}
+[34.615971] (usb_cam) StdoutLine: {'line': b'9: -int main(int argc, char* argv[])\n'}
+[34.616002] (usb_cam) StdoutLine: {'line': b'9: +int main(int argc, char * argv[])\n'}
+[34.616034] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.616068] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':\n"}
+[34.616114] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.616157] (usb_cam) StdoutLine: {'line': b'9: --- build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp\n'}
+[34.616197] (usb_cam) StdoutLine: {'line': b'9: +++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify\n'}
+[34.616229] (usb_cam) StdoutLine: {'line': b'9: @@ -20 +20 @@\n'}
+[34.616260] (usb_cam) StdoutLine: {'line': b'9: -  /* __COMO_VERSION__ = VRR */\n'}
+[34.616288] (usb_cam) StdoutLine: {'line': b'9: +/* __COMO_VERSION__ = VRR */\n'}
+[34.616317] (usb_cam) StdoutLine: {'line': b'9: @@ -32 +32 @@\n'}
+[34.616346] (usb_cam) StdoutLine: {'line': b'9: -  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,\n'}
+[34.616385] (usb_cam) StdoutLine: {'line': b'9: +/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,\n'}
+[34.616414] (usb_cam) StdoutLine: {'line': b'9: @@ -35,2 +35,2 @@\n'}
+[34.616442] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)\n'}
+[34.616470] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)\n'}
+[34.616498] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)\n'}
+[34.616535] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)\n'}
+[34.616682] (usb_cam) StdoutLine: {'line': b'9: @@ -40 +40 @@\n'}
+[34.616726] (usb_cam) StdoutLine: {'line': b'9: -#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)\n'}
+[34.616761] (usb_cam) StdoutLine: {'line': b'9: +#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)\n'}
+[34.616793] (usb_cam) StdoutLine: {'line': b'9: @@ -45 +45 @@\n'}
+[34.616825] (usb_cam) StdoutLine: {'line': b'9: -   /* The third version component from --version is an update index,\n'}
+[34.616868] (usb_cam) StdoutLine: {'line': b'9: +/* The third version component from --version is an update index,\n'}
+[34.616915] (usb_cam) StdoutLine: {'line': b'9: @@ -50 +50 @@\n'}
+[34.616949] (usb_cam) StdoutLine: {'line': b'9: -   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[34.616979] (usb_cam) StdoutLine: {'line': b'9: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[34.617008] (usb_cam) StdoutLine: {'line': b'9: @@ -54 +54 @@\n'}
+[34.617036] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.617064] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.617092] (usb_cam) StdoutLine: {'line': b'9: @@ -83,3 +83,3 @@\n'}
+[34.617120] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)\n'}
+[34.617148] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)\n'}
+[34.617176] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)\n'}
+[34.617205] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)\n'}
+[34.617239] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)\n'}
+[34.617268] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)\n'}
+[34.617296] (usb_cam) StdoutLine: {'line': b'9: @@ -87,3 +87,3 @@\n'}
+[34.617325] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)\n'}
+[34.617353] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)\n'}
+[34.617381] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)\n'}
+[34.617408] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)\n'}
+[34.617437] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)\n'}
+[34.617465] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)\n'}
+[34.617641] (usb_cam) StdoutLine: {'line': b'9: @@ -92 +92 @@\n'}
+[34.617705] (usb_cam) StdoutLine: {'line': b'9: -  /* _MSC_VER = VVRR */\n'}
+[34.617754] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.617799] (usb_cam) StdoutLine: {'line': b'9: @@ -118,3 +118,3 @@\n'}
+[34.617839] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)\n'}
+[34.617884] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)\n'}
+[34.617920] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)\n'}
+[34.618418] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)\n'}
+[34.618485] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)\n'}
+[34.618531] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)\n'}
+[34.618572] (usb_cam) StdoutLine: {'line': b'9: @@ -124,2 +124,2 @@\n'}
+[34.618611] (usb_cam) StdoutLine: {'line': b'9: -  /* __BORLANDC__ = 0xVRR */\n'}
+[34.618648] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)\n'}
+[34.618688] (usb_cam) StdoutLine: {'line': b'9: +/* __BORLANDC__ = 0xVRR */\n'}
+[34.618727] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)\n'}
+[34.618765] (usb_cam) StdoutLine: {'line': b'9: @@ -130 +130 @@\n'}
+[34.618804] (usb_cam) StdoutLine: {'line': b'9: -   /* __WATCOMC__ = VVRR */\n'}
+[34.618840] (usb_cam) StdoutLine: {'line': b'9: +/* __WATCOMC__ = VVRR */\n'}
+[34.618876] (usb_cam) StdoutLine: {'line': b'9: @@ -139 +139 @@\n'}
+[34.618914] (usb_cam) StdoutLine: {'line': b'9: -   /* __WATCOMC__ = VVRP + 1100 */\n'}
+[34.618951] (usb_cam) StdoutLine: {'line': b'9: +/* __WATCOMC__ = VVRP + 1100 */\n'}
+[34.618994] (usb_cam) StdoutLine: {'line': b'9: @@ -149,4 +149,4 @@\n'}
+[34.619031] (usb_cam) StdoutLine: {'line': b'9: -   /* __SUNPRO_CC = 0xVRRP */\n'}
+[34.619066] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)\n'}
+[34.619103] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)\n'}
+[34.619138] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)\n'}
+[34.619173] (usb_cam) StdoutLine: {'line': b'9: +/* __SUNPRO_CC = 0xVRRP */\n'}
+[34.619208] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)\n'}
+[34.619242] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)\n'}
+[34.619276] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)\n'}
+[34.619310] (usb_cam) StdoutLine: {'line': b'9: @@ -154,4 +154,4 @@\n'}
+[34.619344] (usb_cam) StdoutLine: {'line': b'9: -   /* __SUNPRO_CC = 0xVRP */\n'}
+[34.619378] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)\n'}
+[34.619412] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)\n'}
+[34.619440] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)\n'}
+[34.619467] (usb_cam) StdoutLine: {'line': b'9: +/* __SUNPRO_CC = 0xVRP */\n'}
+[34.619494] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)\n'}
+[34.619523] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)\n'}
+[34.619550] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)\n'}
+[34.619578] (usb_cam) StdoutLine: {'line': b'9: @@ -162,4 +162,4 @@\n'}
+[34.619605] (usb_cam) StdoutLine: {'line': b'9: -  /* __HP_aCC = VVRRPP */\n'}
+[34.619633] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)\n'}
+[34.619665] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)\n'}
+[34.619694] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)\n'}
+[34.619721] (usb_cam) StdoutLine: {'line': b'9: +/* __HP_aCC = VVRRPP */\n'}
+[34.619749] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)\n'}
+[34.619871] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)\n'}
+[34.619915] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)\n'}
+[34.619948] (usb_cam) StdoutLine: {'line': b'9: @@ -169,4 +169,4 @@\n'}
+[34.619978] (usb_cam) StdoutLine: {'line': b'9: -  /* __DECCXX_VER = VVRRTPPPP */\n'}
+[34.620151] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)\n'}
+[34.620195] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)\n'}
+[34.620231] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)\n'}
+[34.620266] (usb_cam) StdoutLine: {'line': b'9: +/* __DECCXX_VER = VVRRTPPPP */\n'}
+[34.620298] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)\n'}
+[34.620327] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)\n'}
+[34.620355] (-) TimerEvent: {}
+[34.620365] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)\n'}
+[34.620394] (usb_cam) StdoutLine: {'line': b'9: @@ -176,4 +176,4 @@\n'}
+[34.620424] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMCPP__ = VRP */\n'}
+[34.620454] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[34.620489] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[34.620516] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[34.620544] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMCPP__ = VRP */\n'}
+[34.620626] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[34.620683] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[34.620719] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[34.620752] (usb_cam) StdoutLine: {'line': b'9: @@ -191,4 +191,4 @@\n'}
+[34.620784] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMCPP__ = VRP */\n'}
+[34.620815] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[34.620847] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[34.620876] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[34.620905] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMCPP__ = VRP */\n'}
+[34.620934] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[34.620962] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[34.620991] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[34.621019] (usb_cam) StdoutLine: {'line': b'9: @@ -198,4 +198,4 @@\n'}
+[34.621048] (usb_cam) StdoutLine: {'line': b'9: -  /* __IBMCPP__ = VRP */\n'}
+[34.621081] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[34.621218] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[34.621286] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[34.621320] (usb_cam) StdoutLine: {'line': b'9: +/* __IBMCPP__ = VRP */\n'}
+[34.621350] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[34.621379] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[34.621407] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[34.621435] (usb_cam) StdoutLine: {'line': b'9: @@ -226,4 +226,4 @@\n'}
+[34.621467] (usb_cam) StdoutLine: {'line': b'9: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[34.621495] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)\n'}
+[34.621522] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)\n'}
+[34.621558] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)\n'}
+[34.621586] (usb_cam) StdoutLine: {'line': b'9: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[34.621614] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)\n'}
+[34.621644] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)\n'}
+[34.621671] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)\n'}
+[34.621699] (usb_cam) StdoutLine: {'line': b'9: @@ -261 +261 @@\n'}
+[34.621726] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)\n'}
+[34.621753] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)\n'}
+[34.621780] (usb_cam) StdoutLine: {'line': b'9: @@ -270,4 +270,4 @@\n'}
+[34.621808] (usb_cam) StdoutLine: {'line': b'9: -  /* __ARMCC_VERSION = VRRPPPP */\n'}
+[34.621836] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)\n'}
+[34.621862] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)\n'}
+[34.621889] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)\n'}
+[34.621918] (usb_cam) StdoutLine: {'line': b'9: +/* __ARMCC_VERSION = VRRPPPP */\n'}
+[34.621945] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)\n'}
+[34.621973] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)\n'}
+[34.622001] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[34.622031] (usb_cam) StdoutLine: {'line': b'9: @@ -275,4 +275,4 @@\n'}
+[34.622060] (usb_cam) StdoutLine: {'line': b'9: -  /* __ARMCC_VERSION = VRPPPP */\n'}
+[34.622089] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)\n'}
+[34.622161] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)\n'}
+[34.622323] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)\n'}
+[34.622366] (usb_cam) StdoutLine: {'line': b'9: +/* __ARMCC_VERSION = VRPPPP */\n'}
+[34.622409] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)\n'}
+[34.622439] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)\n'}
+[34.622466] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[34.622495] (usb_cam) StdoutLine: {'line': b'9: @@ -291 +291 @@\n'}
+[34.622524] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.622554] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.622585] (usb_cam) StdoutLine: {'line': b'9: @@ -299,3 +299,3 @@\n'}
+[34.622613] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)\n'}
+[34.622678] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)\n'}
+[34.622720] (usb_cam) StdoutLine: {'line': b'9: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)\n'}
+[34.622752] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)\n'}
+[34.622782] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)\n'}
+[34.622817] (usb_cam) StdoutLine: {'line': b'9: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)\n'}
+[34.622845] (usb_cam) StdoutLine: {'line': b'9: @@ -313 +313 @@\n'}
+[34.622873] (usb_cam) StdoutLine: {'line': b'9: -   /* _MSC_VER = VVRR */\n'}
+[34.622901] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.622928] (usb_cam) StdoutLine: {'line': b'9: @@ -334 +334 @@\n'}
+[34.622956] (usb_cam) StdoutLine: {'line': b'9: -  /* _MSC_VER = VVRR */\n'}
+[34.622982] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_VER = VVRR */\n'}
+[34.623010] (usb_cam) StdoutLine: {'line': b'9: @@ -339 +339 @@\n'}
+[34.623045] (usb_cam) StdoutLine: {'line': b'9: -    /* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[34.623074] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[34.623105] (usb_cam) StdoutLine: {'line': b'9: @@ -342 +342 @@\n'}
+[34.623165] (usb_cam) StdoutLine: {'line': b'9: -    /* _MSC_FULL_VER = VVRRPPPP */\n'}
+[34.623302] (usb_cam) StdoutLine: {'line': b'9: +/* _MSC_FULL_VER = VVRRPPPP */\n'}
+[34.623341] (usb_cam) StdoutLine: {'line': b'9: @@ -350 +350,2 @@\n'}
+[34.623373] (usb_cam) StdoutLine: {'line': b'9: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)\n'}
+[34.623405] (usb_cam) StdoutLine: {'line': b'9: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \\\n'}
+[34.623435] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ADSP21000__)\n'}
+[34.623464] (usb_cam) StdoutLine: {'line': b'9: @@ -353,4 +354,4 @@\n'}
+[34.623491] (usb_cam) StdoutLine: {'line': b'9: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[34.623518] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)\n'}
+[34.623545] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)\n'}
+[34.623571] (usb_cam) StdoutLine: {'line': b'9: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)\n'}
+[34.623599] (usb_cam) StdoutLine: {'line': b'9: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[34.623626] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)\n'}
+[34.623654] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)\n'}
+[34.623680] (usb_cam) StdoutLine: {'line': b'9: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)\n'}
+[34.623708] (usb_cam) StdoutLine: {'line': b'9: @@ -366 +367,3 @@\n'}
+[34.623734] (usb_cam) StdoutLine: {'line': b'9: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))\n'}
+[34.623764] (usb_cam) StdoutLine: {'line': b'9: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \\\n'}
+[34.623791] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \\\n'}
+[34.623817] (usb_cam) StdoutLine: {'line': b'9: +  defined(__ICC8051__) || defined(__ICCSTM8__))\n'}
+[34.623845] (usb_cam) StdoutLine: {'line': b'9: @@ -368 +371 @@\n'}
+[34.623874] (usb_cam) StdoutLine: {'line': b'9: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))\n'}
+[34.623905] (usb_cam) StdoutLine: {'line': b'9: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))\n'}
+[34.623933] (usb_cam) StdoutLine: {'line': b'9: @@ -388 +391 @@\n'}
+[34.623961] (usb_cam) StdoutLine: {'line': b'9: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[34.623989] (usb_cam) StdoutLine: {'line': b'9: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[34.624024] (usb_cam) StdoutLine: {'line': b'9: @@ -390 +393 @@\n'}
+[34.624052] (usb_cam) StdoutLine: {'line': b'9: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[34.624078] (usb_cam) StdoutLine: {'line': b'9: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[34.624105] (usb_cam) StdoutLine: {'line': b'9: @@ -394 +397 @@\n'}
+[34.624131] (usb_cam) StdoutLine: {'line': b'9: -char const* qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[34.624274] (usb_cam) StdoutLine: {'line': b'9: +char const * qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[34.624321] (usb_cam) StdoutLine: {'line': b'9: @@ -398 +401 @@\n'}
+[34.624353] (usb_cam) StdoutLine: {'line': b'9: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[34.624383] (usb_cam) StdoutLine: {'line': b'9: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[34.624417] (usb_cam) StdoutLine: {'line': b'9: @@ -641,9 +644,9 @@\n'}
+[34.624445] (usb_cam) StdoutLine: {'line': b'9: -#define DEC(n)                   \\\n'}
+[34.624471] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10000000)%10)), \\\n"}
+[34.624499] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 1000000)%10)),  \\\n"}
+[34.624526] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 100000)%10)),   \\\n"}
+[34.624554] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10000)%10)),    \\\n"}
+[34.624582] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 1000)%10)),     \\\n"}
+[34.624609] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 100)%10)),      \\\n"}
+[34.624636] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + (((n) / 10)%10)),       \\\n"}
+[34.624696] (usb_cam) StdoutLine: {'line': b"9: -  ('0' +  ((n) % 10))\n"}
+[34.624738] (usb_cam) StdoutLine: {'line': b'9: +#define DEC(n) \\\n'}
+[34.624770] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10000000) % 10)), \\\n"}
+[34.624800] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 1000000) % 10)), \\\n"}
+[34.624828] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 100000) % 10)), \\\n"}
+[34.624854] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10000) % 10)), \\\n"}
+[34.624881] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 1000) % 10)), \\\n"}
+[34.624908] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 100) % 10)), \\\n"}
+[34.624935] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + (((n) / 10) % 10)), \\\n"}
+[34.624962] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) % 10))\n"}
+[34.624989] (usb_cam) StdoutLine: {'line': b'9: @@ -652,9 +655,9 @@\n'}
+[34.625016] (usb_cam) StdoutLine: {'line': b'9: -#define HEX(n)             \\\n'}
+[34.625043] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>28 & 0xF)), \\\n"}
+[34.625070] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>24 & 0xF)), \\\n"}
+[34.625097] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>20 & 0xF)), \\\n"}
+[34.625124] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>16 & 0xF)), \\\n"}
+[34.625187] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>12 & 0xF)), \\\n"}
+[34.625323] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>8  & 0xF)), \\\n"}
+[34.625359] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)>>4  & 0xF)), \\\n"}
+[34.625390] (usb_cam) StdoutLine: {'line': b"9: -  ('0' + ((n)     & 0xF))\n"}
+[34.625418] (usb_cam) StdoutLine: {'line': b'9: +#define HEX(n) \\\n'}
+[34.625446] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 28 & 0xF)), \\\n"}
+[34.625473] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 24 & 0xF)), \\\n"}
+[34.625499] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 20 & 0xF)), \\\n"}
+[34.625526] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 16 & 0xF)), \\\n"}
+[34.625554] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 12 & 0xF)), \\\n"}
+[34.625583] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 8 & 0xF)), \\\n"}
+[34.625614] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) >> 4 & 0xF)), \\\n"}
+[34.625642] (usb_cam) StdoutLine: {'line': b"9: +  ('0' + ((n) & 0xF))\n"}
+[34.625677] (usb_cam) StdoutLine: {'line': b'9: @@ -664 +667 @@\n'}
+[34.625708] (usb_cam) StdoutLine: {'line': b'9: -char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";\n'}
+[34.625737] (usb_cam) StdoutLine: {'line': b'9: +char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";\n'}
+[34.625765] (usb_cam) StdoutLine: {'line': b'9: @@ -670 +673 @@\n'}
+[34.625794] (usb_cam) StdoutLine: {'line': b"9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n"}
+[34.625841] (usb_cam) StdoutLine: {'line': b"9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[34.625929] (usb_cam) StdoutLine: {'line': b'9: @@ -675 +678 @@\n'}
+[34.626000] (usb_cam) StdoutLine: {'line': b"9: -   '.', COMPILER_VERSION_PATCH,\n"}
+[34.626091] (usb_cam) StdoutLine: {'line': b"9: +  '.', COMPILER_VERSION_PATCH,\n"}
+[34.626216] (usb_cam) StdoutLine: {'line': b'9: @@ -677 +680 @@\n'}
+[34.626352] (usb_cam) StdoutLine: {'line': b"9: -    '.', COMPILER_VERSION_TWEAK,\n"}
+[34.626400] (usb_cam) StdoutLine: {'line': b"9: +  '.', COMPILER_VERSION_TWEAK,\n"}
+[34.626435] (usb_cam) StdoutLine: {'line': b'9: @@ -681 +684 @@\n'}
+[34.626465] (usb_cam) StdoutLine: {'line': b"9: -  ']','\\0'};\n"}
+[34.626495] (usb_cam) StdoutLine: {'line': b"9: +  ']', '\\0'};\n"}
+[34.626524] (usb_cam) StdoutLine: {'line': b'9: @@ -688,3 +691,3 @@\n'}
+[34.626557] (usb_cam) StdoutLine: {'line': b"9: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',\n"}
+[34.626617] (usb_cam) StdoutLine: {'line': b"9: -  'i','n','t','e','r','n','a','l','[',\n"}
+[34.626723] (usb_cam) StdoutLine: {'line': b"9: -  COMPILER_VERSION_INTERNAL,']','\\0'};\n"}
+[34.626796] (usb_cam) StdoutLine: {'line': b"9: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',\n"}
+[34.626869] (usb_cam) StdoutLine: {'line': b"9: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',\n"}
+[34.626916] (usb_cam) StdoutLine: {'line': b"9: +  COMPILER_VERSION_INTERNAL, ']', '\\0'};\n"}
+[34.626950] (usb_cam) StdoutLine: {'line': b'9: @@ -692 +695,2 @@\n'}
+[34.626980] (usb_cam) StdoutLine: {'line': b'9: -char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";\n'}
+[34.627011] (usb_cam) StdoutLine: {'line': b'9: +char const * info_version_internal =\n'}
+[34.627039] (usb_cam) StdoutLine: {'line': b'9: +  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";\n'}
+[34.627067] (usb_cam) StdoutLine: {'line': b'9: @@ -699 +703 @@\n'}
+[34.627095] (usb_cam) StdoutLine: {'line': b"9: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n"}
+[34.627122] (usb_cam) StdoutLine: {'line': b"9: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[34.627149] (usb_cam) StdoutLine: {'line': b'9: @@ -704 +708 @@\n'}
+[34.627176] (usb_cam) StdoutLine: {'line': b"9: -   '.', SIMULATE_VERSION_PATCH,\n"}
+[34.627339] (usb_cam) StdoutLine: {'line': b"9: +  '.', SIMULATE_VERSION_PATCH,\n"}
+[34.627384] (usb_cam) StdoutLine: {'line': b'9: @@ -706 +710 @@\n'}
+[34.627416] (usb_cam) StdoutLine: {'line': b"9: -    '.', SIMULATE_VERSION_TWEAK,\n"}
+[34.627445] (usb_cam) StdoutLine: {'line': b"9: +  '.', SIMULATE_VERSION_TWEAK,\n"}
+[34.627473] (usb_cam) StdoutLine: {'line': b'9: @@ -710 +714 @@\n'}
+[34.627500] (usb_cam) StdoutLine: {'line': b"9: -  ']','\\0'};\n"}
+[34.627528] (usb_cam) StdoutLine: {'line': b"9: +  ']', '\\0'};\n"}
+[34.627556] (usb_cam) StdoutLine: {'line': b'9: @@ -717,3 +721,2 @@\n'}
+[34.627585] (usb_cam) StdoutLine: {'line': b'9: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[34.627612] (usb_cam) StdoutLine: {'line': b'9: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[34.627640] (usb_cam) StdoutLine: {'line': b'9: -\n'}
+[34.627668] (usb_cam) StdoutLine: {'line': b'9: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[34.627697] (usb_cam) StdoutLine: {'line': b'9: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[34.627725] (usb_cam) StdoutLine: {'line': b'9: @@ -738 +741 @@\n'}
+[34.627753] (usb_cam) StdoutLine: {'line': b'9: -const char* info_language_standard_default = "INFO" ":" "standard_default["\n'}
+[34.627783] (usb_cam) StdoutLine: {'line': b'9: +const char * info_language_standard_default = "INFO" ":" "standard_default["\n'}
+[34.627811] (usb_cam) StdoutLine: {'line': b'9: @@ -752,3 +755,3 @@\n'}
+[34.627842] (usb_cam) StdoutLine: {'line': b'9: -"]";\n'}
+[34.627871] (usb_cam) StdoutLine: {'line': b'9: -\n'}
+[34.627899] (usb_cam) StdoutLine: {'line': b'9: -const char* info_language_extensions_default = "INFO" ":" "extensions_default["\n'}
+[34.627926] (usb_cam) StdoutLine: {'line': b'9: +  "]";\n'}
+[34.627954] (usb_cam) StdoutLine: {'line': b'9: +\n'}
+[34.627982] (usb_cam) StdoutLine: {'line': b'9: +const char * info_language_extensions_default = "INFO" ":" "extensions_default["\n'}
+[34.628022] (usb_cam) StdoutLine: {'line': b'9: @@ -756,2 +759,2 @@\n'}
+[34.628050] (usb_cam) StdoutLine: {'line': b'9: -#if (defined(__clang__) || defined(__GNUC__) ||                               \\\n'}
+[34.628078] (usb_cam) StdoutLine: {'line': b'9: -     defined(__TI_COMPILER_VERSION__)) &&                                     \\\n'}
+[34.628106] (usb_cam) StdoutLine: {'line': b'9: +#if (defined(__clang__) || defined(__GNUC__) || \\\n'}
+[34.628135] (usb_cam) StdoutLine: {'line': b'9: +  defined(__TI_COMPILER_VERSION__)) && \\\n'}
+[34.628163] (usb_cam) StdoutLine: {'line': b'9: @@ -763 +766 @@\n'}
+[34.628191] (usb_cam) StdoutLine: {'line': b'9: -"]";\n'}
+[34.628361] (usb_cam) StdoutLine: {'line': b'9: +  "]";\n'}
+[34.628412] (usb_cam) StdoutLine: {'line': b'9: @@ -767 +770 @@\n'}
+[34.628456] (usb_cam) StdoutLine: {'line': b'9: -int main(int argc, char* argv[])\n'}
+[34.628511] (usb_cam) StdoutLine: {'line': b'9: +int main(int argc, char * argv[])\n'}
+[34.628544] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.628573] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp':\n"}
+[34.628610] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.628639] (usb_cam) StdoutLine: {'line': b'9: --- build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp\n'}
+[34.628668] (usb_cam) StdoutLine: {'line': b'9: +++ build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp.uncrustify\n'}
+[34.628727] (usb_cam) StdoutLine: {'line': b'9: @@ -33 +33 @@\n'}
+[34.628798] (usb_cam) StdoutLine: {'line': b'9: -  std::vector<class_loader::ClassLoader * > loaders;\n'}
+[34.628872] (usb_cam) StdoutLine: {'line': b'9: +  std::vector<class_loader::ClassLoader *> loaders;\n'}
+[34.628928] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.628973] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'include/usb_cam/usb_cam.hpp':\n"}
+[34.629017] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.629064] (usb_cam) StdoutLine: {'line': b'9: --- include/usb_cam/usb_cam.hpp\n'}
+[34.629109] (usb_cam) StdoutLine: {'line': b'9: +++ include/usb_cam/usb_cam.hpp.uncrustify\n'}
+[34.629170] (usb_cam) StdoutLine: {'line': b'9: @@ -425 +425,2 @@\n'}
+[34.629356] (usb_cam) StdoutLine: {'line': b'9: -        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {\n'}
+[34.629460] (usb_cam) StdoutLine: {'line': b'9: +        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())\n'}
+[34.629512] (usb_cam) StdoutLine: {'line': b'9: +      {\n'}
+[34.629559] (usb_cam) StdoutLine: {'line': b'9: @@ -431,3 +432,3 @@\n'}
+[34.629605] (usb_cam) StdoutLine: {'line': b'9: -      "Specified resolution `" + std::to_string(parameters.image_width) +\n'}
+[34.629648] (usb_cam) StdoutLine: {'line': b'9: -      "x" + std::to_string(parameters.image_height) +\n'}
+[34.629696] (usb_cam) StdoutLine: {'line': b'9: -      "` is unsupported by `" + parameters.device_name + "`"\n'}
+[34.629748] (usb_cam) StdoutLine: {'line': b'9: +            "Specified resolution `" + std::to_string(parameters.image_width) +\n'}
+[34.629800] (usb_cam) StdoutLine: {'line': b'9: +            "x" + std::to_string(parameters.image_height) +\n'}
+[34.629851] (usb_cam) StdoutLine: {'line': b'9: +            "` is unsupported by `" + parameters.device_name + "`"\n'}
+[34.629893] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.629934] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam.hpp':\n"}
+[34.629964] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.629993] (usb_cam) StdoutLine: {'line': b'9: --- install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[34.630023] (usb_cam) StdoutLine: {'line': b'9: +++ install/usb_cam/include/usb_cam/usb_cam.hpp.uncrustify\n'}
+[34.630062] (usb_cam) StdoutLine: {'line': b'9: @@ -425 +425,2 @@\n'}
+[34.630094] (usb_cam) StdoutLine: {'line': b'9: -        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {\n'}
+[34.630126] (usb_cam) StdoutLine: {'line': b'9: +        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())\n'}
+[34.630162] (usb_cam) StdoutLine: {'line': b'9: +      {\n'}
+[34.630190] (usb_cam) StdoutLine: {'line': b'9: @@ -431,3 +432,3 @@\n'}
+[34.630218] (usb_cam) StdoutLine: {'line': b'9: -      "Specified resolution `" + std::to_string(parameters.image_width) +\n'}
+[34.630434] (usb_cam) StdoutLine: {'line': b'9: -      "x" + std::to_string(parameters.image_height) +\n'}
+[34.630474] (usb_cam) StdoutLine: {'line': b'9: -      "` is unsupported by `" + parameters.device_name + "`"\n'}
+[34.630506] (usb_cam) StdoutLine: {'line': b'9: +            "Specified resolution `" + std::to_string(parameters.image_width) +\n'}
+[34.630539] (usb_cam) StdoutLine: {'line': b'9: +            "x" + std::to_string(parameters.image_height) +\n'}
+[34.630571] (usb_cam) StdoutLine: {'line': b'9: +            "` is unsupported by `" + parameters.device_name + "`"\n'}
+[34.630601] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.630631] (usb_cam) StdoutLine: {'line': b"9: Code style divergence in file 'src/usb_cam_node.cpp':\n"}
+[34.630664] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.630694] (usb_cam) StdoutLine: {'line': b'9: --- src/usb_cam_node.cpp\n'}
+[34.630725] (usb_cam) StdoutLine: {'line': b'9: +++ src/usb_cam_node.cpp.uncrustify\n'}
+[34.630794] (usb_cam) StdoutLine: {'line': b'9: @@ -245 +245,3 @@\n'}
+[34.630835] (usb_cam) StdoutLine: {'line': b'9: -    RCLCPP_INFO(this->get_logger(), "Low latency mode enabled: publishing immediately after capture");\n'}
+[34.630876] (usb_cam) StdoutLine: {'line': b'9: +    RCLCPP_INFO(\n'}
+[34.630908] (usb_cam) StdoutLine: {'line': b'9: +      this->get_logger(),\n'}
+[34.630938] (usb_cam) StdoutLine: {'line': b'9: +      "Low latency mode enabled: publishing immediately after capture");\n'}
+[34.630967] (usb_cam) StdoutLine: {'line': b'9: @@ -477 +479,2 @@\n'}
+[34.630998] (usb_cam) StdoutLine: {'line': b'9: -      (m_parameters.pixel_format_name == "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();\n'}
+[34.631026] (usb_cam) StdoutLine: {'line': b'9: +      (m_parameters.pixel_format_name ==\n'}
+[34.631054] (usb_cam) StdoutLine: {'line': b'9: +      "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();\n'}
+[34.631082] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631109] (usb_cam) StdoutLine: {'line': b'9: 6 files with code style divergence\n'}
+[34.631137] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/constants.hpp'\n"}
+[34.631268] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631399] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/conversions.hpp'\n"}
+[34.631456] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631504] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/av_pixel_format_helper.hpp'\n"}
+[34.631549] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631593] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/m420.hpp'\n"}
+[34.631638] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631679] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/mjpeg.hpp'\n"}
+[34.631721] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631762] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/mono.hpp'\n"}
+[34.631805] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.631968] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/pixel_format_base.hpp'\n"}
+[34.632028] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632077] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/rgb.hpp'\n"}
+[34.632128] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632178] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/utils.hpp'\n"}
+[34.632230] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632280] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/uyvy.hpp'\n"}
+[34.632337] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632406] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/formats/yuyv.hpp'\n"}
+[34.632653] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632713] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/usb_cam_node.hpp'\n"}
+[34.632766] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632817] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'include/usb_cam/utils.hpp'\n"}
+[34.632876] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.632936] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/constants.hpp'\n"}
+[34.633007] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633058] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/conversions.hpp'\n"}
+[34.633105] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633148] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp'\n"}
+[34.633194] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633237] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/m420.hpp'\n"}
+[34.633278] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633317] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mjpeg.hpp'\n"}
+[34.633359] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633399] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mono.hpp'\n"}
+[34.633576] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633657] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp'\n"}
+[34.633705] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633753] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/rgb.hpp'\n"}
+[34.633801] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633847] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/utils.hpp'\n"}
+[34.633890] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.633931] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/uyvy.hpp'\n"}
+[34.634024] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634079] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/formats/yuyv.hpp'\n"}
+[34.634165] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634257] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam_node.hpp'\n"}
+[34.634307] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634361] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'install/usb_cam/include/usb_cam/utils.hpp'\n"}
+[34.634408] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634488] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'src/usb_cam.cpp'\n"}
+[34.634662] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634721] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'test/gtest_main.cpp'\n"}
+[34.634770] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634814] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'test/test_pixel_formats.cpp'\n"}
+[34.634856] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.634897] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'test/test_usb_cam_lib.cpp'\n"}
+[34.634963] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.635021] (usb_cam) StdoutLine: {'line': b"9: No code style divergence in file 'test/test_usb_cam_utils.cpp'\n"}
+[34.635067] (usb_cam) StdoutLine: {'line': b'9: \n'}
+[34.635109] (usb_cam) StdoutLine: {'line': b'9: -- run_test.py: return code 1\n'}
+[34.635152] (usb_cam) StdoutLine: {'line': b"9: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml'\n"}
+[34.635196] (usb_cam) StdoutLine: {'line': b' 9/10 Test  #9: uncrustify .......................***Failed    0.44 sec\n'}
+[34.635259] (usb_cam) StdoutLine: {'line': b'test 10\n'}
+[34.635312] (usb_cam) StdoutLine: {'line': b'      Start 10: xmllint\n'}
+[34.635366] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.635411] (usb_cam) StdoutLine: {'line': b'10: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml" "--package-name" "usb_cam" "--output-file" "/home/yahboom/usb/build/usb_cam/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml"\n'}
+[34.635456] (usb_cam) StdoutLine: {'line': b'10: Test timeout computed to be: 60\n'}
+[34.669474] (usb_cam) StdoutLine: {'line': b"10: -- run_test.py: invoking following command in '/home/yahboom/usb':\n"}
+[34.669618] (usb_cam) StdoutLine: {'line': b'10:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml\n'}
+[34.720971] (-) TimerEvent: {}
+[34.805203] (usb_cam) StdoutLine: {'line': b"10: File 'package.xml' is invalid:\n"}
+[34.805380] (usb_cam) StdoutLine: {'line': b'10: error : Operation not permitted\n'}
+[34.805489] (usb_cam) StdoutLine: {'line': b'10: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[34.805661] (usb_cam) StdoutLine: {'line': b"10: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[34.805922] (usb_cam) StdoutLine: {'line': b'10: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[34.805981] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806025] (usb_cam) StdoutLine: {'line': b"10: File 'install/usb_cam/share/usb_cam/package.xml' is invalid:\n"}
+[34.806066] (usb_cam) StdoutLine: {'line': b'10: error : Operation not permitted\n'}
+[34.806102] (usb_cam) StdoutLine: {'line': b'10: warning: failed to load external entity "http://download.ros.org/schema/package_format3.xsd"\n'}
+[34.806138] (usb_cam) StdoutLine: {'line': b"10: Schemas parser error : Failed to locate the main schema resource at 'http://download.ros.org/schema/package_format3.xsd'.\n"}
+[34.806173] (usb_cam) StdoutLine: {'line': b'10: WXS schema http://download.ros.org/schema/package_format3.xsd failed to compile\n'}
+[34.806208] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806358] (usb_cam) StdoutLine: {'line': b'10: 2 files are invalid\n'}
+[34.806431] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/copyright.xunit.xml' is valid\n"}
+[34.806476] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806515] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/cppcheck.xunit.xml' is valid\n"}
+[34.806553] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806589] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/cpplint.xunit.xml' is valid\n"}
+[34.806623] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806651] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/flake8.xunit.xml' is valid\n"}
+[34.806678] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806706] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml' is valid\n"}
+[34.806734] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806762] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/pep257.xunit.xml' is valid\n"}
+[34.806789] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806817] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/test_pixel_formats.gtest.xml' is valid\n"}
+[34.806846] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806874] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/test_usb_cam_utils.gtest.xml' is valid\n"}
+[34.806903] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806932] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml' is valid\n"}
+[34.806968] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.806995] (usb_cam) StdoutLine: {'line': b"10: File 'build/usb_cam/test_results/usb_cam/xmllint.xunit.xml' is valid\n"}
+[34.807026] (usb_cam) StdoutLine: {'line': b'10: \n'}
+[34.816775] (usb_cam) StdoutLine: {'line': b'10: -- run_test.py: return code 1\n'}
+[34.817046] (usb_cam) StdoutLine: {'line': b"10: -- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/xmllint.xunit.xml'\n"}
+[34.821161] (-) TimerEvent: {}
+[34.824710] (usb_cam) StdoutLine: {'line': b'10/10 Test #10: xmllint ..........................***Failed    0.21 sec\n'}
+[34.825122] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.825205] (usb_cam) StdoutLine: {'line': b'40% tests passed, 6 tests failed out of 10\n'}
+[34.825254] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.825295] (usb_cam) StdoutLine: {'line': b'Label Time Summary:\n'}
+[34.825331] (usb_cam) StdoutLine: {'line': b'copyright     =   1.31 sec*proc (1 test)\n'}
+[34.825367] (usb_cam) StdoutLine: {'line': b'cppcheck      =   0.17 sec*proc (1 test)\n'}
+[34.825444] (usb_cam) StdoutLine: {'line': b'cpplint       =   1.64 sec*proc (1 test)\n'}
+[34.825604] (usb_cam) StdoutLine: {'line': b'flake8        =   0.36 sec*proc (1 test)\n'}
+[34.825658] (usb_cam) StdoutLine: {'line': b'gtest         =   0.15 sec*proc (2 tests)\n'}
+[34.825703] (usb_cam) StdoutLine: {'line': b'lint_cmake    =   0.17 sec*proc (1 test)\n'}
+[34.825744] (usb_cam) StdoutLine: {'line': b'linter        =   4.60 sec*proc (8 tests)\n'}
+[34.825782] (usb_cam) StdoutLine: {'line': b'pep257        =   0.31 sec*proc (1 test)\n'}
+[34.825818] (usb_cam) StdoutLine: {'line': b'uncrustify    =   0.44 sec*proc (1 test)\n'}
+[34.825848] (usb_cam) StdoutLine: {'line': b'xmllint       =   0.21 sec*proc (1 test)\n'}
+[34.825875] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.825902] (usb_cam) StdoutLine: {'line': b'Total Test time (real) =   4.76 sec\n'}
+[34.825979] (usb_cam) StdoutLine: {'line': b'\n'}
+[34.826014] (usb_cam) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[34.826047] (usb_cam) StdoutLine: {'line': b'\t  3 - copyright (Failed)\n'}
+[34.826077] (usb_cam) StdoutLine: {'line': b'\t  5 - cpplint (Failed)\n'}
+[34.826107] (usb_cam) StdoutLine: {'line': b'\t  6 - flake8 (Failed)\n'}
+[34.826136] (usb_cam) StdoutLine: {'line': b'\t  7 - lint_cmake (Failed)\n'}
+[34.826164] (usb_cam) StdoutLine: {'line': b'\t  9 - uncrustify (Failed)\n'}
+[34.826285] (usb_cam) StdoutLine: {'line': b'\t 10 - xmllint (Failed)\n'}
+[34.827225] (usb_cam) StderrLine: {'line': b'Errors while running CTest\n'}
+[34.827307] (usb_cam) StderrLine: {'line': b'Output from these tests are in: /home/yahboom/usb/build/usb_cam/Testing/Temporary/LastTest.log\n'}
+[34.827345] (usb_cam) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[34.829207] (usb_cam) CommandEnded: {'returncode': 8}
+[34.829870] (usb_cam) TestFailure: {'identifier': 'usb_cam'}
+[34.829894] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[34.830241] (-) EventReactorShutdown: {}

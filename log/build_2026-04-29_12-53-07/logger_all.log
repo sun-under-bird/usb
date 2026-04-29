@@ -1,0 +1,113 @@
+[0.880s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'usb_cam']
+[0.880s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['usb_cam'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71c388bb6710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c388ed9900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c388ed9900>>)
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.920s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/usb'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.062s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yahboom/camera_ws/install
+[1.076s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 454 installed packages in /opt/ros/humble
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.175s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/usb/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/usb/install/usb_cam', 'merge_install': False, 'path': '/home/yahboom/usb', 'symlink_install': False, 'test_result_base': None}
+[1.187s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/usb' with build type 'ament_cmake'
+[1.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/usb'
+[1.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/usb/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/usb/build/usb_cam -- -j6 -l6
+[61.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/usb/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/usb/build/usb_cam -- -j6 -l6
+[61.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/usb/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/usb/build/usb_cam
+[91.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[91.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/usb/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/usb/build/usb_cam
+[91.262s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam' for CMake module files
+[91.262s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam' for CMake config files
+[91.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[91.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[91.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[91.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[91.276s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib'
+[91.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[91.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[91.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[91.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[91.290s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/bin'
+[91.290s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[91.290s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib/python3.10/site-packages'
+[91.290s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/bin'
+[91.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.ps1'
+[91.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.dsv'
+[91.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.sh'
+[91.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.bash'
+[91.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.zsh'
+[91.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/usb/install/usb_cam/share/colcon-core/packages/usb_cam)
+[91.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[91.401s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam' for CMake module files
+[91.401s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam' for CMake config files
+[91.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[91.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[91.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[91.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[91.415s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib'
+[91.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[91.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[91.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[91.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/usb/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[91.428s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/bin'
+[91.428s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[91.428s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/lib/python3.10/site-packages'
+[91.428s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/usb/install/usb_cam/bin'
+[91.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.ps1'
+[91.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.dsv'
+[91.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.sh'
+[91.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.bash'
+[91.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/usb/install/usb_cam/share/usb_cam/package.zsh'
+[91.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/usb/install/usb_cam/share/colcon-core/packages/usb_cam)
+[91.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[91.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[91.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[91.444s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[91.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[91.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[91.461s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[91.461s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.AccessDenied: Failed to connect to socket /run/user/1000/bus: Operation not permitted
+[91.461s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[91.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/usb/install/local_setup.ps1'
+[91.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/usb/install/_local_setup_util_ps1.py'
+[91.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/usb/install/setup.ps1'
+[91.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/usb/install/local_setup.sh'
+[91.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/usb/install/_local_setup_util_sh.py'
+[91.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/usb/install/setup.sh'
+[91.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/usb/install/local_setup.bash'
+[91.506s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/usb/install/setup.bash'
+[91.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/usb/install/local_setup.zsh'
+[91.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/usb/install/setup.zsh'

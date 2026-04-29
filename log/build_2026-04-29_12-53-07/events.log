@@ -1,0 +1,1001 @@
+[0.000000] (-) TimerEvent: {}
+[0.000081] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000129] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.104737] (-) TimerEvent: {}
+[0.206408] (-) TimerEvent: {}
+[0.306857] (-) TimerEvent: {}
+[0.407195] (-) TimerEvent: {}
+[0.507881] (-) TimerEvent: {}
+[0.608618] (-) TimerEvent: {}
+[0.709024] (-) TimerEvent: {}
+[0.809758] (-) TimerEvent: {}
+[0.910588] (-) TimerEvent: {}
+[1.011194] (-) TimerEvent: {}
+[1.111920] (-) TimerEvent: {}
+[1.212437] (-) TimerEvent: {}
+[1.313296] (-) TimerEvent: {}
+[1.413698] (-) TimerEvent: {}
+[1.514521] (-) TimerEvent: {}
+[1.615262] (-) TimerEvent: {}
+[1.715784] (-) TimerEvent: {}
+[1.816183] (-) TimerEvent: {}
+[1.916796] (-) TimerEvent: {}
+[2.017551] (-) TimerEvent: {}
+[2.118138] (-) TimerEvent: {}
+[2.218591] (-) TimerEvent: {}
+[2.319153] (-) TimerEvent: {}
+[2.419572] (-) TimerEvent: {}
+[2.520134] (-) TimerEvent: {}
+[2.620885] (-) TimerEvent: {}
+[2.721301] (-) TimerEvent: {}
+[2.822083] (-) TimerEvent: {}
+[2.922511] (-) TimerEvent: {}
+[3.022903] (-) TimerEvent: {}
+[3.123603] (-) TimerEvent: {}
+[3.224130] (-) TimerEvent: {}
+[3.324698] (-) TimerEvent: {}
+[3.425220] (-) TimerEvent: {}
+[3.525777] (-) TimerEvent: {}
+[3.626492] (-) TimerEvent: {}
+[3.727177] (-) TimerEvent: {}
+[3.827933] (-) TimerEvent: {}
+[3.928986] (-) TimerEvent: {}
+[4.029500] (-) TimerEvent: {}
+[4.130026] (-) TimerEvent: {}
+[4.230940] (-) TimerEvent: {}
+[4.331532] (-) TimerEvent: {}
+[4.432294] (-) TimerEvent: {}
+[4.532993] (-) TimerEvent: {}
+[4.633866] (-) TimerEvent: {}
+[4.734657] (-) TimerEvent: {}
+[4.835493] (-) TimerEvent: {}
+[4.935842] (-) TimerEvent: {}
+[5.036233] (-) TimerEvent: {}
+[5.137110] (-) TimerEvent: {}
+[5.237650] (-) TimerEvent: {}
+[5.338427] (-) TimerEvent: {}
+[5.439216] (-) TimerEvent: {}
+[5.539905] (-) TimerEvent: {}
+[5.640441] (-) TimerEvent: {}
+[5.740998] (-) TimerEvent: {}
+[5.841769] (-) TimerEvent: {}
+[5.942140] (-) TimerEvent: {}
+[6.042777] (-) TimerEvent: {}
+[6.143540] (-) TimerEvent: {}
+[6.244046] (-) TimerEvent: {}
+[6.344726] (-) TimerEvent: {}
+[6.445459] (-) TimerEvent: {}
+[6.545958] (-) TimerEvent: {}
+[6.646739] (-) TimerEvent: {}
+[6.747382] (-) TimerEvent: {}
+[6.848194] (-) TimerEvent: {}
+[6.948834] (-) TimerEvent: {}
+[7.049296] (-) TimerEvent: {}
+[7.149756] (-) TimerEvent: {}
+[7.250382] (-) TimerEvent: {}
+[7.350944] (-) TimerEvent: {}
+[7.451697] (-) TimerEvent: {}
+[7.552565] (-) TimerEvent: {}
+[7.652988] (-) TimerEvent: {}
+[7.754018] (-) TimerEvent: {}
+[7.854920] (-) TimerEvent: {}
+[7.955711] (-) TimerEvent: {}
+[8.056201] (-) TimerEvent: {}
+[8.156663] (-) TimerEvent: {}
+[8.257410] (-) TimerEvent: {}
+[8.357926] (-) TimerEvent: {}
+[8.458513] (-) TimerEvent: {}
+[8.558946] (-) TimerEvent: {}
+[8.659332] (-) TimerEvent: {}
+[8.760161] (-) TimerEvent: {}
+[8.860742] (-) TimerEvent: {}
+[8.961638] (-) TimerEvent: {}
+[9.062054] (-) TimerEvent: {}
+[9.162781] (-) TimerEvent: {}
+[9.263463] (-) TimerEvent: {}
+[9.364121] (-) TimerEvent: {}
+[9.464515] (-) TimerEvent: {}
+[9.565026] (-) TimerEvent: {}
+[9.665379] (-) TimerEvent: {}
+[9.765879] (-) TimerEvent: {}
+[9.866332] (-) TimerEvent: {}
+[9.966920] (-) TimerEvent: {}
+[10.067695] (-) TimerEvent: {}
+[10.168595] (-) TimerEvent: {}
+[10.269064] (-) TimerEvent: {}
+[10.369817] (-) TimerEvent: {}
+[10.470537] (-) TimerEvent: {}
+[10.571257] (-) TimerEvent: {}
+[10.671793] (-) TimerEvent: {}
+[10.772456] (-) TimerEvent: {}
+[10.873052] (-) TimerEvent: {}
+[10.973595] (-) TimerEvent: {}
+[11.074029] (-) TimerEvent: {}
+[11.174682] (-) TimerEvent: {}
+[11.275402] (-) TimerEvent: {}
+[11.375868] (-) TimerEvent: {}
+[11.476413] (-) TimerEvent: {}
+[11.576922] (-) TimerEvent: {}
+[11.677629] (-) TimerEvent: {}
+[11.778095] (-) TimerEvent: {}
+[11.878825] (-) TimerEvent: {}
+[11.979459] (-) TimerEvent: {}
+[12.079980] (-) TimerEvent: {}
+[12.180430] (-) TimerEvent: {}
+[12.281170] (-) TimerEvent: {}
+[12.381709] (-) TimerEvent: {}
+[12.482467] (-) TimerEvent: {}
+[12.582998] (-) TimerEvent: {}
+[12.683601] (-) TimerEvent: {}
+[12.784423] (-) TimerEvent: {}
+[12.884990] (-) TimerEvent: {}
+[12.985478] (-) TimerEvent: {}
+[13.085929] (-) TimerEvent: {}
+[13.186791] (-) TimerEvent: {}
+[13.287574] (-) TimerEvent: {}
+[13.388456] (-) TimerEvent: {}
+[13.489046] (-) TimerEvent: {}
+[13.589560] (-) TimerEvent: {}
+[13.690112] (-) TimerEvent: {}
+[13.790655] (-) TimerEvent: {}
+[13.891354] (-) TimerEvent: {}
+[13.992038] (-) TimerEvent: {}
+[14.092400] (-) TimerEvent: {}
+[14.192870] (-) TimerEvent: {}
+[14.293709] (-) TimerEvent: {}
+[14.394457] (-) TimerEvent: {}
+[14.495250] (-) TimerEvent: {}
+[14.595839] (-) TimerEvent: {}
+[14.696536] (-) TimerEvent: {}
+[14.796965] (-) TimerEvent: {}
+[14.897816] (-) TimerEvent: {}
+[14.998382] (-) TimerEvent: {}
+[15.099062] (-) TimerEvent: {}
+[15.199637] (-) TimerEvent: {}
+[15.299987] (-) TimerEvent: {}
+[15.400757] (-) TimerEvent: {}
+[15.501504] (-) TimerEvent: {}
+[15.602664] (-) TimerEvent: {}
+[15.703123] (-) TimerEvent: {}
+[15.803546] (-) TimerEvent: {}
+[15.904459] (-) TimerEvent: {}
+[16.005024] (-) TimerEvent: {}
+[16.105639] (-) TimerEvent: {}
+[16.206308] (-) TimerEvent: {}
+[16.307126] (-) TimerEvent: {}
+[16.407806] (-) TimerEvent: {}
+[16.508471] (-) TimerEvent: {}
+[16.608933] (-) TimerEvent: {}
+[16.709820] (-) TimerEvent: {}
+[16.810515] (-) TimerEvent: {}
+[16.910822] (-) TimerEvent: {}
+[17.011277] (-) TimerEvent: {}
+[17.111614] (-) TimerEvent: {}
+[17.212241] (-) TimerEvent: {}
+[17.312873] (-) TimerEvent: {}
+[17.413577] (-) TimerEvent: {}
+[17.514112] (-) TimerEvent: {}
+[17.614764] (-) TimerEvent: {}
+[17.715621] (-) TimerEvent: {}
+[17.816184] (-) TimerEvent: {}
+[17.916771] (-) TimerEvent: {}
+[18.017400] (-) TimerEvent: {}
+[18.118108] (-) TimerEvent: {}
+[18.218565] (-) TimerEvent: {}
+[18.319162] (-) TimerEvent: {}
+[18.419693] (-) TimerEvent: {}
+[18.520463] (-) TimerEvent: {}
+[18.621000] (-) TimerEvent: {}
+[18.721842] (-) TimerEvent: {}
+[18.822317] (-) TimerEvent: {}
+[18.923147] (-) TimerEvent: {}
+[19.023825] (-) TimerEvent: {}
+[19.124433] (-) TimerEvent: {}
+[19.224931] (-) TimerEvent: {}
+[19.325676] (-) TimerEvent: {}
+[19.426503] (-) TimerEvent: {}
+[19.527053] (-) TimerEvent: {}
+[19.627518] (-) TimerEvent: {}
+[19.728026] (-) TimerEvent: {}
+[19.828421] (-) TimerEvent: {}
+[19.929224] (-) TimerEvent: {}
+[20.029976] (-) TimerEvent: {}
+[20.130667] (-) TimerEvent: {}
+[20.231059] (-) TimerEvent: {}
+[20.331831] (-) TimerEvent: {}
+[20.432421] (-) TimerEvent: {}
+[20.533314] (-) TimerEvent: {}
+[20.633989] (-) TimerEvent: {}
+[20.734769] (-) TimerEvent: {}
+[20.835207] (-) TimerEvent: {}
+[20.935787] (-) TimerEvent: {}
+[21.036225] (-) TimerEvent: {}
+[21.136797] (-) TimerEvent: {}
+[21.237728] (-) TimerEvent: {}
+[21.338399] (-) TimerEvent: {}
+[21.439099] (-) TimerEvent: {}
+[21.539728] (-) TimerEvent: {}
+[21.640362] (-) TimerEvent: {}
+[21.741172] (-) TimerEvent: {}
+[21.841884] (-) TimerEvent: {}
+[21.942551] (-) TimerEvent: {}
+[22.043140] (-) TimerEvent: {}
+[22.143636] (-) TimerEvent: {}
+[22.244048] (-) TimerEvent: {}
+[22.344693] (-) TimerEvent: {}
+[22.445436] (-) TimerEvent: {}
+[22.546358] (-) TimerEvent: {}
+[22.646940] (-) TimerEvent: {}
+[22.747436] (-) TimerEvent: {}
+[22.847794] (-) TimerEvent: {}
+[22.948414] (-) TimerEvent: {}
+[23.048892] (-) TimerEvent: {}
+[23.149459] (-) TimerEvent: {}
+[23.249996] (-) TimerEvent: {}
+[23.350713] (-) TimerEvent: {}
+[23.451539] (-) TimerEvent: {}
+[23.551989] (-) TimerEvent: {}
+[23.652506] (-) TimerEvent: {}
+[23.752948] (-) TimerEvent: {}
+[23.853682] (-) TimerEvent: {}
+[23.954214] (-) TimerEvent: {}
+[24.055076] (-) TimerEvent: {}
+[24.155446] (-) TimerEvent: {}
+[24.255832] (-) TimerEvent: {}
+[24.356374] (-) TimerEvent: {}
+[24.456966] (-) TimerEvent: {}
+[24.557839] (-) TimerEvent: {}
+[24.658591] (-) TimerEvent: {}
+[24.759224] (-) TimerEvent: {}
+[24.859667] (-) TimerEvent: {}
+[24.960166] (-) TimerEvent: {}
+[25.060925] (-) TimerEvent: {}
+[25.161707] (-) TimerEvent: {}
+[25.262081] (-) TimerEvent: {}
+[25.362603] (-) TimerEvent: {}
+[25.463285] (-) TimerEvent: {}
+[25.563662] (-) TimerEvent: {}
+[25.664573] (-) TimerEvent: {}
+[25.764971] (-) TimerEvent: {}
+[25.865556] (-) TimerEvent: {}
+[25.965876] (-) TimerEvent: {}
+[26.066387] (-) TimerEvent: {}
+[26.167052] (-) TimerEvent: {}
+[26.267719] (-) TimerEvent: {}
+[26.368467] (-) TimerEvent: {}
+[26.468876] (-) TimerEvent: {}
+[26.569777] (-) TimerEvent: {}
+[26.670227] (-) TimerEvent: {}
+[26.770586] (-) TimerEvent: {}
+[26.871305] (-) TimerEvent: {}
+[26.971795] (-) TimerEvent: {}
+[27.072424] (-) TimerEvent: {}
+[27.173114] (-) TimerEvent: {}
+[27.273738] (-) TimerEvent: {}
+[27.374203] (-) TimerEvent: {}
+[27.474883] (-) TimerEvent: {}
+[27.575474] (-) TimerEvent: {}
+[27.676503] (-) TimerEvent: {}
+[27.777026] (-) TimerEvent: {}
+[27.877660] (-) TimerEvent: {}
+[27.978418] (-) TimerEvent: {}
+[28.079052] (-) TimerEvent: {}
+[28.179830] (-) TimerEvent: {}
+[28.280665] (-) TimerEvent: {}
+[28.381244] (-) TimerEvent: {}
+[28.482084] (-) TimerEvent: {}
+[28.582749] (-) TimerEvent: {}
+[28.683396] (-) TimerEvent: {}
+[28.783901] (-) TimerEvent: {}
+[28.884535] (-) TimerEvent: {}
+[28.985067] (-) TimerEvent: {}
+[29.085707] (-) TimerEvent: {}
+[29.186172] (-) TimerEvent: {}
+[29.287090] (-) TimerEvent: {}
+[29.387529] (-) TimerEvent: {}
+[29.487917] (-) TimerEvent: {}
+[29.588625] (-) TimerEvent: {}
+[29.689569] (-) TimerEvent: {}
+[29.790007] (-) TimerEvent: {}
+[29.890856] (-) TimerEvent: {}
+[29.991643] (-) TimerEvent: {}
+[30.008391] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[30.009670] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[30.009775] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yahboom/usb/build/usb_cam', '--', '-j6', '-l6'], 'cwd': '/home/yahboom/usb/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yahboom/usb'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://192.168.6.64:7890'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a/nls.messages.json","corruptMarkerFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a","_corruptedFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'http://192.168.6.64:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-604e220d-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1299'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.6.64:7890'), ('COLCON_PREFIX_PATH', '/home/yahboom/camera_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('ALL_PROXY', 'http://192.168.6.64:7890'), ('http_proxy', 'http://192.168.6.64:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yahboom/.local/bin:/home/yahboom/.codex/tmp/arg0/codex-arg0FsdjK3:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/opt/ros/humble/bin:/home/yahboom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yahboom/.vscode/extensions/openai.chatgpt-26.422.71525-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yahboom-VM:@/tmp/.ICE-unix/1299,unix/yahboom-VM:/tmp/.ICE-unix/1299'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('USE_SIM_TIME', 'true'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d55e7f7_9537_4919_bede_c6b0dfb0d9ae'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z7OO3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/home/yahboom/camera_ws/install/stereo_camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dd752-cc45-7650-b7c6-ea673655ca00'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/usb/build/usb_cam'), ('VSCODE_CLI', '1'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yahboom/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.6.64:7890'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble'), ('VSCODE_PID', '17451')]), 'shell': False}
+[30.066078] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[30.092070] (-) TimerEvent: {}
+[30.192541] (-) TimerEvent: {}
+[30.293057] (-) TimerEvent: {}
+[30.306715] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[30.309229] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[30.315234] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[30.325414] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[30.338578] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.386761] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[30.389357] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[30.393674] (-) TimerEvent: {}
+[30.493973] (-) TimerEvent: {}
+[30.512594] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[30.594687] (-) TimerEvent: {}
+[30.695515] (-) TimerEvent: {}
+[30.796236] (-) TimerEvent: {}
+[30.897021] (-) TimerEvent: {}
+[30.910400] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[30.920351] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[30.928408] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[30.954972] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.955483] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yahboom/usb/include\n'}
+[30.955621] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[30.984555] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[30.984786] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[30.988534] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.995394] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.997506] (-) TimerEvent: {}
+[30.999130] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[31.025772] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[31.025966] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[31.029476] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.031784] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.077783] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[31.084424] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/yahboom/usb/build/usb_cam\n'}
+[31.097942] (-) TimerEvent: {}
+[31.125131] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gtest_main\n'}
+[31.125279] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gtest\n'}
+[31.125319] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target usb_cam\n'}
+[31.126898] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target usb_cam_node_exe\n'}
+[31.144174] (usb_cam) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[31.144532] (usb_cam) StdoutLine: {'line': b'[ 28%] Built target usb_cam\n'}
+[31.144582] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[31.152522] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target usb_cam_node_exe\n'}
+[31.164145] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_usb_cam_utils\n'}
+[31.164723] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target usb_cam_node\n'}
+[31.165558] (usb_cam) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_pixel_formats\n'}
+[31.182240] (usb_cam) StdoutLine: {'line': b'[ 71%] Built target test_usb_cam_utils\n'}
+[31.182501] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_pixel_formats\n'}
+[31.184009] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[31.198698] (-) TimerEvent: {}
+[31.299244] (-) TimerEvent: {}
+[31.399767] (-) TimerEvent: {}
+[31.500247] (-) TimerEvent: {}
+[31.600568] (-) TimerEvent: {}
+[31.701206] (-) TimerEvent: {}
+[31.801923] (-) TimerEvent: {}
+[31.902476] (-) TimerEvent: {}
+[32.002880] (-) TimerEvent: {}
+[32.103649] (-) TimerEvent: {}
+[32.203993] (-) TimerEvent: {}
+[32.304578] (-) TimerEvent: {}
+[32.405035] (-) TimerEvent: {}
+[32.505363] (-) TimerEvent: {}
+[32.606192] (-) TimerEvent: {}
+[32.707037] (-) TimerEvent: {}
+[32.807698] (-) TimerEvent: {}
+[32.908102] (-) TimerEvent: {}
+[33.008915] (-) TimerEvent: {}
+[33.109519] (-) TimerEvent: {}
+[33.210030] (-) TimerEvent: {}
+[33.310621] (-) TimerEvent: {}
+[33.411328] (-) TimerEvent: {}
+[33.512100] (-) TimerEvent: {}
+[33.612472] (-) TimerEvent: {}
+[33.712902] (-) TimerEvent: {}
+[33.813547] (-) TimerEvent: {}
+[33.914178] (-) TimerEvent: {}
+[34.014828] (-) TimerEvent: {}
+[34.115435] (-) TimerEvent: {}
+[34.215883] (-) TimerEvent: {}
+[34.316231] (-) TimerEvent: {}
+[34.416880] (-) TimerEvent: {}
+[34.517174] (-) TimerEvent: {}
+[34.617718] (-) TimerEvent: {}
+[34.718432] (-) TimerEvent: {}
+[34.819248] (-) TimerEvent: {}
+[34.919618] (-) TimerEvent: {}
+[35.020293] (-) TimerEvent: {}
+[35.120654] (-) TimerEvent: {}
+[35.222085] (-) TimerEvent: {}
+[35.322628] (-) TimerEvent: {}
+[35.423468] (-) TimerEvent: {}
+[35.523878] (-) TimerEvent: {}
+[35.624312] (-) TimerEvent: {}
+[35.725166] (-) TimerEvent: {}
+[35.825989] (-) TimerEvent: {}
+[35.926557] (-) TimerEvent: {}
+[36.027235] (-) TimerEvent: {}
+[36.128012] (-) TimerEvent: {}
+[36.228530] (-) TimerEvent: {}
+[36.328989] (-) TimerEvent: {}
+[36.429771] (-) TimerEvent: {}
+[36.530451] (-) TimerEvent: {}
+[36.630956] (-) TimerEvent: {}
+[36.731447] (-) TimerEvent: {}
+[36.832204] (-) TimerEvent: {}
+[36.932767] (-) TimerEvent: {}
+[37.033481] (-) TimerEvent: {}
+[37.133923] (-) TimerEvent: {}
+[37.234801] (-) TimerEvent: {}
+[37.335531] (-) TimerEvent: {}
+[37.436141] (-) TimerEvent: {}
+[37.536984] (-) TimerEvent: {}
+[37.637664] (-) TimerEvent: {}
+[37.738220] (-) TimerEvent: {}
+[37.839077] (-) TimerEvent: {}
+[37.939933] (-) TimerEvent: {}
+[38.040759] (-) TimerEvent: {}
+[38.141848] (-) TimerEvent: {}
+[38.242588] (-) TimerEvent: {}
+[38.343346] (-) TimerEvent: {}
+[38.443877] (-) TimerEvent: {}
+[38.544614] (-) TimerEvent: {}
+[38.645038] (-) TimerEvent: {}
+[38.745584] (-) TimerEvent: {}
+[38.846395] (-) TimerEvent: {}
+[38.946803] (-) TimerEvent: {}
+[39.047445] (-) TimerEvent: {}
+[39.147889] (-) TimerEvent: {}
+[39.248825] (-) TimerEvent: {}
+[39.349546] (-) TimerEvent: {}
+[39.450271] (-) TimerEvent: {}
+[39.550893] (-) TimerEvent: {}
+[39.652064] (-) TimerEvent: {}
+[39.752504] (-) TimerEvent: {}
+[39.853317] (-) TimerEvent: {}
+[39.954075] (-) TimerEvent: {}
+[40.054741] (-) TimerEvent: {}
+[40.155277] (-) TimerEvent: {}
+[40.256077] (-) TimerEvent: {}
+[40.356492] (-) TimerEvent: {}
+[40.457228] (-) TimerEvent: {}
+[40.557541] (-) TimerEvent: {}
+[40.658281] (-) TimerEvent: {}
+[40.759155] (-) TimerEvent: {}
+[40.859837] (-) TimerEvent: {}
+[40.960526] (-) TimerEvent: {}
+[41.060970] (-) TimerEvent: {}
+[41.161844] (-) TimerEvent: {}
+[41.262525] (-) TimerEvent: {}
+[41.363184] (-) TimerEvent: {}
+[41.463961] (-) TimerEvent: {}
+[41.564482] (-) TimerEvent: {}
+[41.665177] (-) TimerEvent: {}
+[41.765988] (-) TimerEvent: {}
+[41.866740] (-) TimerEvent: {}
+[41.967673] (-) TimerEvent: {}
+[42.068315] (-) TimerEvent: {}
+[42.169176] (-) TimerEvent: {}
+[42.269905] (-) TimerEvent: {}
+[42.370305] (-) TimerEvent: {}
+[42.470808] (-) TimerEvent: {}
+[42.571339] (-) TimerEvent: {}
+[42.671934] (-) TimerEvent: {}
+[42.772355] (-) TimerEvent: {}
+[42.873105] (-) TimerEvent: {}
+[42.973564] (-) TimerEvent: {}
+[43.074111] (-) TimerEvent: {}
+[43.174779] (-) TimerEvent: {}
+[43.275526] (-) TimerEvent: {}
+[43.376251] (-) TimerEvent: {}
+[43.476613] (-) TimerEvent: {}
+[43.577210] (-) TimerEvent: {}
+[43.678020] (-) TimerEvent: {}
+[43.778936] (-) TimerEvent: {}
+[43.879681] (-) TimerEvent: {}
+[43.980429] (-) TimerEvent: {}
+[44.081186] (-) TimerEvent: {}
+[44.181633] (-) TimerEvent: {}
+[44.282174] (-) TimerEvent: {}
+[44.382666] (-) TimerEvent: {}
+[44.483527] (-) TimerEvent: {}
+[44.584061] (-) TimerEvent: {}
+[44.684680] (-) TimerEvent: {}
+[44.785479] (-) TimerEvent: {}
+[44.885956] (-) TimerEvent: {}
+[44.986465] (-) TimerEvent: {}
+[45.087201] (-) TimerEvent: {}
+[45.187738] (-) TimerEvent: {}
+[45.288149] (-) TimerEvent: {}
+[45.388582] (-) TimerEvent: {}
+[45.488968] (-) TimerEvent: {}
+[45.589797] (-) TimerEvent: {}
+[45.690403] (-) TimerEvent: {}
+[45.790931] (-) TimerEvent: {}
+[45.891586] (-) TimerEvent: {}
+[45.992211] (-) TimerEvent: {}
+[46.092947] (-) TimerEvent: {}
+[46.193511] (-) TimerEvent: {}
+[46.293930] (-) TimerEvent: {}
+[46.394457] (-) TimerEvent: {}
+[46.495132] (-) TimerEvent: {}
+[46.595922] (-) TimerEvent: {}
+[46.696760] (-) TimerEvent: {}
+[46.797296] (-) TimerEvent: {}
+[46.897772] (-) TimerEvent: {}
+[46.998487] (-) TimerEvent: {}
+[47.099010] (-) TimerEvent: {}
+[47.199606] (-) TimerEvent: {}
+[47.300334] (-) TimerEvent: {}
+[47.401113] (-) TimerEvent: {}
+[47.501735] (-) TimerEvent: {}
+[47.602533] (-) TimerEvent: {}
+[47.703404] (-) TimerEvent: {}
+[47.804107] (-) TimerEvent: {}
+[47.904689] (-) TimerEvent: {}
+[48.005224] (-) TimerEvent: {}
+[48.105708] (-) TimerEvent: {}
+[48.206219] (-) TimerEvent: {}
+[48.307029] (-) TimerEvent: {}
+[48.407685] (-) TimerEvent: {}
+[48.508235] (-) TimerEvent: {}
+[48.608765] (-) TimerEvent: {}
+[48.709267] (-) TimerEvent: {}
+[48.809822] (-) TimerEvent: {}
+[48.910514] (-) TimerEvent: {}
+[49.011184] (-) TimerEvent: {}
+[49.111648] (-) TimerEvent: {}
+[49.212842] (-) TimerEvent: {}
+[49.313520] (-) TimerEvent: {}
+[49.413814] (-) TimerEvent: {}
+[49.514852] (-) TimerEvent: {}
+[49.615385] (-) TimerEvent: {}
+[49.715827] (-) TimerEvent: {}
+[49.816392] (-) TimerEvent: {}
+[49.917071] (-) TimerEvent: {}
+[50.017631] (-) TimerEvent: {}
+[50.118344] (-) TimerEvent: {}
+[50.219065] (-) TimerEvent: {}
+[50.319488] (-) TimerEvent: {}
+[50.420294] (-) TimerEvent: {}
+[50.521093] (-) TimerEvent: {}
+[50.621597] (-) TimerEvent: {}
+[50.722096] (-) TimerEvent: {}
+[50.822720] (-) TimerEvent: {}
+[50.924009] (-) TimerEvent: {}
+[51.024902] (-) TimerEvent: {}
+[51.125495] (-) TimerEvent: {}
+[51.226550] (-) TimerEvent: {}
+[51.327442] (-) TimerEvent: {}
+[51.428000] (-) TimerEvent: {}
+[51.529058] (-) TimerEvent: {}
+[51.629615] (-) TimerEvent: {}
+[51.730021] (-) TimerEvent: {}
+[51.830574] (-) TimerEvent: {}
+[51.931434] (-) TimerEvent: {}
+[52.032031] (-) TimerEvent: {}
+[52.132755] (-) TimerEvent: {}
+[52.233381] (-) TimerEvent: {}
+[52.334407] (-) TimerEvent: {}
+[52.434930] (-) TimerEvent: {}
+[52.535445] (-) TimerEvent: {}
+[52.635880] (-) TimerEvent: {}
+[52.736516] (-) TimerEvent: {}
+[52.837113] (-) TimerEvent: {}
+[52.937711] (-) TimerEvent: {}
+[53.038196] (-) TimerEvent: {}
+[53.138696] (-) TimerEvent: {}
+[53.239058] (-) TimerEvent: {}
+[53.339409] (-) TimerEvent: {}
+[53.439783] (-) TimerEvent: {}
+[53.540162] (-) TimerEvent: {}
+[53.640936] (-) TimerEvent: {}
+[53.741412] (-) TimerEvent: {}
+[53.841858] (-) TimerEvent: {}
+[53.942489] (-) TimerEvent: {}
+[54.043049] (-) TimerEvent: {}
+[54.144021] (-) TimerEvent: {}
+[54.244782] (-) TimerEvent: {}
+[54.345308] (-) TimerEvent: {}
+[54.445670] (-) TimerEvent: {}
+[54.546097] (-) TimerEvent: {}
+[54.646729] (-) TimerEvent: {}
+[54.747479] (-) TimerEvent: {}
+[54.847999] (-) TimerEvent: {}
+[54.948826] (-) TimerEvent: {}
+[55.049906] (-) TimerEvent: {}
+[55.150459] (-) TimerEvent: {}
+[55.251406] (-) TimerEvent: {}
+[55.351769] (-) TimerEvent: {}
+[55.452455] (-) TimerEvent: {}
+[55.553172] (-) TimerEvent: {}
+[55.653906] (-) TimerEvent: {}
+[55.754685] (-) TimerEvent: {}
+[55.855488] (-) TimerEvent: {}
+[55.956049] (-) TimerEvent: {}
+[56.056659] (-) TimerEvent: {}
+[56.157443] (-) TimerEvent: {}
+[56.258100] (-) TimerEvent: {}
+[56.358890] (-) TimerEvent: {}
+[56.459777] (-) TimerEvent: {}
+[56.560479] (-) TimerEvent: {}
+[56.661009] (-) TimerEvent: {}
+[56.761454] (-) TimerEvent: {}
+[56.861799] (-) TimerEvent: {}
+[56.962807] (-) TimerEvent: {}
+[57.063206] (-) TimerEvent: {}
+[57.163660] (-) TimerEvent: {}
+[57.264471] (-) TimerEvent: {}
+[57.365270] (-) TimerEvent: {}
+[57.466094] (-) TimerEvent: {}
+[57.566554] (-) TimerEvent: {}
+[57.667106] (-) TimerEvent: {}
+[57.768014] (-) TimerEvent: {}
+[57.868532] (-) TimerEvent: {}
+[57.968952] (-) TimerEvent: {}
+[58.069654] (-) TimerEvent: {}
+[58.170006] (-) TimerEvent: {}
+[58.270539] (-) TimerEvent: {}
+[58.371013] (-) TimerEvent: {}
+[58.471409] (-) TimerEvent: {}
+[58.572408] (-) TimerEvent: {}
+[58.673193] (-) TimerEvent: {}
+[58.774010] (-) TimerEvent: {}
+[58.874653] (-) TimerEvent: {}
+[58.975449] (-) TimerEvent: {}
+[59.075898] (-) TimerEvent: {}
+[59.176349] (-) TimerEvent: {}
+[59.277005] (-) TimerEvent: {}
+[59.377599] (-) TimerEvent: {}
+[59.478058] (-) TimerEvent: {}
+[59.578571] (-) TimerEvent: {}
+[59.678958] (-) TimerEvent: {}
+[59.779385] (-) TimerEvent: {}
+[59.879870] (-) TimerEvent: {}
+[59.980719] (-) TimerEvent: {}
+[60.015327] (usb_cam) CommandEnded: {'returncode': 0}
+[60.081088] (-) TimerEvent: {}
+[60.088127] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[60.099695] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yahboom/usb/build/usb_cam'], 'cwd': '/home/yahboom/usb/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yahboom/usb'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('HTTPS_PROXY', 'http://192.168.6.64:7890'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'yahboom'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","messagesFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a/nls.messages.json","corruptMarkerFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/tcf.json","_cacheRoot":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/994fd12f8d3a5aa16f17d42c041e5809167e845a","_corruptedFile":"/home/yahboom/.config/Code/clp/b3d577d0e0e421f69f6e9379a6ee9c57.zh-cn/corrupted.info"}'), ('all_proxy', 'http://192.168.6.64:7890'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yahboom'), ('CHROME_DESKTOP', 'code.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-604e220d-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1299'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.6.64:7890'), ('COLCON_PREFIX_PATH', '/home/yahboom/camera_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yahboom'), ('ALL_PROXY', 'http://192.168.6.64:7890'), ('http_proxy', 'http://192.168.6.64:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yahboom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yahboom/.local/bin:/home/yahboom/.codex/tmp/arg0/codex-arg0FsdjK3:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/home/yahboom/.npm-global/bin:/home/yahboom/.opencode/bin:/opt/ros/humble/bin:/home/yahboom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yahboom/.vscode/extensions/openai.chatgpt-26.422.71525-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yahboom-VM:@/tmp/.ICE-unix/1299,unix/yahboom-VM:/tmp/.ICE-unix/1299'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('USE_SIM_TIME', 'true'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d55e7f7_9537_4919_bede_c6b0dfb0d9ae'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3Z7OO3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.170'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/home/yahboom/camera_ws/install/stereo_camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019dd752-cc45-7650-b7c6-ea673655ca00'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yahboom/usb/build/usb_cam'), ('VSCODE_CLI', '1'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yahboom/.config/Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=73ec92a0105d8288e5b41d6f69f16182'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.6.64:7890'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CMAKE_PREFIX_PATH', '/home/yahboom/camera_ws/install/stereo_camera_pkg:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble'), ('VSCODE_PID', '17451')]), 'shell': False}
+[60.106982] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[60.107147] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[60.107191] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[60.107572] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[60.107657] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[60.107697] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/lib/usb_cam/measure_startup_latency.sh\n'}
+[60.108008] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/libusb_cam.so\n'}
+[60.108266] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/libusb_cam_node.so\n'}
+[60.108589] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include\n'}
+[60.108740] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam\n'}
+[60.108799] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[60.108836] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats\n'}
+[60.108867] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[60.108899] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[60.108933] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[60.108964] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[60.108992] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[60.109021] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[60.109055] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[60.109083] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[60.109110] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[60.109146] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[60.109174] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[60.109202] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[60.109229] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[60.109913] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/libusb_cam_node.so\n'}
+[60.110058] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch\n'}
+[60.110096] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[60.110127] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[60.110198] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[60.110230] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config\n'}
+[60.110260] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[60.110288] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[60.110394] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[60.110519] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[60.110579] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[60.110609] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[60.110638] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[60.110666] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[60.110696] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[60.110726] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[60.110755] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[60.110785] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[60.111223] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[60.111291] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/package.dsv\n'}
+[60.111327] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[60.111359] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[60.111392] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[60.111420] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[60.111457] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[60.111486] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[60.111515] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[60.111544] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/package.xml\n'}
+[60.181498] (-) TimerEvent: {}
+[60.282231] (-) TimerEvent: {}
+[60.382687] (-) TimerEvent: {}
+[60.483513] (-) TimerEvent: {}
+[60.583911] (-) TimerEvent: {}
+[60.684258] (-) TimerEvent: {}
+[60.785002] (-) TimerEvent: {}
+[60.886073] (-) TimerEvent: {}
+[60.986734] (-) TimerEvent: {}
+[61.087466] (-) TimerEvent: {}
+[61.188184] (-) TimerEvent: {}
+[61.288696] (-) TimerEvent: {}
+[61.389636] (-) TimerEvent: {}
+[61.490599] (-) TimerEvent: {}
+[61.591170] (-) TimerEvent: {}
+[61.691668] (-) TimerEvent: {}
+[61.792142] (-) TimerEvent: {}
+[61.892809] (-) TimerEvent: {}
+[61.993540] (-) TimerEvent: {}
+[62.094147] (-) TimerEvent: {}
+[62.194605] (-) TimerEvent: {}
+[62.295431] (-) TimerEvent: {}
+[62.396146] (-) TimerEvent: {}
+[62.496723] (-) TimerEvent: {}
+[62.597168] (-) TimerEvent: {}
+[62.698028] (-) TimerEvent: {}
+[62.798690] (-) TimerEvent: {}
+[62.899169] (-) TimerEvent: {}
+[62.999995] (-) TimerEvent: {}
+[63.100870] (-) TimerEvent: {}
+[63.201307] (-) TimerEvent: {}
+[63.301972] (-) TimerEvent: {}
+[63.402432] (-) TimerEvent: {}
+[63.503009] (-) TimerEvent: {}
+[63.603470] (-) TimerEvent: {}
+[63.704136] (-) TimerEvent: {}
+[63.804619] (-) TimerEvent: {}
+[63.905423] (-) TimerEvent: {}
+[64.005901] (-) TimerEvent: {}
+[64.106443] (-) TimerEvent: {}
+[64.206835] (-) TimerEvent: {}
+[64.307420] (-) TimerEvent: {}
+[64.407840] (-) TimerEvent: {}
+[64.508413] (-) TimerEvent: {}
+[64.608968] (-) TimerEvent: {}
+[64.709383] (-) TimerEvent: {}
+[64.810047] (-) TimerEvent: {}
+[64.910734] (-) TimerEvent: {}
+[65.011233] (-) TimerEvent: {}
+[65.111953] (-) TimerEvent: {}
+[65.212389] (-) TimerEvent: {}
+[65.312920] (-) TimerEvent: {}
+[65.413706] (-) TimerEvent: {}
+[65.514142] (-) TimerEvent: {}
+[65.614626] (-) TimerEvent: {}
+[65.715174] (-) TimerEvent: {}
+[65.815969] (-) TimerEvent: {}
+[65.916490] (-) TimerEvent: {}
+[66.017086] (-) TimerEvent: {}
+[66.117608] (-) TimerEvent: {}
+[66.218060] (-) TimerEvent: {}
+[66.318622] (-) TimerEvent: {}
+[66.419282] (-) TimerEvent: {}
+[66.519935] (-) TimerEvent: {}
+[66.620442] (-) TimerEvent: {}
+[66.720949] (-) TimerEvent: {}
+[66.821725] (-) TimerEvent: {}
+[66.922449] (-) TimerEvent: {}
+[67.023395] (-) TimerEvent: {}
+[67.123794] (-) TimerEvent: {}
+[67.224634] (-) TimerEvent: {}
+[67.325064] (-) TimerEvent: {}
+[67.425759] (-) TimerEvent: {}
+[67.526403] (-) TimerEvent: {}
+[67.626898] (-) TimerEvent: {}
+[67.727610] (-) TimerEvent: {}
+[67.828422] (-) TimerEvent: {}
+[67.928755] (-) TimerEvent: {}
+[68.029573] (-) TimerEvent: {}
+[68.130236] (-) TimerEvent: {}
+[68.230764] (-) TimerEvent: {}
+[68.331507] (-) TimerEvent: {}
+[68.431868] (-) TimerEvent: {}
+[68.532464] (-) TimerEvent: {}
+[68.632939] (-) TimerEvent: {}
+[68.733366] (-) TimerEvent: {}
+[68.834107] (-) TimerEvent: {}
+[68.935092] (-) TimerEvent: {}
+[69.035517] (-) TimerEvent: {}
+[69.136297] (-) TimerEvent: {}
+[69.236929] (-) TimerEvent: {}
+[69.337883] (-) TimerEvent: {}
+[69.438435] (-) TimerEvent: {}
+[69.538862] (-) TimerEvent: {}
+[69.639426] (-) TimerEvent: {}
+[69.739997] (-) TimerEvent: {}
+[69.840432] (-) TimerEvent: {}
+[69.941037] (-) TimerEvent: {}
+[70.041780] (-) TimerEvent: {}
+[70.142306] (-) TimerEvent: {}
+[70.242715] (-) TimerEvent: {}
+[70.343400] (-) TimerEvent: {}
+[70.443869] (-) TimerEvent: {}
+[70.544713] (-) TimerEvent: {}
+[70.645403] (-) TimerEvent: {}
+[70.746054] (-) TimerEvent: {}
+[70.846653] (-) TimerEvent: {}
+[70.947135] (-) TimerEvent: {}
+[71.048029] (-) TimerEvent: {}
+[71.148769] (-) TimerEvent: {}
+[71.249218] (-) TimerEvent: {}
+[71.350089] (-) TimerEvent: {}
+[71.450902] (-) TimerEvent: {}
+[71.551238] (-) TimerEvent: {}
+[71.651678] (-) TimerEvent: {}
+[71.752473] (-) TimerEvent: {}
+[71.853282] (-) TimerEvent: {}
+[71.953966] (-) TimerEvent: {}
+[72.054490] (-) TimerEvent: {}
+[72.154908] (-) TimerEvent: {}
+[72.255740] (-) TimerEvent: {}
+[72.356524] (-) TimerEvent: {}
+[72.456954] (-) TimerEvent: {}
+[72.557422] (-) TimerEvent: {}
+[72.658267] (-) TimerEvent: {}
+[72.758737] (-) TimerEvent: {}
+[72.859244] (-) TimerEvent: {}
+[72.959949] (-) TimerEvent: {}
+[73.060600] (-) TimerEvent: {}
+[73.161071] (-) TimerEvent: {}
+[73.261649] (-) TimerEvent: {}
+[73.362156] (-) TimerEvent: {}
+[73.462886] (-) TimerEvent: {}
+[73.563614] (-) TimerEvent: {}
+[73.664082] (-) TimerEvent: {}
+[73.764502] (-) TimerEvent: {}
+[73.864779] (-) TimerEvent: {}
+[73.965448] (-) TimerEvent: {}
+[74.066828] (-) TimerEvent: {}
+[74.167994] (-) TimerEvent: {}
+[74.269023] (-) TimerEvent: {}
+[74.369771] (-) TimerEvent: {}
+[74.470116] (-) TimerEvent: {}
+[74.570461] (-) TimerEvent: {}
+[74.671048] (-) TimerEvent: {}
+[74.771332] (-) TimerEvent: {}
+[74.871887] (-) TimerEvent: {}
+[74.972655] (-) TimerEvent: {}
+[75.073292] (-) TimerEvent: {}
+[75.173980] (-) TimerEvent: {}
+[75.274997] (-) TimerEvent: {}
+[75.375709] (-) TimerEvent: {}
+[75.476581] (-) TimerEvent: {}
+[75.577081] (-) TimerEvent: {}
+[75.677651] (-) TimerEvent: {}
+[75.778345] (-) TimerEvent: {}
+[75.878697] (-) TimerEvent: {}
+[75.979552] (-) TimerEvent: {}
+[76.080045] (-) TimerEvent: {}
+[76.180770] (-) TimerEvent: {}
+[76.281183] (-) TimerEvent: {}
+[76.381803] (-) TimerEvent: {}
+[76.483139] (-) TimerEvent: {}
+[76.583749] (-) TimerEvent: {}
+[76.684545] (-) TimerEvent: {}
+[76.784951] (-) TimerEvent: {}
+[76.885501] (-) TimerEvent: {}
+[76.985955] (-) TimerEvent: {}
+[77.086794] (-) TimerEvent: {}
+[77.187621] (-) TimerEvent: {}
+[77.288262] (-) TimerEvent: {}
+[77.388854] (-) TimerEvent: {}
+[77.489728] (-) TimerEvent: {}
+[77.590328] (-) TimerEvent: {}
+[77.691227] (-) TimerEvent: {}
+[77.791592] (-) TimerEvent: {}
+[77.892195] (-) TimerEvent: {}
+[77.992803] (-) TimerEvent: {}
+[78.093174] (-) TimerEvent: {}
+[78.193620] (-) TimerEvent: {}
+[78.294406] (-) TimerEvent: {}
+[78.395163] (-) TimerEvent: {}
+[78.495786] (-) TimerEvent: {}
+[78.596593] (-) TimerEvent: {}
+[78.697417] (-) TimerEvent: {}
+[78.797667] (-) TimerEvent: {}
+[78.898253] (-) TimerEvent: {}
+[78.998905] (-) TimerEvent: {}
+[79.099742] (-) TimerEvent: {}
+[79.200278] (-) TimerEvent: {}
+[79.301409] (-) TimerEvent: {}
+[79.402081] (-) TimerEvent: {}
+[79.502583] (-) TimerEvent: {}
+[79.603021] (-) TimerEvent: {}
+[79.703640] (-) TimerEvent: {}
+[79.804089] (-) TimerEvent: {}
+[79.905087] (-) TimerEvent: {}
+[80.005684] (-) TimerEvent: {}
+[80.108848] (-) TimerEvent: {}
+[80.209408] (-) TimerEvent: {}
+[80.310006] (-) TimerEvent: {}
+[80.410551] (-) TimerEvent: {}
+[80.511052] (-) TimerEvent: {}
+[80.611565] (-) TimerEvent: {}
+[80.712436] (-) TimerEvent: {}
+[80.813643] (-) TimerEvent: {}
+[80.914127] (-) TimerEvent: {}
+[81.015060] (-) TimerEvent: {}
+[81.115565] (-) TimerEvent: {}
+[81.215995] (-) TimerEvent: {}
+[81.316759] (-) TimerEvent: {}
+[81.417298] (-) TimerEvent: {}
+[81.518120] (-) TimerEvent: {}
+[81.618851] (-) TimerEvent: {}
+[81.719445] (-) TimerEvent: {}
+[81.819948] (-) TimerEvent: {}
+[81.920869] (-) TimerEvent: {}
+[82.021505] (-) TimerEvent: {}
+[82.122085] (-) TimerEvent: {}
+[82.222577] (-) TimerEvent: {}
+[82.323059] (-) TimerEvent: {}
+[82.423635] (-) TimerEvent: {}
+[82.524121] (-) TimerEvent: {}
+[82.624711] (-) TimerEvent: {}
+[82.725109] (-) TimerEvent: {}
+[82.825785] (-) TimerEvent: {}
+[82.926329] (-) TimerEvent: {}
+[83.026947] (-) TimerEvent: {}
+[83.127722] (-) TimerEvent: {}
+[83.228716] (-) TimerEvent: {}
+[83.329167] (-) TimerEvent: {}
+[83.429858] (-) TimerEvent: {}
+[83.530610] (-) TimerEvent: {}
+[83.631835] (-) TimerEvent: {}
+[83.732681] (-) TimerEvent: {}
+[83.833142] (-) TimerEvent: {}
+[83.934081] (-) TimerEvent: {}
+[84.034766] (-) TimerEvent: {}
+[84.135615] (-) TimerEvent: {}
+[84.236100] (-) TimerEvent: {}
+[84.337044] (-) TimerEvent: {}
+[84.437927] (-) TimerEvent: {}
+[84.538713] (-) TimerEvent: {}
+[84.639159] (-) TimerEvent: {}
+[84.739771] (-) TimerEvent: {}
+[84.840447] (-) TimerEvent: {}
+[84.940995] (-) TimerEvent: {}
+[85.041453] (-) TimerEvent: {}
+[85.141939] (-) TimerEvent: {}
+[85.242377] (-) TimerEvent: {}
+[85.342951] (-) TimerEvent: {}
+[85.443371] (-) TimerEvent: {}
+[85.543949] (-) TimerEvent: {}
+[85.644618] (-) TimerEvent: {}
+[85.745254] (-) TimerEvent: {}
+[85.845999] (-) TimerEvent: {}
+[85.946476] (-) TimerEvent: {}
+[86.047196] (-) TimerEvent: {}
+[86.147587] (-) TimerEvent: {}
+[86.247977] (-) TimerEvent: {}
+[86.348485] (-) TimerEvent: {}
+[86.450098] (-) TimerEvent: {}
+[86.550881] (-) TimerEvent: {}
+[86.651587] (-) TimerEvent: {}
+[86.752661] (-) TimerEvent: {}
+[86.853514] (-) TimerEvent: {}
+[86.954023] (-) TimerEvent: {}
+[87.054564] (-) TimerEvent: {}
+[87.155194] (-) TimerEvent: {}
+[87.255889] (-) TimerEvent: {}
+[87.356599] (-) TimerEvent: {}
+[87.457468] (-) TimerEvent: {}
+[87.558971] (-) TimerEvent: {}
+[87.659434] (-) TimerEvent: {}
+[87.760235] (-) TimerEvent: {}
+[87.860684] (-) TimerEvent: {}
+[87.961267] (-) TimerEvent: {}
+[88.061715] (-) TimerEvent: {}
+[88.162159] (-) TimerEvent: {}
+[88.262581] (-) TimerEvent: {}
+[88.363440] (-) TimerEvent: {}
+[88.464304] (-) TimerEvent: {}
+[88.564774] (-) TimerEvent: {}
+[88.665506] (-) TimerEvent: {}
+[88.766109] (-) TimerEvent: {}
+[88.866782] (-) TimerEvent: {}
+[88.967265] (-) TimerEvent: {}
+[89.068086] (-) TimerEvent: {}
+[89.168882] (-) TimerEvent: {}
+[89.269509] (-) TimerEvent: {}
+[89.369910] (-) TimerEvent: {}
+[89.470413] (-) TimerEvent: {}
+[89.571105] (-) TimerEvent: {}
+[89.671593] (-) TimerEvent: {}
+[89.772324] (-) TimerEvent: {}
+[89.872899] (-) TimerEvent: {}
+[89.973415] (-) TimerEvent: {}
+[90.048002] (usb_cam) CommandEnded: {'returncode': 0}
+[90.074435] (-) TimerEvent: {}
+[90.176885] (-) TimerEvent: {}
+[90.242773] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[90.243606] (-) EventReactorShutdown: {}

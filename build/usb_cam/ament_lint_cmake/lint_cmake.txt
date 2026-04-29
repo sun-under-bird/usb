@@ -1,0 +1,169 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml
+
+build/usb_cam/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/usb_cam/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/usb_cam/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/usb_cam/CTestTestfile.cmake:7: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:8: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:9: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:10: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:11: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:12: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:13: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:14: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:15: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:16: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:17: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:18: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:19: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:20: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:21: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:22: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:23: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:24: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:25: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CTestTestfile.cmake:26: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:46: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:50: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:55: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:57: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:58: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:62: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:64: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:65: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:66: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:79: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:81: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:82: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:86: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:98: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:100: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:101: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:105: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:107: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:108: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:109: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:125: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:127: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:128: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:132: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:134: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:135: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:136: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:155: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:159: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:163: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:167: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:171: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:175: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:179: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:183: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:187: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:191: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:195: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:199: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:203: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:207: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:211: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:215: Lines should be <= 140 characters long [linelength]
+build/usb_cam/cmake_install.cmake:219: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/cmake_install.cmake:242: Weird indentation; use 2 spaces [whitespace/indent]
+build/usb_cam/cmake_install.cmake:244: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/usb_cam/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/Makefile.cmake:929: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/Makefile.cmake:935: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/Makefile.cmake:973: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12: Lines should be <= 140 characters long [linelength]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43: Extra spaces between 'if' and its () [whitespace/extra]
+build/usb_cam/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/test_pixel_formats.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/test_usb_cam_utils.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_node.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_node_exe.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/DependInfo.cmake:14: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/CMakeFiles/usb_cam_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/ament_cmake_core/package.cmake:4: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_core/package.cmake:6: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/ament_cmake_core/package.cmake:8: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/ament_cmake_core/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:2: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:4: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:5: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:6: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:8: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:9: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:10: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:11: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:12: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:13: Lines should be <= 140 characters long [linelength]
+build/usb_cam/ament_cmake_package_templates/templates.cmake:14: Lines should be <= 140 characters long [linelength]
+
+build/usb_cam/gtest/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/usb_cam/gtest/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/usb_cam/gtest/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+
+build/usb_cam/gtest/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/gtest/CMakeFiles/gtest.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/usb_cam/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake:15: Mismatching spaces inside () after command [whitespace/mismatch]
+
+install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake:3: Lines should be <= 140 characters long [linelength]
+
+install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake:39: Lines should be <= 140 characters long [linelength]
+
+
+136 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/lint_cmake.xunit.xml'

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="usb_cam.pep257"
+  tests="10"
+  errors="0"
+  failures="0"
+  time="0.104"
+>
+  <testcase
+    name="./install/_local_setup_util_ps1.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./install/_local_setup_util_sh.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./install/usb_cam/lib/usb_cam/show_image.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./install/usb_cam/share/usb_cam/launch/__init__.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./install/usb_cam/share/usb_cam/launch/camera.launch.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./install/usb_cam/share/usb_cam/launch/camera_config.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./launch/__init__.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./launch/camera.launch.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./launch/camera_config.py"
+    classname="usb_cam.pep257"/>
+  <testcase
+    name="./scripts/show_image.py"
+    classname="usb_cam.pep257"/>
+  <system-out>Checked files:
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+* ./install/usb_cam/lib/usb_cam/show_image.py
+* ./install/usb_cam/share/usb_cam/launch/__init__.py
+* ./install/usb_cam/share/usb_cam/launch/camera.launch.py
+* ./install/usb_cam/share/usb_cam/launch/camera_config.py
+* ./launch/__init__.py
+* ./launch/camera.launch.py
+* ./launch/camera_config.py
+* ./scripts/show_image.py</system-out>
+</testsuite>

@@ -31,6 +31,7 @@
 #include <string>
 #include <vector>
 #include <filesystem>
+#include <chrono>
 #include "usb_cam/usb_cam_node.hpp"
 #include "usb_cam/utils.hpp"
 
@@ -38,6 +39,20 @@ const char BASE_TOPIC_NAME[] = "image_raw";
 
 namespace usb_cam
 {
+namespace
+{
+
+rmw_qos_profile_t sensor_data_qos_profile()
+{
+  return rclcpp::SensorDataQoS().get_rmw_qos_profile();
+}
+
+rclcpp::SensorDataQoS sensor_data_qos()
+{
+  return rclcpp::SensorDataQoS();
+}
+
+}  // namespace
 
 UsbCamNode::UsbCamNode(const rclcpp::NodeOptions & node_options)
 : Node("usb_cam", node_options),
@@ -46,11 +61,12 @@ UsbCamNode::UsbCamNode(const rclcpp::NodeOptions & node_options)
   m_compressed_img_msg(nullptr),
   m_image_publisher(std::make_shared<image_transport::CameraPublisher>(
       image_transport::create_camera_publisher(this, BASE_TOPIC_NAME,
-      rclcpp::QoS {100}.get_rmw_qos_profile()))),
+      sensor_data_qos_profile()))),
   m_compressed_image_publisher(nullptr),
   m_compressed_cam_info_publisher(nullptr),
   m_parameters(),
   m_camera_info_msg(new sensor_msgs::msg::CameraInfo()),
+  m_capture_thread_running(false),
   m_service_capture(
     this->create_service<std_srvs::srv::SetBool>(
       "set_capture",
@@ -99,6 +115,7 @@ UsbCamNode::UsbCamNode(const rclcpp::NodeOptions & node_options)
 UsbCamNode::~UsbCamNode()
 {
   RCLCPP_WARN(this->get_logger(), "Shutting down");
+  stop_capture_worker();
   m_image_msg.reset();
   m_compressed_img_msg.reset();
   m_camera_info_msg.reset();
@@ -118,12 +135,37 @@ void UsbCamNode::service_capture(
 {
   (void) request_header;
   if (request->data) {
-    m_camera->start_capturing();
-    warmup_capture();
-    response->message = "Start Capturing";
+    try {
+      m_camera->start_capturing();
+      warmup_capture();
+      if (m_parameters.low_latency_mode) {
+        start_capture_worker();
+      } else {
+        if (m_timer) {
+          m_timer->reset();
+        }
+        if (m_publish_timer) {
+          m_publish_timer->reset();
+        }
+      }
+      response->success = true;
+      response->message = "Start Capturing";
+    } catch (const std::exception & exception) {
+      response->success = false;
+      response->message = exception.what();
+      RCLCPP_ERROR_STREAM(this->get_logger(), "Failed to start capture: " << exception.what());
+    }
   } else {
-    m_camera->stop_capturing();
-    response->message = "Stop Capturing";
+    stop_capture_worker();
+    try {
+      m_camera->stop_capturing();
+      response->success = true;
+      response->message = "Stop Capturing";
+    } catch (const std::exception & exception) {
+      response->success = false;
+      response->message = exception.what();
+      RCLCPP_ERROR_STREAM(this->get_logger(), "Failed to stop capture: " << exception.what());
+    }
   }
 }
 
@@ -193,61 +235,59 @@ void UsbCamNode::init()
     m_compressed_img_msg->header.frame_id = m_parameters.frame_id;
     m_compressed_image_publisher =
       this->create_publisher<sensor_msgs::msg::CompressedImage>(
-      std::string(BASE_TOPIC_NAME) + "/compressed", rclcpp::QoS(100));
+      std::string(BASE_TOPIC_NAME) + "/compressed", sensor_data_qos());
     m_compressed_cam_info_publisher =
       this->create_publisher<sensor_msgs::msg::CameraInfo>(
-      "camera_info", rclcpp::QoS(100));
+      "camera_info", sensor_data_qos());
   }
 
   m_image_msg->header.frame_id = m_parameters.frame_id;
-  RCLCPP_INFO(
-    this->get_logger(), "Starting '%s' (%s) at %dx%d via %s (%s) at %i FPS",
-    m_parameters.camera_name.c_str(), m_parameters.device_name.c_str(),
-    m_parameters.image_width, m_parameters.image_height, m_parameters.io_method_name.c_str(),
-    m_parameters.pixel_format_name.c_str(), m_parameters.framerate);
-  // set the IO method
-  io_method_t io_method =
-    usb_cam::utils::io_method_from_string(m_parameters.io_method_name);
-  if (io_method == usb_cam::utils::IO_METHOD_UNKNOWN) {
-    RCLCPP_ERROR_ONCE(
-      this->get_logger(),
-      "Unknown IO method '%s'", m_parameters.io_method_name.c_str());
+
+  try {
+    RCLCPP_INFO(
+      this->get_logger(), "Starting '%s' (%s) at %dx%d via %s (%s) at %i FPS",
+      m_parameters.camera_name.c_str(), m_parameters.device_name.c_str(),
+      m_parameters.image_width, m_parameters.image_height, m_parameters.io_method_name.c_str(),
+      m_parameters.pixel_format_name.c_str(), m_parameters.framerate);
+    io_method_t io_method =
+      usb_cam::utils::io_method_from_string(m_parameters.io_method_name);
+    if (io_method == usb_cam::utils::IO_METHOD_UNKNOWN) {
+      throw std::invalid_argument("Unknown IO method `" + m_parameters.io_method_name + "`");
+    }
+
+    m_camera->configure(m_parameters, io_method);
+    set_v4l2_params();
+
+    m_camera->start();
+    warmup_capture();
+
+    auto frame_rate = std::max<size_t>(1, m_camera->get_frame_rate());
+    if (static_cast<size_t>(m_parameters.framerate) > frame_rate) {
+      RCLCPP_WARN_STREAM(
+        this->get_logger(),
+        "Desired framerate " << m_parameters.framerate <<
+          " is higher than the camera's capability " << frame_rate << " fps");
+      m_parameters.framerate = frame_rate;
+    }
+
+    if (m_parameters.low_latency_mode) {
+      RCLCPP_INFO(this->get_logger(), "Low latency mode enabled: using dedicated capture thread");
+      start_capture_worker();
+    } else {
+      const int period_ms = std::max<int>(1, static_cast<int>(1000.0 / frame_rate));
+      m_timer = this->create_wall_timer(
+        std::chrono::milliseconds(static_cast<int64_t>(period_ms)),
+        std::bind(&UsbCamNode::update, this));
+      RCLCPP_INFO_STREAM(this->get_logger(), "Timer triggering every " << period_ms << " ms");
+
+      const int publish_period_ms = std::max<int>(1, static_cast<int>(1000.0 / m_parameters.framerate));
+      m_publish_timer = this->create_wall_timer(
+        std::chrono::milliseconds(static_cast<int64_t>(publish_period_ms)),
+        std::bind(&UsbCamNode::publish, this));
+    }
+  } catch (const std::exception & exception) {
+    RCLCPP_ERROR_STREAM(this->get_logger(), "Camera initialization failed: " << exception.what());
     rclcpp::shutdown();
-    return;
-  }
-
-  // configure the camera
-  m_camera->configure(m_parameters, io_method);
-
-  set_v4l2_params();
-
-  // start the camera
-  m_camera->start();
-  warmup_capture();
-
-  auto frame_rate = m_camera->get_frame_rate();
-  if (static_cast<size_t>(m_parameters.framerate) > frame_rate) {
-    RCLCPP_WARN_STREAM(
-      this->get_logger(),
-      "Desired framerate " << m_parameters.framerate << " is higher than the camera's capability " <<
-        frame_rate << " fps");
-    m_parameters.framerate = frame_rate;
-  }
-
-  // TODO(lucasw) should this check a little faster than expected frame rate?
-  // TODO(lucasw) how to do small than ms, or fractional ms- std::chrono::nanoseconds?
-  const int period_ms = 1000.0 / frame_rate;
-  m_timer = this->create_wall_timer(
-    std::chrono::milliseconds(static_cast<int64_t>(period_ms)),
-    std::bind(&UsbCamNode::update, this));
-  RCLCPP_INFO_STREAM(this->get_logger(), "Timer triggering every " << period_ms << " ms");
-  if (m_parameters.low_latency_mode) {
-    RCLCPP_INFO(this->get_logger(), "Low latency mode enabled: publishing immediately after capture");
-  } else {
-    const int publish_period_ms = 1000.0 / m_parameters.framerate;
-    m_publish_timer = this->create_wall_timer(
-      std::chrono::milliseconds(static_cast<int64_t>(publish_period_ms)),
-      std::bind(&UsbCamNode::publish, this));
   }
 }
 
@@ -459,7 +499,12 @@ rcl_interfaces::msg::SetParametersResult UsbCamNode::parameters_callback(
   const std::vector<rclcpp::Parameter> & parameters)
 {
   RCLCPP_DEBUG(this->get_logger(), "Setting parameters for %s", m_parameters.camera_name.c_str());
-  m_timer->reset();
+  if (m_timer) {
+    m_timer->reset();
+  }
+  if (m_publish_timer) {
+    m_publish_timer->reset();
+  }
   assign_params(parameters);
   set_v4l2_params();
   rcl_interfaces::msg::SetParametersResult result;
@@ -484,18 +529,21 @@ void UsbCamNode::warmup_capture()
 
 void UsbCamNode::update()
 {
-  if (m_camera->is_capturing()) {
-    // If the camera exposure longer higher than the framerate period
-    // then that caps the framerate.
-    // auto t0 = now();
-    bool isSuccessful = (m_parameters.pixel_format_name == "mjpeg") ?
-      take_and_send_image_mjpeg() :
-      take_and_send_image();
-    if (!isSuccessful) {
+  if (!m_camera->is_capturing()) {
+    return;
+  }
+
+  try {
+    const bool is_successful = capture_frame();
+    if (!is_successful) {
       RCLCPP_WARN_ONCE(this->get_logger(), "USB camera did not respond in time.");
-    } else if (m_parameters.low_latency_mode) {
-      publish();
     }
+  } catch (const std::exception & exception) {
+    RCLCPP_ERROR_STREAM(this->get_logger(), "Capture failed: " << exception.what());
+    restart_capture_stream(exception.what());
+  } catch (...) {
+    RCLCPP_ERROR(this->get_logger(), "Capture failed with an unknown exception");
+    restart_capture_stream("unknown capture error");
   }
 }
 
@@ -506,6 +554,84 @@ void UsbCamNode::publish()
     m_compressed_cam_info_publisher->publish(*m_camera_info_msg);
   } else {
     m_image_publisher->publish(*m_image_msg, *m_camera_info_msg);
+  }
+}
+
+bool UsbCamNode::capture_frame()
+{
+  const bool is_successful =
+    (m_parameters.pixel_format_name == "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();
+
+  if (is_successful && m_parameters.low_latency_mode) {
+    publish();
+  }
+
+  return is_successful;
+}
+
+void UsbCamNode::start_capture_worker()
+{
+  if (!m_parameters.low_latency_mode || m_capture_thread_running.exchange(true)) {
+    return;
+  }
+
+  m_capture_thread = std::thread(&UsbCamNode::capture_loop, this);
+}
+
+void UsbCamNode::stop_capture_worker()
+{
+  if (!m_capture_thread_running.exchange(false)) {
+    return;
+  }
+
+  if (m_capture_thread.joinable()) {
+    m_capture_thread.join();
+  }
+}
+
+void UsbCamNode::capture_loop()
+{
+  while (m_capture_thread_running.load() && rclcpp::ok()) {
+    if (!m_camera->is_capturing()) {
+      std::this_thread::sleep_for(std::chrono::milliseconds(10));
+      continue;
+    }
+
+    try {
+      const bool is_successful = capture_frame();
+      if (!is_successful) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+      }
+    } catch (const std::exception & exception) {
+      RCLCPP_ERROR_STREAM(this->get_logger(), "Low-latency capture loop failed: " << exception.what());
+      restart_capture_stream(exception.what());
+      std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    } catch (...) {
+      RCLCPP_ERROR(this->get_logger(), "Low-latency capture loop failed with an unknown exception");
+      restart_capture_stream("unknown low-latency capture error");
+      std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    }
+  }
+}
+
+void UsbCamNode::restart_capture_stream(const std::string & reason)
+{
+  std::lock_guard<std::mutex> lock(m_capture_mutex);
+  RCLCPP_WARN_STREAM(this->get_logger(), "Restarting capture stream after error: " << reason);
+
+  try {
+    if (m_camera->is_capturing()) {
+      m_camera->stop_capturing();
+    }
+  } catch (const std::exception & exception) {
+    RCLCPP_ERROR_STREAM(this->get_logger(), "Failed to stop capture during recovery: " << exception.what());
+  }
+
+  try {
+    m_camera->start_capturing();
+    warmup_capture();
+  } catch (const std::exception & exception) {
+    RCLCPP_ERROR_STREAM(this->get_logger(), "Failed to restart capture stream: " << exception.what());
   }
 }
 }  // namespace usb_cam

@@ -1,0 +1,67 @@
+[30.010s] Invoking command in '/home/yahboom/usb/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/usb/build/usb_cam -- -j6 -l6
+[30.077s] [ 28%] Built target usb_cam
+[30.077s] [ 28%] Built target gtest_main
+[30.077s] [ 42%] Built target usb_cam_node_exe
+[30.077s] [ 57%] Built target gtest
+[30.106s] [ 85%] Built target test_pixel_formats
+[30.106s] [ 85%] Built target test_usb_cam_utils
+[30.107s] [ 92%] Building CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o
+[38.473s] [100%] Linking CXX shared library libusb_cam_node.so
+[38.844s] [100%] Built target usb_cam_node
+[38.857s] Invoked command in '/home/yahboom/usb/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/usb/build/usb_cam -- -j6 -l6
+[38.942s] Invoking command in '/home/yahboom/usb/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/usb/build/usb_cam
+[38.950s] -- Install configuration: ""
+[38.951s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/library_path.sh
+[38.952s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[38.952s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[38.952s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/usb_cam/show_image.py
+[38.952s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/usb_cam/measure_startup_latency.sh
+[38.952s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/libusb_cam.so
+[38.952s] -- Installing: /home/yahboom/usb/install/usb_cam/lib/libusb_cam_node.so
+[38.958s] -- Set runtime path of "/home/yahboom/usb/install/usb_cam/lib/libusb_cam_node.so" to ""
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam.hpp
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[38.958s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/m420.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/mono.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/utils.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/conversions.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/constants.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/include/usb_cam/utils.hpp
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/lib/libusb_cam_node.so
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/__init__.py
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[38.959s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/launch/camera_config.py
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/params_1.yaml
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/config/params_2.yaml
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/path.sh
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/environment/path.dsv
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.bash
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.sh
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.zsh
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/local_setup.dsv
+[38.960s] -- Installing: /home/yahboom/usb/install/usb_cam/share/usb_cam/package.dsv
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[38.960s] -- Up-to-date: /home/yahboom/usb/install/usb_cam/share/usb_cam/package.xml
+[60.023s] Invoked command in '/home/yahboom/usb/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/camera_ws/install/stereo_camera_pkg_py:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/usb/build/usb_cam

@@ -98,7 +98,9 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  PROGRAMS scripts/show_image.py
+  PROGRAMS
+    scripts/show_image.py
+    scripts/measure_startup_latency.sh
   DESTINATION lib/${PROJECT_NAME})
 
 install(TARGETS

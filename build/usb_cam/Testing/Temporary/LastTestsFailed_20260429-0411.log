@@ -1,0 +1,6 @@
+3:copyright
+5:cpplint
+6:flake8
+7:lint_cmake
+9:uncrustify
+10:xmllint

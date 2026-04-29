@@ -1,0 +1,760 @@
+-- run_test.py: invoking following command in '/home/yahboom/usb':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml
+
+Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c':
+
+--- build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
++++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.uncrustify
+@@ -32 +32 @@
+-  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
++/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+@@ -35,2 +35,2 @@
+-#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+-#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
++#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
++#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+@@ -40 +40 @@
+-#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
++#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+@@ -45 +45 @@
+-   /* The third version component from --version is an update index,
++/* The third version component from --version is an update index,
+@@ -50 +50 @@
+-   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
++/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+@@ -54 +54 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -83,3 +83,3 @@
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+@@ -87,3 +87,3 @@
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+@@ -92 +92 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -118,3 +118,3 @@
+-# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+-# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+-# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
++# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
++# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
++# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+@@ -124,2 +124,2 @@
+-  /* __BORLANDC__ = 0xVRR */
+-# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
++/* __BORLANDC__ = 0xVRR */
++# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+@@ -130 +130 @@
+-   /* __WATCOMC__ = VVRR */
++/* __WATCOMC__ = VVRR */
+@@ -139 +139 @@
+-   /* __WATCOMC__ = VVRP + 1100 */
++/* __WATCOMC__ = VVRP + 1100 */
+@@ -149,4 +149,4 @@
+-   /* __SUNPRO_C = 0xVRRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
++/* __SUNPRO_C = 0xVRRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+@@ -154,4 +154,4 @@
+-   /* __SUNPRO_CC = 0xVRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
++/* __SUNPRO_CC = 0xVRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+@@ -162,4 +162,4 @@
+-  /* __HP_cc = VVRRPP */
+-# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)
+-# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)
++/* __HP_cc = VVRRPP */
++# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)
++# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)
+@@ -169,4 +169,4 @@
+-  /* __DECC_VER = VVRRTPPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)
+-# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)
+-# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)
++/* __DECC_VER = VVRRTPPPP */
++# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)
++# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)
++# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)
+@@ -176,4 +176,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -191,4 +191,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -198,4 +198,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -226,4 +226,4 @@
+-  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+-# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+-# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
++/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
++# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
++# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
++# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+@@ -261 +261 @@
+-# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
++# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+@@ -276,4 +276,4 @@
+-  /* __ARMCC_VERSION = VRRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
++/* __ARMCC_VERSION = VRRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -281,4 +281,4 @@
+-  /* __ARMCC_VERSION = VRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
++/* __ARMCC_VERSION = VRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -297 +297 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -305,3 +305,3 @@
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+@@ -319 +319 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -336 +336 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -341 +341 @@
+-    /* _MSC_FULL_VER = VVRRPPPPP */
++/* _MSC_FULL_VER = VVRRPPPPP */
+@@ -344 +344 @@
+-    /* _MSC_FULL_VER = VVRRPPPP */
++/* _MSC_FULL_VER = VVRRPPPP */
+@@ -352 +352,2 @@
+-#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
++#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
++  defined(__ADSP21000__)
+@@ -355,4 +356,4 @@
+-  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+-# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+-# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+-# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
++/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
++# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
++# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
++# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+@@ -368 +369,3 @@
+-# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
++  defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -370 +373 @@
+-#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
++#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -382,4 +385,4 @@
+-  /* SDCC = VRP */
+-#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)
+-#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)
+-#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)
++/* SDCC = VRP */
++#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)
++#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)
++#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)
+@@ -403 +406 @@
+-char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
++char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+@@ -405 +408 @@
+-char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
++char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+@@ -409 +412 @@
+-char const* qnxnto = "INFO" ":" "qnxnto[]";
++char const * qnxnto = "INFO" ":" "qnxnto[]";
+@@ -413 +416 @@
+-char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
++char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+@@ -656,9 +659,9 @@
+-#define DEC(n)                   \
+-  ('0' + (((n) / 10000000)%10)), \
+-  ('0' + (((n) / 1000000)%10)),  \
+-  ('0' + (((n) / 100000)%10)),   \
+-  ('0' + (((n) / 10000)%10)),    \
+-  ('0' + (((n) / 1000)%10)),     \
+-  ('0' + (((n) / 100)%10)),      \
+-  ('0' + (((n) / 10)%10)),       \
+-  ('0' +  ((n) % 10))
++#define DEC(n) \
++  ('0' + (((n) / 10000000) % 10)), \
++  ('0' + (((n) / 1000000) % 10)), \
++  ('0' + (((n) / 100000) % 10)), \
++  ('0' + (((n) / 10000) % 10)), \
++  ('0' + (((n) / 1000) % 10)), \
++  ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), \
++  ('0' + ((n) % 10))
+@@ -667,9 +670,9 @@
+-#define HEX(n)             \
+-  ('0' + ((n)>>28 & 0xF)), \
+-  ('0' + ((n)>>24 & 0xF)), \
+-  ('0' + ((n)>>20 & 0xF)), \
+-  ('0' + ((n)>>16 & 0xF)), \
+-  ('0' + ((n)>>12 & 0xF)), \
+-  ('0' + ((n)>>8  & 0xF)), \
+-  ('0' + ((n)>>4  & 0xF)), \
+-  ('0' + ((n)     & 0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), \
++  ('0' + ((n) >> 24 & 0xF)), \
++  ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), \
++  ('0' + ((n) >> 12 & 0xF)), \
++  ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), \
++  ('0' + ((n) & 0xF))
+@@ -679 +682 @@
+-char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
++char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+@@ -685 +688 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -690 +693 @@
+-   '.', COMPILER_VERSION_PATCH,
++  '.', COMPILER_VERSION_PATCH,
+@@ -692 +695 @@
+-    '.', COMPILER_VERSION_TWEAK,
++  '.', COMPILER_VERSION_TWEAK,
+@@ -696 +699,2 @@
+-  ']','\0'};
++  ']', '\0'
++};
+@@ -703,3 +707,4 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+-  'i','n','t','e','r','n','a','l','[',
+-  COMPILER_VERSION_INTERNAL,']','\0'};
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
++  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
++  COMPILER_VERSION_INTERNAL, ']', '\0'
++};
+@@ -707 +712,2 @@
+-char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
++char const * info_version_internal =
++  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+@@ -714 +720 @@
+-  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
++  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -719 +725 @@
+-   '.', SIMULATE_VERSION_PATCH,
++  '.', SIMULATE_VERSION_PATCH,
+@@ -721 +727 @@
+-    '.', SIMULATE_VERSION_TWEAK,
++  '.', SIMULATE_VERSION_TWEAK,
+@@ -725 +731,2 @@
+-  ']','\0'};
++  ']', '\0'
++};
+@@ -732,3 +739,2 @@
+-char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+-char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+-
++char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
++char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+@@ -754 +760 @@
+-const char* info_language_standard_default =
++const char * info_language_standard_default =
+@@ -757 +763 @@
+-const char* info_language_extensions_default = "INFO" ":" "extensions_default["
++const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+@@ -759,2 +765,2 @@
+-#if (defined(__clang__) || defined(__GNUC__) ||                               \
+-     defined(__TI_COMPILER_VERSION__)) &&                                     \
++#if (defined(__clang__) || defined(__GNUC__) || \
++  defined(__TI_COMPILER_VERSION__)) && \
+@@ -766 +772 @@
+-"]";
++  "]";
+@@ -774 +780 @@
+-int main(argc, argv) int argc; char *argv[];
++int main(argc, argv) int argc; char * argv[];
+@@ -776 +782 @@
+-int main(int argc, char* argv[])
++int main(int argc, char * argv[])
+
+Code style divergence in file 'build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+
+--- build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
++++ build/usb_cam/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+@@ -20 +20 @@
+-  /* __COMO_VERSION__ = VRR */
++/* __COMO_VERSION__ = VRR */
+@@ -32 +32 @@
+-  /* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
++/* __INTEL_COMPILER = VRP prior to 2021, and then VVVV for 2021 and later,
+@@ -35,2 +35,2 @@
+-#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+-#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
++#  define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
++#  define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+@@ -40 +40 @@
+-#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
++#   define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+@@ -45 +45 @@
+-   /* The third version component from --version is an update index,
++/* The third version component from --version is an update index,
+@@ -50 +50 @@
+-   /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
++/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+@@ -54 +54 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -83,3 +83,3 @@
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/100)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER    % 10)
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 100)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 10)
+@@ -87,3 +87,3 @@
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER/10000)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER     % 100)
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_LLVM_COMPILER / 10000)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_LLVM_COMPILER / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__INTEL_LLVM_COMPILER % 100)
+@@ -92 +92 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -118,3 +118,3 @@
+-# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+-# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+-# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
++# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
++# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
++# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+@@ -124,2 +124,2 @@
+-  /* __BORLANDC__ = 0xVRR */
+-# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
++/* __BORLANDC__ = 0xVRR */
++# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+@@ -130 +130 @@
+-   /* __WATCOMC__ = VVRR */
++/* __WATCOMC__ = VVRR */
+@@ -139 +139 @@
+-   /* __WATCOMC__ = VVRP + 1100 */
++/* __WATCOMC__ = VVRP + 1100 */
+@@ -149,4 +149,4 @@
+-   /* __SUNPRO_CC = 0xVRRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
++/* __SUNPRO_CC = 0xVRRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+@@ -154,4 +154,4 @@
+-   /* __SUNPRO_CC = 0xVRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
++/* __SUNPRO_CC = 0xVRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+@@ -162,4 +162,4 @@
+-  /* __HP_aCC = VVRRPP */
+-# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)
+-# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)
++/* __HP_aCC = VVRRPP */
++# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)
++# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)
+@@ -169,4 +169,4 @@
+-  /* __DECCXX_VER = VVRRTPPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)
+-# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)
+-# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)
++/* __DECCXX_VER = VVRRTPPPP */
++# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)
++# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)
++# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)
+@@ -176,4 +176,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -191,4 +191,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -198,4 +198,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -226,4 +226,4 @@
+-  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+-# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+-# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
++/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
++# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
++# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
++# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+@@ -261 +261 @@
+-# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
++# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+@@ -270,4 +270,4 @@
+-  /* __ARMCC_VERSION = VRRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
++/* __ARMCC_VERSION = VRRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -275,4 +275,4 @@
+-  /* __ARMCC_VERSION = VRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
++/* __ARMCC_VERSION = VRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -291 +291 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -299,3 +299,3 @@
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+@@ -313 +313 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -334 +334 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -339 +339 @@
+-    /* _MSC_FULL_VER = VVRRPPPPP */
++/* _MSC_FULL_VER = VVRRPPPPP */
+@@ -342 +342 @@
+-    /* _MSC_FULL_VER = VVRRPPPP */
++/* _MSC_FULL_VER = VVRRPPPP */
+@@ -350 +350,2 @@
+-#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
++#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
++  defined(__ADSP21000__)
+@@ -353,4 +354,4 @@
+-  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+-# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+-# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+-# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
++/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
++# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
++# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
++# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+@@ -366 +367,3 @@
+-# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__) || defined(__ICCSTM8__))
++# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
++  defined(__ICC8051__) || defined(__ICCSTM8__))
+@@ -368 +371 @@
+-#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
++#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -388 +391 @@
+-char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
++char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+@@ -390 +393 @@
+-char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
++char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+@@ -394 +397 @@
+-char const* qnxnto = "INFO" ":" "qnxnto[]";
++char const * qnxnto = "INFO" ":" "qnxnto[]";
+@@ -398 +401 @@
+-char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
++char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+@@ -641,9 +644,9 @@
+-#define DEC(n)                   \
+-  ('0' + (((n) / 10000000)%10)), \
+-  ('0' + (((n) / 1000000)%10)),  \
+-  ('0' + (((n) / 100000)%10)),   \
+-  ('0' + (((n) / 10000)%10)),    \
+-  ('0' + (((n) / 1000)%10)),     \
+-  ('0' + (((n) / 100)%10)),      \
+-  ('0' + (((n) / 10)%10)),       \
+-  ('0' +  ((n) % 10))
++#define DEC(n) \
++  ('0' + (((n) / 10000000) % 10)), \
++  ('0' + (((n) / 1000000) % 10)), \
++  ('0' + (((n) / 100000) % 10)), \
++  ('0' + (((n) / 10000) % 10)), \
++  ('0' + (((n) / 1000) % 10)), \
++  ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), \
++  ('0' + ((n) % 10))
+@@ -652,9 +655,9 @@
+-#define HEX(n)             \
+-  ('0' + ((n)>>28 & 0xF)), \
+-  ('0' + ((n)>>24 & 0xF)), \
+-  ('0' + ((n)>>20 & 0xF)), \
+-  ('0' + ((n)>>16 & 0xF)), \
+-  ('0' + ((n)>>12 & 0xF)), \
+-  ('0' + ((n)>>8  & 0xF)), \
+-  ('0' + ((n)>>4  & 0xF)), \
+-  ('0' + ((n)     & 0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), \
++  ('0' + ((n) >> 24 & 0xF)), \
++  ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), \
++  ('0' + ((n) >> 12 & 0xF)), \
++  ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), \
++  ('0' + ((n) & 0xF))
+@@ -664 +667 @@
+-char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
++char const * info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
+@@ -670 +673 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -675 +678 @@
+-   '.', COMPILER_VERSION_PATCH,
++  '.', COMPILER_VERSION_PATCH,
+@@ -677 +680 @@
+-    '.', COMPILER_VERSION_TWEAK,
++  '.', COMPILER_VERSION_TWEAK,
+@@ -681 +684 @@
+-  ']','\0'};
++  ']', '\0'};
+@@ -688,3 +691,3 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+-  'i','n','t','e','r','n','a','l','[',
+-  COMPILER_VERSION_INTERNAL,']','\0'};
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
++  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
++  COMPILER_VERSION_INTERNAL, ']', '\0'};
+@@ -692 +695,2 @@
+-char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
++char const * info_version_internal =
++  "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+@@ -699 +703 @@
+-  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
++  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -704 +708 @@
+-   '.', SIMULATE_VERSION_PATCH,
++  '.', SIMULATE_VERSION_PATCH,
+@@ -706 +710 @@
+-    '.', SIMULATE_VERSION_TWEAK,
++  '.', SIMULATE_VERSION_TWEAK,
+@@ -710 +714 @@
+-  ']','\0'};
++  ']', '\0'};
+@@ -717,3 +721,2 @@
+-char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+-char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+-
++char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
++char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+@@ -738 +741 @@
+-const char* info_language_standard_default = "INFO" ":" "standard_default["
++const char * info_language_standard_default = "INFO" ":" "standard_default["
+@@ -752,3 +755,3 @@
+-"]";
+-
+-const char* info_language_extensions_default = "INFO" ":" "extensions_default["
++  "]";
++
++const char * info_language_extensions_default = "INFO" ":" "extensions_default["
+@@ -756,2 +759,2 @@
+-#if (defined(__clang__) || defined(__GNUC__) ||                               \
+-     defined(__TI_COMPILER_VERSION__)) &&                                     \
++#if (defined(__clang__) || defined(__GNUC__) || \
++  defined(__TI_COMPILER_VERSION__)) && \
+@@ -763 +766 @@
+-"]";
++  "]";
+@@ -767 +770 @@
+-int main(int argc, char* argv[])
++int main(int argc, char * argv[])
+
+Code style divergence in file 'build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp':
+
+--- build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp
++++ build/usb_cam/rclcpp_components/node_main_usb_cam_node_exe.cpp.uncrustify
+@@ -33 +33 @@
+-  std::vector<class_loader::ClassLoader * > loaders;
++  std::vector<class_loader::ClassLoader *> loaders;
+
+Code style divergence in file 'include/usb_cam/usb_cam.hpp':
+
+--- include/usb_cam/usb_cam.hpp
++++ include/usb_cam/usb_cam.hpp.uncrustify
+@@ -425 +425,2 @@
+-        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {
++        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())
++      {
+@@ -431,3 +432,3 @@
+-      "Specified resolution `" + std::to_string(parameters.image_width) +
+-      "x" + std::to_string(parameters.image_height) +
+-      "` is unsupported by `" + parameters.device_name + "`"
++            "Specified resolution `" + std::to_string(parameters.image_width) +
++            "x" + std::to_string(parameters.image_height) +
++            "` is unsupported by `" + parameters.device_name + "`"
+
+Code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam.hpp':
+
+--- install/usb_cam/include/usb_cam/usb_cam.hpp
++++ install/usb_cam/include/usb_cam/usb_cam.hpp.uncrustify
+@@ -425 +425,2 @@
+-        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2()) {
++        fmt.v4l2_fmt.pixel_format == found_driver_format->v4l2())
++      {
+@@ -431,3 +432,3 @@
+-      "Specified resolution `" + std::to_string(parameters.image_width) +
+-      "x" + std::to_string(parameters.image_height) +
+-      "` is unsupported by `" + parameters.device_name + "`"
++            "Specified resolution `" + std::to_string(parameters.image_width) +
++            "x" + std::to_string(parameters.image_height) +
++            "` is unsupported by `" + parameters.device_name + "`"
+
+Code style divergence in file 'src/usb_cam_node.cpp':
+
+--- src/usb_cam_node.cpp
++++ src/usb_cam_node.cpp.uncrustify
+@@ -245 +245,3 @@
+-    RCLCPP_INFO(this->get_logger(), "Low latency mode enabled: publishing immediately after capture");
++    RCLCPP_INFO(
++      this->get_logger(),
++      "Low latency mode enabled: publishing immediately after capture");
+@@ -477 +479,2 @@
+-      (m_parameters.pixel_format_name == "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();
++      (m_parameters.pixel_format_name ==
++      "mjpeg") ? take_and_send_image_mjpeg() : take_and_send_image();
+
+6 files with code style divergence
+No code style divergence in file 'include/usb_cam/constants.hpp'
+
+No code style divergence in file 'include/usb_cam/conversions.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/av_pixel_format_helper.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/m420.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/mjpeg.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/mono.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/pixel_format_base.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/rgb.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/utils.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/uyvy.hpp'
+
+No code style divergence in file 'include/usb_cam/formats/yuyv.hpp'
+
+No code style divergence in file 'include/usb_cam/usb_cam_node.hpp'
+
+No code style divergence in file 'include/usb_cam/utils.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/constants.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/conversions.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/m420.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mjpeg.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/mono.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/rgb.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/utils.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/uyvy.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/formats/yuyv.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/usb_cam_node.hpp'
+
+No code style divergence in file 'install/usb_cam/include/usb_cam/utils.hpp'
+
+No code style divergence in file 'src/usb_cam.cpp'
+
+No code style divergence in file 'test/gtest_main.cpp'
+
+No code style divergence in file 'test/test_pixel_formats.cpp'
+
+No code style divergence in file 'test/test_usb_cam_lib.cpp'
+
+No code style divergence in file 'test/test_usb_cam_utils.cpp'
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yahboom/usb/build/usb_cam/test_results/usb_cam/uncrustify.xunit.xml'

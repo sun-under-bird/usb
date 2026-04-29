@@ -41,7 +41,9 @@ extern "C" {
 #include <ctime>
 #include <iostream>
 #include <memory>
+#include <sstream>
 #include <string>
+#include <thread>
 #include <vector>
 
 #include "opencv2/imgproc.hpp"
@@ -53,6 +55,38 @@ extern "C" {
 
 namespace usb_cam
 {
+namespace
+{
+
+std::runtime_error make_errno_error(const std::string & context)
+{
+  return std::runtime_error(context + ": " + std::string(strerror(errno)));
+}
+
+void log_errno_warning(const std::string & context)
+{
+  std::cerr << context << ": " << strerror(errno) << std::endl;
+}
+
+int xioctl_with_retry_on_busy(
+  int fd, uint64_t request, void * arg, int max_busy_retries = 20,
+  std::chrono::milliseconds retry_delay = std::chrono::milliseconds(100))
+{
+  int result = -1;
+
+  for (int attempt = 0; attempt <= max_busy_retries; ++attempt) {
+    result = usb_cam::utils::xioctl(fd, request, arg);
+    if (result == 0 || errno != EBUSY || attempt == max_busy_retries) {
+      return result;
+    }
+
+    std::this_thread::sleep_for(retry_delay);
+  }
+
+  return result;
+}
+
+}  // namespace
 
 using utils::io_method_t;
 
@@ -112,15 +146,6 @@ bool UsbCam::read_frame()
       m_image.v4l2_fmt.type = buf.type;
       buf.memory = V4L2_MEMORY_MMAP;
 
-      // Get current v4l2 pixel format
-      if (-1 == usb_cam::utils::xioctl(m_fd, static_cast<int>(VIDIOC_G_FMT), &m_image.v4l2_fmt)) {
-        switch (errno) {
-          case EAGAIN:
-            return false;
-          default:
-            throw std::runtime_error("Invalid v4l2 format");
-        }
-      }
       /// Dequeue buffer with the new image
       if (-1 == usb_cam::utils::xioctl(m_fd, static_cast<int>(VIDIOC_DQBUF), &buf)) {
         switch (errno) {
@@ -305,7 +330,11 @@ void UsbCam::init_mmap()
   }
 
   if (req.count < requested_buffer_count) {
-    throw std::overflow_error("Insufficient buffer memory on device");
+    if (req.count == 0) {
+      throw std::overflow_error("Insufficient buffer memory on device");
+    }
+    std::cerr << "Requested " << requested_buffer_count <<
+      " mmap buffers, driver provided " << req.count << std::endl;
   }
 
   m_number_of_buffers = req.count;
@@ -360,7 +389,11 @@ void UsbCam::init_userp()
   }
 
   if (req.count < requested_buffer_count) {
-    throw std::overflow_error("Insufficient buffer memory on device");
+    if (req.count == 0) {
+      throw std::overflow_error("Insufficient buffer memory on device");
+    }
+    std::cerr << "Requested " << requested_buffer_count <<
+      " userptr buffers, driver provided " << req.count << std::endl;
   }
 
   m_number_of_buffers = req.count;
@@ -443,27 +476,52 @@ void UsbCam::init_device()
 
   // Set v4l2 capture format
   // Note VIDIOC_S_FMT may change width and height
-  if (-1 == usb_cam::utils::xioctl(m_fd, static_cast<int>(VIDIOC_S_FMT), &m_image.v4l2_fmt)) {
-    throw strerror(errno);
+  if (-1 == xioctl_with_retry_on_busy(
+      m_fd, static_cast<int>(VIDIOC_S_FMT), &m_image.v4l2_fmt))
+  {
+    throw make_errno_error("Unable to set video format via VIDIOC_S_FMT");
   }
+
+  if (m_image.v4l2_fmt.fmt.pix.pixelformat != m_image.pixel_format->v4l2()) {
+    throw std::invalid_argument("Device negotiated an unexpected pixel format");
+  }
+
+  m_image.width = m_image.v4l2_fmt.fmt.pix.width;
+  m_image.height = m_image.v4l2_fmt.fmt.pix.height;
+  m_image.set_number_of_pixels();
+  m_image.set_bytes_per_line();
+  m_image.set_size_in_bytes();
 
   struct v4l2_streamparm stream_params;
   memset(&stream_params, 0, sizeof(stream_params));
   stream_params.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
-  if (usb_cam::utils::xioctl(m_fd, static_cast<int>(VIDIOC_G_PARM), &stream_params) < 0) {
-    throw strerror(errno);
-  }
 
-  if (!stream_params.parm.capture.capability && V4L2_CAP_TIMEPERFRAME) {
-    throw "V4L2_CAP_TIMEPERFRAME not supported";
-  }
+  if (xioctl_with_retry_on_busy(
+      m_fd, static_cast<int>(VIDIOC_G_PARM), &stream_params) < 0)
+  {
+    log_errno_warning("Unable to query stream parameters via VIDIOC_G_PARM");
+  } else if (!(stream_params.parm.capture.capability & V4L2_CAP_TIMEPERFRAME)) {
+    std::cerr << "V4L2 driver does not advertise V4L2_CAP_TIMEPERFRAME; using requested frame rate "
+              << m_framerate << " fps" << std::endl;
+  } else {
+    stream_params.parm.capture.timeperframe.numerator = 1;
+    stream_params.parm.capture.timeperframe.denominator = m_framerate;
 
-  // TODO(lucasw) need to get list of valid numerator/denominator pairs
-  // and match closest to what user put in.
-  stream_params.parm.capture.timeperframe.numerator = 1;
-  stream_params.parm.capture.timeperframe.denominator = m_framerate;
-  if (usb_cam::utils::xioctl(m_fd, static_cast<int>(VIDIOC_S_PARM), &stream_params) < 0) {
-    throw std::invalid_argument("Couldn't set camera framerate");
+    if (xioctl_with_retry_on_busy(
+        m_fd, static_cast<int>(VIDIOC_S_PARM), &stream_params) < 0)
+    {
+      log_errno_warning("Unable to set stream parameters via VIDIOC_S_PARM");
+    } else if (xioctl_with_retry_on_busy(
+        m_fd, static_cast<int>(VIDIOC_G_PARM), &stream_params) < 0)
+    {
+      log_errno_warning("Unable to re-read stream parameters via VIDIOC_G_PARM");
+    } else {
+      const auto numerator = stream_params.parm.capture.timeperframe.numerator;
+      const auto denominator = stream_params.parm.capture.timeperframe.denominator;
+      if (numerator > 0 && denominator > 0) {
+        m_framerate = std::max(1, static_cast<int>((denominator + numerator / 2) / numerator));
+      }
+    }
   }
 
   switch (m_io) {
@@ -488,7 +546,7 @@ void UsbCam::close_device()
   if (m_fd == -1) {return;}
 
   if (-1 == close(m_fd)) {
-    throw strerror(errno);
+    throw make_errno_error("Unable to close device");
   }
 
   m_fd = -1;
@@ -499,17 +557,17 @@ void UsbCam::open_device()
   struct stat st;
 
   if (-1 == stat(m_device_name.c_str(), &st)) {
-    throw strerror(errno);
+    throw make_errno_error("Unable to stat device `" + m_device_name + "`");
   }
 
   if (!S_ISCHR(st.st_mode)) {
-    throw strerror(errno);
+    throw std::invalid_argument("Configured path is not a character device: `" + m_device_name + "`");
   }
 
   m_fd = open(m_device_name.c_str(), O_RDWR /* required */ | O_NONBLOCK, 0);
 
   if (-1 == m_fd) {
-    throw strerror(errno);
+    throw make_errno_error("Unable to open device `" + m_device_name + "`");
   }
 }
 
@@ -645,13 +703,11 @@ bool UsbCam::grab_image(bool latest_only)
       return false;
     }
 
-    std::cerr << "Something went wrong, exiting..." << errno << std::endl;
-    throw errno;
+    throw make_errno_error("select() failed while waiting for a frame");
   }
 
   if (0 == r) {
-    std::cerr << "Select timeout, exiting..." << std::endl;
-    throw "select timeout";
+    return false;
   }
 
   bool just_read_frame = false;
